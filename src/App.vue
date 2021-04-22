@@ -1,13 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <h1 class="leading-8 text-gray-800 bg-red-200 dark:text-white dark:bg-black">Dark Mode</h1>
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <ToggleTheme class="flex items-center justify-center" />
 </template>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import ToggleTheme from './components/ToggleTheme.vue'
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+export default {
+  components: {
+    ToggleTheme,
+  }
+};
 </script>
 
 <style>
