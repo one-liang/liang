@@ -3,10 +3,30 @@ module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js}'],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': 'var(--primary)',
+        'secondary': 'var(--secondary)'
+      },
+      typography: {
+        DEFAULT: {
+          css: [{
+            color: 'var(--ol)',
+            h1: { color: 'var(--ol-deeper)' },
+            h2: { color: 'var(--ol-deep)' },
+            a: {
+              color: 'var(--ol-deeper)',
+              textDecoration: 'none',
+            },
+          }],
+        },
+      },
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
