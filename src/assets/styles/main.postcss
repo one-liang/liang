@@ -1,0 +1,36 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ol-bg);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ol-scrollbar);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ol-scrollbar-hover);
+}
+
+html {
+  background-color: var(--ol-bg);
+}
+
+a {
+  color: var(--ol);
+}
+
+.prose a {
+  @apply border-b;
+
+  border-color: var(--ol-light);
+  transition: border .2s ease-in;
+
+  &:hover {
+    border-color: var(--ol-deep);
+  }
+}
