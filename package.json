@@ -11,7 +11,8 @@
     "@heroicons/vue": "^1.0.1",
     "@tailwindcss/typography": "^0.4.0",
     "postcss-nested": "^5.0.5",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.1",
