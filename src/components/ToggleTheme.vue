@@ -1,5 +1,9 @@
 <template>
-  <a class="cursor-pointer select-none" title="Toggle Dark Mode" @click.prevent="toggle">
+  <a
+    class="cursor-pointer select-none"
+    title="Toggle Dark Mode"
+    @click.prevent="toggle"
+  >
     <SunIcon v-show="isDark" class="w-5 h-5" />
     <MoonIcon v-show="!isDark" class="w-5 h-5" />
   </a>

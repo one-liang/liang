@@ -1,9 +1,11 @@
 <template>
-  <h1>Home View</h1>
+  <div class="mx-auto prose">
+    <h1>Home View</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
-}
+  name: "Home",
+};
 </script>
