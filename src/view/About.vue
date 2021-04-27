@@ -1,9 +1,11 @@
 <template>
-  <h1>About View</h1>
+  <div class="mx-auto prose">
+    <h1>About View</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'About'
-}
+  name: "About",
+};
 </script>
