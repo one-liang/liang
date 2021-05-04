@@ -1,7 +1,7 @@
 <template>
-  <footer class="sticky px-4 mx-auto mt-10 mb-6 opacity-70 top-full">
+  <footer class="sticky px-6 mx-auto mt-10 mb-6 lg:px-4 opacity-70 top-full">
     <div class="mx-auto prose">
-      <span class="text-sm">© 2021 One Liang</span>
+      <span class="text-sm">© 2021 Liang</span>
     </div>
   </footer>
 </template>
