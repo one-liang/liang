@@ -14,6 +14,7 @@ module.exports = {
             color: 'var(--ol)',
             h1: { color: 'var(--ol-deeper)' },
             h2: { color: 'var(--ol-deep)' },
+            h3: { color: 'inherit' },
             a: {
               color: 'var(--ol-deeper)',
               textDecoration: 'none',
