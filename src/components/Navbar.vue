@@ -3,17 +3,20 @@
     <div
       class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row"
     >
-      <router-link to="/" class="mb-4 text-xl font-medium md:mb-0"
-        >Liang
+      <router-link to="/" class="w-12 h-12 mb-4 text-xl font-medium md:mb-0">
+        <Logo />
       </router-link>
       <nav
         class="flex flex-wrap items-center justify-center space-x-5 text-base md:ml-auto"
       >
-        <router-link to="/">Home</router-link>
         <router-link to="/about">About</router-link>
         <router-link to="/experience">經歷</router-link>
         <router-link to="/portfolio">作品</router-link>
-        <a href="https://github.com/one-liang" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/one-liang"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             class="w-5 h-5 fill-current"
             aria-hidden="true"
@@ -37,10 +40,14 @@
 </template>
 
 <script>
+import Logo from "./Logo.vue";
 import ToggleTheme from "./ToggleTheme.vue";
 
 export default {
   name: "Navbar",
-  components: { ToggleTheme },
+  components: {
+    Logo,
+    ToggleTheme
+  },
 };
 </script>
