@@ -1,20 +1,20 @@
 <template>
   <Navbar />
-  <main class="px-4">
+  <main class="px-6 py-6 lg:px-4">
     <router-view />
   </main>
   <Footer />
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
-import Footer from './components/Footer.vue';
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   components: {
     Navbar,
     Footer,
-  }
+  },
 };
 </script>
 

@@ -15,6 +15,16 @@ const router = createRouter({
       component: () => import('../view/About.vue'),
     },
     {
+      path: '/experience',
+      name: 'Experience',
+      component: () => import('../view/Experience.vue'),
+    },
+    {
+      path: '/portfolio',
+      name: 'Portfolio',
+      component: () => import('../view/Portfolio.vue'),
+    },
+    {
       path: '/:pathMatch(.*)*',
       name: 'Error',
       component: () => import('../view/Error.vue'),
