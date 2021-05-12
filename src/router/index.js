@@ -6,27 +6,27 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: () => import('../view/Home.vue'),
+      component: () => import('@/view/Home.vue'),
     },
     {
       path: '/experience',
       name: 'Experience',
-      component: () => import('../view/Experience.vue'),
+      component: () => import('@/view/Experience.vue'),
     },
     {
       path: '/portfolio',
       name: 'Portfolio',
-      component: () => import('../view/Portfolio.vue'),
+      component: () => import('@/view/Portfolio.vue'),
     },
     {
       path: '/test',
       name: 'Test',
-      component: () => import('../view/Test.vue'),
+      component: () => import('@/view/Test.vue'),
     },
     {
       path: '/:pathMatch(.*)*',
       name: 'Error',
-      component: () => import('../view/Error.vue'),
+      component: () => import('@/view/Error.vue'),
     },
   ],
   scrollBehavior() {
