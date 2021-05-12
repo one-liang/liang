@@ -1,8 +1,8 @@
 <template>
   <section class="mx-auto prose">
     <h1 class="!mb-0">作品</h1>
-    <p class="!mt-1 opacity-80 italic">My Projects</p>
-    <div class="space-y-4 divide-y-2 divide-gray-200">
+    <p class="!mt-1 opacity-80 italic">My projects</p>
+    <div class="mt-10 space-y-4 divide-y-2 divide-gray-200">
       <div class="flex flex-wrap md:flex-nowrap">
         <a
           class="flex flex-col flex-shrink-0 mb-6 !border-none w-24 md:mb-0"
@@ -48,7 +48,7 @@
             <li>框架：Vue、TailwindCSS</li>
             <li>應用框架：Nuxt</li>
             <li>內容：RWD 切版、串 API、SEO 優化</li>
-            <li>架構：SPA</li>
+            <li>架構：SSR</li>
           </ul>
         </div>
       </div>
