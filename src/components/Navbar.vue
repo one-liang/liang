@@ -9,7 +9,6 @@
       <nav
         class="flex flex-wrap items-center justify-center space-x-5 text-base md:ml-auto"
       >
-        <router-link to="/about">About</router-link>
         <router-link to="/experience">經歷</router-link>
         <router-link to="/portfolio">作品</router-link>
         <a
