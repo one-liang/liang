@@ -3,7 +3,7 @@ import Home from '../view/Home.vue';
 import Experience from '../view/Experience.vue';
 
 const router = createRouter({
-  history: createWebHistory('/liang/'),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
