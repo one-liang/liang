@@ -2,7 +2,7 @@
   <section class="mx-auto prose">
     <h1 class="!mb-0">工作經歷</h1>
     <p class="!mt-1 opacity-80 italic">Work experience</p>
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap mt-10">
       <div class="relative flex w-full pt-10 pb-20 mx-auto sm:items-center">
         <div
           class="absolute inset-0 flex items-center justify-center w-6 h-full"
