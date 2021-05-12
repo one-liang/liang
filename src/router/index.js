@@ -1,6 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../view/Home.vue';
-import Experience from '../view/Experience.vue';
 
 const router = createRouter({
   history: createWebHistory('/liang/'),
@@ -8,12 +6,12 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: Home,
+      component: () => import('../view/Home.vue'),
     },
     {
       path: '/experience',
       name: 'Experience',
-      component: Experience,
+      component: () => import('../view/Experience.vue'),
     },
     {
       path: '/portfolio',
