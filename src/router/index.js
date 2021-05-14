@@ -19,9 +19,9 @@ const router = createRouter({
       component: () => import('@/view/Portfolio.vue'),
     },
     {
-      path: '/test',
-      name: 'Test',
-      component: () => import('@/view/Test.vue'),
+      path: '/bookmark',
+      name: 'Bookmark',
+      component: () => import('@/view/Bookmark.vue'),
     },
     {
       path: '/:pathMatch(.*)*',
