@@ -11,6 +11,9 @@
       >
         <router-link to="/experience">經歷</router-link>
         <router-link to="/portfolio">作品</router-link>
+        <router-link to="/bookmark">
+          <BookmarkIcon class="w-5 h-5" />
+        </router-link>
         <a
           href="https://github.com/one-liang"
           target="_blank"
@@ -39,12 +42,14 @@
 </template>
 
 <script>
+import { BookmarkIcon } from "@heroicons/vue/outline";
 import Logo from "./Logo.vue";
 import ToggleTheme from "./ToggleTheme.vue";
 
 export default {
   name: "Navbar",
   components: {
+    BookmarkIcon,
     Logo,
     ToggleTheme,
   },
