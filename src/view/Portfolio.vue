@@ -1,7 +1,7 @@
 <template>
   <section class="mx-auto prose">
     <h1 class="!mb-0">作品</h1>
-    <p class="!mt-1 opacity-80 italic">My projects</p>
+    <p class="!mt-1 opacity-80 italic">包含公司上線網站與個人 Side Project</p>
     <div class="mt-10 space-y-4 divide-y-2 divide-gray-200">
       <div class="flex flex-wrap md:flex-nowrap">
         <a
@@ -16,9 +16,21 @@
             alt="鏡文學"
           />
         </a>
+        <div></div>
         <div class="md:flex-grow md:pl-6">
-          <h2 class="!mt-0 !mb-2">鏡文學</h2>
-          <p class="leading-relaxed">小說、漫畫與劇本平台，免費閱讀小說等作品，提供作家創作與自由上架，是一個累積 IP 的基地。</p>
+          <h2 class="!mt-0 !mb-2">
+            <a
+              class="!border-none !font-black"
+              href="https://mirrorfiction.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >鏡文學</a
+            >
+          </h2>
+          <p class="leading-relaxed">
+            小說、漫畫與劇本平台，免費閱讀小說等作品，提供作家創作與自由上架，是一個累積
+            IP 的基地。
+          </p>
           <ul class="leading-relaxed">
             <li>技術：JavaScript、SCSS</li>
             <li>框架：Vue、Bootstrap</li>
@@ -41,8 +53,19 @@
           />
         </a>
         <div class="md:flex-grow md:pl-6">
-          <h2 class="!mt-0 !mb-2">鏡好聽</h2>
-          <p class="leading-relaxed">聲音平台，主要商品有 Podcast 免費節目收聽、有聲書導讀、付費課程教學，打造用聲音與使用者交流為主的網站。</p>
+          <h2 class="!mt-0 !mb-2">
+            <a
+              class="!border-none !font-black"
+              href="https://www.mirrorvoice.com.tw"
+              target="_blank"
+              rel="noopener noreferrer"
+              >鏡好聽</a
+            >
+          </h2>
+          <p class="leading-relaxed">
+            聲音平台，主要商品有 Podcast
+            免費節目收聽、有聲書導讀、付費課程教學，打造用聲音與使用者交流為主的網站。
+          </p>
           <ul class="leading-relaxed">
             <li>技術：JavaScript、PostCSS、Graphql</li>
             <li>框架：Vue、TailwindCSS</li>
@@ -66,8 +89,18 @@
           />
         </a>
         <div class="md:flex-grow md:pl-6">
-          <h2 class="!mt-0 !mb-2">大官網</h2>
-          <p class="leading-relaxed">形象網站，包含鏡文學、鏡好聽等網站介紹，讓使用者們更認識其旗下子公司的產品。</p>
+          <h2 class="!mt-0 !mb-2">
+            <a
+              class="!border-none !font-black"
+              href="https://info.mirrorfiction.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >大官網</a
+            >
+          </h2>
+          <p class="leading-relaxed">
+            形象網站，包含鏡文學、鏡好聽等網站介紹，讓使用者們更認識其旗下子公司的產品。
+          </p>
           <ul class="leading-relaxed">
             <li>技術：JavaScript、SCSS</li>
             <li>框架：Vue、TailwindCSS</li>
@@ -91,7 +124,15 @@
           />
         </a>
         <div class="md:flex-grow md:pl-6">
-          <h2 class="!mt-0 !mb-2">似顏繪</h2>
+          <h2 class="!mt-0 !mb-2">
+            <a
+              class="!border-none !font-black"
+              href="https://one-liang.github.io/avatar-doll"
+              target="_blank"
+              rel="noopener noreferrer"
+              >似顏繪</a
+            >
+          </h2>
           <p class="leading-relaxed">小遊戲，手繪製作專屬個人風格的頭像。</p>
           <ul class="leading-relaxed">
             <li>技術：JavaScript、SCSS</li>
