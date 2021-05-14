@@ -1,7 +1,7 @@
 <template>
   <section class="mx-auto prose">
     <h1 class="!mb-0">作品</h1>
-    <p class="!mt-1 opacity-80 italic">包含公司上線網站與個人 Side Project</p>
+    <p class="!mt-1 opacity-60 italic">包含公司上線網站與個人 Side Project</p>
     <div class="mt-10 space-y-4 divide-y-2 divide-gray-200">
       <div class="flex flex-wrap md:flex-nowrap">
         <a

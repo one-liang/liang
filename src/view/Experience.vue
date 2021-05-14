@@ -1,7 +1,7 @@
 <template>
   <section class="mx-auto prose">
     <h1 class="!mb-0">工作經歷</h1>
-    <p class="!mt-1 opacity-80 italic">由非網頁領域轉職到前端的過程</p>
+    <p class="!mt-1 opacity-60 italic">由非網頁領域轉職到前端的經歷</p>
     <div class="flex flex-wrap w-full mt-8">
       <div class="relative flex w-full pb-12">
         <div
