@@ -43,15 +43,11 @@
 
 <script>
 import { BookmarkIcon } from "@heroicons/vue/outline";
-import Logo from "./Logo.vue";
-import ToggleTheme from "./ToggleTheme.vue";
 
 export default {
   name: "Navbar",
   components: {
     BookmarkIcon,
-    Logo,
-    ToggleTheme,
   },
 };
 </script>
