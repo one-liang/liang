@@ -4,19 +4,13 @@
     title="Toggle Dark Mode"
     @click.prevent="toggle"
   >
-    <SunIcon v-show="isDark" class="w-5 h-5" />
-    <MoonIcon v-show="!isDark" class="w-5 h-5" />
+    <i-heroicons-outline:sun v-show="isDark" class="w-5 h-5" />
+    <i-heroicons-outline:moon v-show="!isDark" class="w-5 h-5" />
   </a>
 </template>
 
 <script>
-import { SunIcon, MoonIcon } from "@heroicons/vue/solid";
-
 export default {
-  components: {
-    SunIcon,
-    MoonIcon,
-  },
   name: "ToggleTheme",
   data() {
     return {
