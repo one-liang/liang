@@ -1,9 +1,14 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   mode: 'jit',
   purge: ['./index.html', './src/**/*.{vue,js}'],
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        notoSansTC: ["'Noto Sans TC', 'sans-serif'", ...defaultTheme.fontFamily.sans]
+      },
       colors: {
         'primary': 'var(--primary)',
         'secondary': 'var(--secondary)'
