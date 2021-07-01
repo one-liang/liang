@@ -20,7 +20,7 @@
         <div class="md:flex-grow md:pl-6">
           <h2 class="!mt-0 !mb-2">
             <a
-              class="!border-none !font-black"
+              class="!border-none !font-bold"
               href="https://mirrorfiction.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -55,7 +55,7 @@
         <div class="md:flex-grow md:pl-6">
           <h2 class="!mt-0 !mb-2">
             <a
-              class="!border-none !font-black"
+              class="!border-none !font-bold"
               href="https://www.mirrorvoice.com.tw"
               target="_blank"
               rel="noopener noreferrer"
@@ -91,7 +91,7 @@
         <div class="md:flex-grow md:pl-6">
           <h2 class="!mt-0 !mb-2">
             <a
-              class="!border-none !font-black"
+              class="!border-none !font-bold"
               href="https://info.mirrorfiction.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -126,7 +126,7 @@
         <div class="md:flex-grow md:pl-6">
           <h2 class="!mt-0 !mb-2">
             <a
-              class="!border-none !font-black"
+              class="!border-none !font-bold"
               href="https://one-liang.github.io/avatar-doll"
               target="_blank"
               rel="noopener noreferrer"
