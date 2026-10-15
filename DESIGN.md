@@ -1,5 +1,5 @@
 ---
-name: 阿良 One Liang
+name: Liang
 description: A one-page freelance front-end portfolio drawn as a ligne claire (清線派) comic album, with one uniform ink line, flat fills, white balloons, and red kept for the story's objects.
 colors:
   ink: "#16171b"
@@ -307,7 +307,7 @@ components:
     padding: "0.7em 1.3em 0.75em"
 ---
 
-# Design System: 阿良 One Liang
+# Design System: Liang
 
 ## Overview
 
