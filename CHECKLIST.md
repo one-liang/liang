@@ -6,7 +6,7 @@
 
 ## 一、專案與備份
 
-- [x] 原專案（Vue 3 + Vite 2）完整備份到私人 repo [one-liang/liang-backup](https://github.com/one-liang/liang-backup)（master、develop、gh-pages 三個分支都在）
+- [x] 原專案（Vue 3 + Vite 2）另外完整備份（master、develop、gh-pages 三個分支都在）
 - [x] `develop` 同步到 `master` 最新狀態後，從 `develop` 開 `feature/onepage-portfolio`
 - [x] 移除舊的 Vue 程式碼，改用 Vite 8 + TypeScript + GSAP + Tailwind CSS 4
 
@@ -16,8 +16,8 @@
 - [x] 提供服務：切版開發／功能開發／其他服務，以及報價說明
 - [x] 技能與工具（技能、方法、工具三組）
 - [x] 8 件作品：名稱、類型、技術標籤、網址、截圖
-- [x] 食農知味改連 `https://one-liang.github.io/farmerstation/`（原站已過期）
-- [x] 香奈兒腕錶形象頁改連 `https://one-liang.github.io/iWatcHome/`（原站已過期）
+- [x] 食農知味改連 `https://sololiang923.github.io/farmerstation/`（原站已過期）
+- [x] 香奈兒腕錶形象頁改連 `https://sololiang923.github.io/iWatcHome/`（原站已過期）
 - [x] 頭像插畫（Notion 圖檔，已轉 WebP）
 - [x] 聯絡 Email：sololiang923@gmail.com
 - [ ] **待你確認**：6 則作品簡述是 Claude 依類型與技術草擬的，請逐一確認或改寫（在 `src/data/content.ts`，`draft: true` 的那幾件）
@@ -81,18 +81,15 @@
 
 ## 七、部署與 Git Flow
 
-- [x] GitHub Actions：推到 `master` 自動建置，以 `actions/deploy-pages` 發佈（兩個 repo 共用）
-- [x] 網址可依 repo 切換（`VITE_SITE_URL`），canonical 固定指向主站
-- [x] 新增 remote `sololiang` → https://github.com/sololiang923/liang.git
-- [x] one-liang/liang 的 Pages 來源改成 GitHub Actions
+- [x] GitHub Actions：推到 `master` 自動建置，以 `actions/deploy-pages` 發佈
+- [x] og:url 等網址由 workflow 設定（`VITE_SITE_URL`），canonical 指向 https://sololiang923.github.io/liang/
+- [x] Pages 來源設為 GitHub Actions，github-pages 環境允許 `master` 部署
 - [x] commit 訊息使用繁體中文 `<類型>: <說明>`
 - [x] `feature/onepage-portfolio` 以 `--no-ff` 合回 `develop`，刪除分支
 - [x] `release/2.0.0` 合回 `master` 與 `develop`，打 tag `v2.0.0`
-- [ ] 確認 https://one-liang.github.io/liang/ 上線正常
+- [x] 確認 https://sololiang923.github.io/liang/ 上線正常（頁面、圖片、分享圖皆回應 200）
 
-## 八、同步到 sololiang923/liang
+## 八、作品 Demo 搬移
 
-- [ ] **待你處理**：讓 one-liang 能推送到 sololiang923/liang（`gh auth login` 加入 sololiang923 帳號，或把 one-liang 加為 collaborator）
-- [ ] 推送 master、develop 與 tag 到 sololiang923/liang，並確認預設分支為 `master`
-- [ ] **待你處理**（若用 collaborator 方式）：在 sololiang923/liang 的 Settings → Pages → Source 選 GitHub Actions
-- [ ] 確認 https://sololiang923.github.io/liang/ 上線正常
+- [x] 香奈兒腕錶形象頁 Demo 上線在 https://sololiang923.github.io/iWatcHome/
+- [x] 食農知味 Demo 上線在 https://sololiang923.github.io/farmerstation/

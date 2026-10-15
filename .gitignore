@@ -12,3 +12,6 @@ dist-ssr
 
 # 本機瀏覽器測試產物
 .playwright-mcp
+
+# 本機私人筆記與腳本（不進版控）
+.private/
