@@ -84,10 +84,10 @@
 - [x] GitHub Actions：推到 `master` 自動建置，以 `actions/deploy-pages` 發佈（兩個 repo 共用）
 - [x] 網址可依 repo 切換（`VITE_SITE_URL`），canonical 固定指向主站
 - [x] 新增 remote `sololiang` → https://github.com/sololiang923/liang.git
-- [ ] one-liang/liang 的 Pages 來源改成 GitHub Actions
+- [x] one-liang/liang 的 Pages 來源改成 GitHub Actions
 - [x] commit 訊息使用繁體中文 `<類型>: <說明>`
-- [ ] `feature/onepage-portfolio` 以 `--no-ff` 合回 `develop`，刪除分支
-- [ ] `release/2.0.0` 合回 `master` 與 `develop`，打 tag `v2.0.0`
+- [x] `feature/onepage-portfolio` 以 `--no-ff` 合回 `develop`，刪除分支
+- [x] `release/2.0.0` 合回 `master` 與 `develop`，打 tag `v2.0.0`
 - [ ] 確認 https://one-liang.github.io/liang/ 上線正常
 
 ## 八、同步到 sololiang923/liang
