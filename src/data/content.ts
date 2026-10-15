@@ -1,6 +1,7 @@
 // 頁面內容的唯一來源：自我介紹、服務、技能與作品都來自 Notion「Liang」頁面。
 // 作品簡述（summary）中標記 draft 的為草稿，待本人確認，見 CHECKLIST.md。
 // 聯絡 Email 不寫在這裡：建置時由環境變數 VITE_CONTACT_EMAIL 注入（見 .env）。
+// 網址裡的 {owner} 在建置時換成部署所在的 GitHub 帳號（取自 VITE_SITE_URL），各帳號連到自己的 Demo。
 
 export type WorkType = '一頁式' | '形象網站' | '電商網站' | '部落格'
 
@@ -18,7 +19,7 @@ export interface Work {
   draft: boolean
   /** 截圖旁的對話框，只寫 Notion 技術標籤裡的事實 */
   notes: [string, string]
-  /** 原站已下線，連到 GitHub Pages 備份 */
+  /** 原站已下線，連到部署帳號自己的 GitHub Pages 備份 */
   archived?: boolean
 }
 
@@ -27,8 +28,8 @@ export const WORKS: Work[] = [
     slug: 'chanel',
     name: '香奈兒腕錶形象頁',
     type: '一頁式',
-    url: 'https://sololiang923.github.io/iWatcHome/',
-    displayUrl: 'sololiang923.github.io/iWatcHome',
+    url: 'https://{owner}.github.io/iWatcHome/',
+    displayUrl: '{owner}.github.io/iWatcHome',
     skills: ['HTML5', 'Pug', 'CSS3', 'SCSS', 'RWD', 'Tailwind CSS', 'AOS', 'JavaScript'],
     summary: '香奈兒腕錶的一頁式形象頁，在黑色舞台上以捲動動畫逐段帶出腕錶細節。',
     draft: true,
@@ -39,8 +40,8 @@ export const WORKS: Work[] = [
     slug: 'farmerstation',
     name: '食農知味',
     type: '形象網站',
-    url: 'https://sololiang923.github.io/farmerstation/',
-    displayUrl: 'sololiang923.github.io/farmerstation',
+    url: 'https://{owner}.github.io/farmerstation/',
+    displayUrl: '{owner}.github.io/farmerstation',
     skills: ['HTML5', 'Pug', 'CSS3', 'SCSS', 'RWD', 'Tailwind CSS', 'JavaScript'],
     summary: '食農主題的形象網站：首頁主視覺輪播、最新消息列表與分類內容頁。',
     draft: true,
@@ -155,9 +156,8 @@ export const SKILLS = {
     'Nuxt',
     'Vite',
     'Tailwind CSS',
-    'Bootstrap 4',
+    'Bootstrap',
     'a11y',
   ],
-  方法: ['BEM'],
   工具: ['Git', 'GitHub', 'GitLab', 'Bitbucket'],
 } as const
