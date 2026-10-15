@@ -16,8 +16,8 @@
 - [x] 提供服務：切版開發／功能開發／其他服務，以及報價說明
 - [x] 技能與工具（技能、方法、工具三組）
 - [x] 8 件作品：名稱、類型、技術標籤、網址、截圖
-- [x] 食農知味改連 `https://sololiang923.github.io/farmerstation/`（原站已過期）
-- [x] 香奈兒腕錶形象頁改連 `https://sololiang923.github.io/iWatcHome/`（原站已過期）
+- [x] 食農知味改連部署帳號自己的 `https://<帳號>.github.io/farmerstation/`（原站已過期）
+- [x] 香奈兒腕錶形象頁改連部署帳號自己的 `https://<帳號>.github.io/iWatcHome/`（原站已過期）
 - [x] 頭像插畫（Notion 圖檔，已轉 WebP）
 - [x] 聯絡 Email：建置時依 repo 注入（`VITE_CONTACT_EMAIL`），原始碼不寫死個人信箱
 - [ ] **待你處理**：在需要不同信箱的 repo 設定 Actions 變數 `CONTACT_EMAIL`（Settings → Secrets and variables → Actions → Variables）
@@ -50,6 +50,16 @@
 - [x] `DESIGN.md` 改寫成清線派漫畫冊（機器可讀版在 `.impeccable/design.json`）
 - [x] 分享圖 `public/og.jpg` 換成新首屏
 - [ ] **待你確認**：開場三格條漫與頭像對話框的文字是依你的自我介紹改寫的第一人稱句子，請看看語氣是否合適
+
+### 第二版調整（2026-10-16，依你的回饋）
+
+- [x] favicon 改用手繪頭像（日光藍圓底＋黑框，另有 apple-touch-icon）
+- [x] 左上角 LOGO 保留「良」對話框，文字改成 Liang，移除 One Liang
+- [x] 頭像對話框、三格條漫的文字改成你指定的句子
+- [x] 技能與工具：Bootstrap 4 改成 Bootstrap，移除「方法」
+- [x] 聯絡格改成「有網站要做嗎？一起把它完成。」
+- [x] 頁尾只留「© 2026 Liang」
+- [x] 信箱、作品 Demo、canonical、GitHub 連結都依部署帳號對齊（兩個帳號各用自己的）
 
 ### 第一版「卷宗」的已知小瑕疵
 
@@ -90,14 +100,14 @@
 ## 七、部署與 Git Flow
 
 - [x] GitHub Actions：推到 `master` 自動建置，以 `actions/deploy-pages` 發佈
-- [x] og:url 等網址由 workflow 設定（`VITE_SITE_URL`），canonical 指向 https://sololiang923.github.io/liang/
+- [x] og:url 等網址由 workflow 設定（`VITE_SITE_URL`），canonical、作品 Demo 與 GitHub 連結都依部署帳號產生
 - [x] Pages 來源設為 GitHub Actions，github-pages 環境允許 `master` 部署
 - [x] commit 訊息使用繁體中文 `<類型>: <說明>`
 - [x] `feature/onepage-portfolio` 以 `--no-ff` 合回 `develop`，刪除分支
 - [x] `release/2.0.0` 合回 `master` 與 `develop`，打 tag `v2.0.0`
-- [x] 確認 https://sololiang923.github.io/liang/ 上線正常（頁面、圖片、分享圖皆回應 200）
+- [x] 確認 `https://<帳號>.github.io/liang/` 上線正常（頁面、圖片、分享圖皆回應 200）
 
 ## 八、作品 Demo 搬移
 
-- [x] 香奈兒腕錶形象頁 Demo 上線在 https://sololiang923.github.io/iWatcHome/
-- [x] 食農知味 Demo 上線在 https://sololiang923.github.io/farmerstation/
+- [x] 香奈兒腕錶形象頁 Demo 上線在兩個帳號各自的 `https://<帳號>.github.io/iWatcHome/`
+- [x] 食農知味 Demo 上線在兩個帳號各自的 `https://<帳號>.github.io/farmerstation/`

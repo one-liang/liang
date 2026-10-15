@@ -1,6 +1,6 @@
 # 阿良 One Liang｜接案作品集
 
-**👉 線上 Demo：[https://sololiang923.github.io/liang/](https://sololiang923.github.io/liang/)**
+**👉 線上 Demo：[本 repo 的 GitHub Pages](../../deployments/github-pages)**（網址是 `https://<GitHub 帳號>.github.io/liang/`）
 
 前端工程師阿良的一頁式接案作品集：把設計稿做成能上線、會互動的網站。頁面是一本清線派（ligne claire）漫畫冊：均一黑線、平塗色、白色對話框與黃色旁白框，整理 8 件真實上線作品、服務項目、技能與聯絡方式，方便直接給客戶看。
 
@@ -10,8 +10,8 @@
 
 | No. | 作品 | 類型 | 連結 |
 |---|---|---|---|
-| 01 | 香奈兒腕錶形象頁 | 一頁式 | [sololiang923.github.io/iWatcHome](https://sololiang923.github.io/iWatcHome/)（原站已下線，備份版） |
-| 02 | 食農知味 | 形象網站 | [sololiang923.github.io/farmerstation](https://sololiang923.github.io/farmerstation/)（原站已下線，備份版） |
+| 01 | 香奈兒腕錶形象頁 | 一頁式 | [iWatcHome](../../../iWatcHome)（原站已下線，同帳號的 GitHub Pages 備份版） |
+| 02 | 食農知味 | 形象網站 | [farmerstation](../../../farmerstation)（原站已下線，同帳號的 GitHub Pages 備份版） |
 | 03 | Mook | 一頁式 | [mook.com.tw](https://www.mook.com.tw/) |
 | 04 | 景點+ | 部落格 | [mook.com.tw/travelplus](https://www.mook.com.tw/travelplus) |
 | 05 | 全國電子 | 電商網站 | [ec.elifemall.com.tw](https://ec.elifemall.com.tw/) |
@@ -83,11 +83,11 @@ CHECKLIST.md             進度確認清單
 
 ## 部署
 
-推到 `master` 時，GitHub Actions（`.github/workflows/deploy.yml`）會型別檢查、建置，並用官方的 `actions/deploy-pages` 發佈到 https://sololiang923.github.io/liang/。
+推到 `master` 時，GitHub Actions（`.github/workflows/deploy.yml`）會型別檢查、建置，並用官方的 `actions/deploy-pages` 發佈到該帳號的 `https://<GitHub 帳號>.github.io/liang/`。
 
 - 第一次使用前，到 **Settings → Pages → Source** 選 **GitHub Actions**；預設分支要是 `master`。
 - 如果部署出現「Branch "master" is not allowed to deploy to github-pages」，到 **Settings → Environments → github-pages → Deployment branches and tags** 加入 `master` 規則，再重跑失敗的 workflow。
-- og:url、分享圖與結構化資料的網址由 workflow 設定 `VITE_SITE_URL`；本機預設值在 `.env`。
+- og:url、canonical、分享圖與結構化資料的網址由 workflow 設定 `VITE_SITE_URL`；作品 Demo（iWatcHome、farmerstation）與 GitHub 連結也從這個網址取出帳號，各帳號連到自己的頁面。本機預設值在 `.env`。
 - 聯絡 Email：到 **Settings → Secrets and variables → Actions → Variables** 新增 `CONTACT_EMAIL`，每個 repo 填自己的信箱；沒設定就用 `.env` 的 `VITE_CONTACT_EMAIL`。本機想用別的信箱，寫在不進版控的 `.env.local`。
 
 ## 分支與提交規範（Git Flow）

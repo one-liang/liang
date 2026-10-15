@@ -1,0 +1,4 @@
+{
+  "prompt": "origin: pre-existing asset, derived. 由阿良本人的手繪自畫像（public/images/avatar-480.webp 去背版，來源 Notion「Liang」頁面圖檔 Liang.png）裁出頭部（x70–410、y0–340），疊在滿版日光藍 #9DCBEA 方形底上（iOS 會自動裁圓角），LANCZOS 縮成 180px，PIL 輸出 PNG。",
+  "createdAt": "2026-10-15T17:11:11.000Z"
+}

@@ -48,8 +48,13 @@ function panelSize(index: number, total: number): PanelSize {
   return PATTERN[step] ?? 'std'
 }
 
-function renderWork(work: Work, index: number, all: Work[]): string {
+/** 把網址裡的 {owner} 換成部署所在的 GitHub 帳號 */
+const withOwner = (value: string, owner: string): string => value.replaceAll('{owner}', owner)
+
+function renderWork(work: Work, index: number, all: Work[], owner: string): string {
   const id = `work-${work.slug}`
+  const url = withOwner(work.url, owner)
+  const displayUrl = withOwner(work.displayUrl, owner)
   const size = panelSize(index, all.length)
   const lead = index === 0 ? ' work--lead' : ''
   const sizes =
@@ -62,7 +67,7 @@ function renderWork(work: Work, index: number, all: Work[]): string {
 <li class="work work--${size}${lead}" id="${id}" data-type="${esc(work.type)}" data-match="true">
   <article class="panel work__panel" aria-labelledby="${id}-title">
     <div class="work__frame">
-      <a class="work__shot" href="${esc(work.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+      <a class="work__shot" href="${esc(url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
         <img src="/images/works/${work.slug}-720.webp"
           srcset="/images/works/${work.slug}-720.webp 720w, /images/works/${work.slug}-1440.webp 1440w"
           sizes="${sizes}" width="1440" height="720" loading="lazy" decoding="async" alt="${esc(work.name)}網站首頁截圖">
@@ -77,8 +82,8 @@ function renderWork(work: Work, index: number, all: Work[]): string {
       </div>
       <div class="work__meta">
         <p class="work__tech"><span class="visually-hidden">使用技術：</span>${work.skills.map(esc).join('<span aria-hidden="true"> · </span><span class="visually-hidden">、</span>')}</p>
-        <a class="work__link" href="${esc(work.url)}" target="_blank" rel="noopener">
-          <span class="work__link-label">開啟網站</span><span class="work__url">${urlWithIcon(work.displayUrl)}</span><span class="visually-hidden">（${esc(work.name)}，另開新視窗）</span>
+        <a class="work__link" href="${esc(url)}" target="_blank" rel="noopener">
+          <span class="work__link-label">開啟網站</span><span class="work__url">${urlWithIcon(displayUrl)}</span><span class="visually-hidden">（${esc(work.name)}，另開新視窗）</span>
         </a>
         ${memo}
       </div>
@@ -87,8 +92,8 @@ function renderWork(work: Work, index: number, all: Work[]): string {
 </li>`
 }
 
-export function renderWorks(): string {
-  return `<ol class="works" data-works>${WORKS.map(renderWork).join('')}</ol>`
+export function renderWorks(owner: string): string {
+  return `<ol class="works" data-works>${WORKS.map((work, index, all) => renderWork(work, index, all, owner)).join('')}</ol>`
 }
 
 export function renderFilter(): string {
@@ -143,9 +148,10 @@ export function renderSkills(): string {
     .join('')
 }
 
-export function createSlots({ email }: { email: string }): Record<string, () => string> {
+export function createSlots({ email, owner }: { email: string; owner: string }): Record<string, () => string> {
   return {
-    works: renderWorks,
+    works: () => renderWorks(owner),
+    owner: () => esc(owner),
     filter: renderFilter,
     services: renderServices,
     skills: renderSkills,
