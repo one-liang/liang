@@ -26,7 +26,7 @@ function contentSlots(): Plugin {
 }
 
 export default defineConfig({
-  // GitHub Pages 專案頁：https://one-liang.github.io/liang/
+  // GitHub Pages 專案頁：https://sololiang923.github.io/liang/
   base: '/liang/',
   plugins: [contentSlots(), tailwindcss()],
   build: {
