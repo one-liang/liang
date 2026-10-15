@@ -42,6 +42,7 @@ function renderCase(work: Work, index: number): string {
               srcset="/images/works/${work.slug}-720.webp 720w, /images/works/${work.slug}-1440.webp 1440w"
               sizes="(min-width: 1280px) 620px, (min-width: 768px) 56vw, 88vw"
               width="1440" height="720" loading="lazy" decoding="async" alt="${esc(alt)}">
+            <span class="case__open">開啟網站${icon('external')}</span>
           </a>
         </div>
         <figcaption class="case__notes">
@@ -53,7 +54,6 @@ function renderCase(work: Work, index: number): string {
         </figcaption>
       </figure>
       <div class="case__label">
-        <p class="case__no" aria-hidden="true">${caseNo(index)}</p>
         <h3 class="case__title" id="${id}-title">${esc(work.name)}</h3>
         <dl class="fields">
           <div class="fields__row">
@@ -93,7 +93,8 @@ export function renderBinding(): string {
     (work, index) =>
       `<li data-binding-for="case-${work.slug}"><a href="#case-${work.slug}"><span class="binding__no typed">${caseNo(index)}</span><span class="binding__name">${esc(work.name)}</span></a></li>`,
   ).join('')
-  return `<nav class="binding" aria-label="作品卷宗索引"><span class="binding__fastener" aria-hidden="true"></span><ol>${items}</ol></nav>`
+  const fastener = `<svg class="binding__fastener" viewBox="0 0 120 40" aria-hidden="true" focusable="false"><rect x="4" y="5" width="112" height="13" rx="6.5" fill="currentColor" /><path d="M24 18v17M96 18v17" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" /><circle cx="24" cy="11.5" r="2.6" class="binding__rivet" /><circle cx="96" cy="11.5" r="2.6" class="binding__rivet" /></svg>`
+  return `<nav class="binding" aria-label="作品卷宗索引">${fastener}<ol>${items}</ol></nav>`
 }
 
 export function renderFilter(): string {
