@@ -60,7 +60,7 @@ Vite + TypeScript + GSAP + Tailwind CSS（使用者指定）。靜態輸出，�
 
 ## Evidence on Hand
 
-真實作品 8 件，截圖來自 Notion 封面（`public/images/works/`，720／1440 兩種寬度）：
+真實作品 9 件（8 件接案作品＋1 個個人 side project），截圖來自 Notion 封面與 FenPay 分享圖（`public/images/works/`，720／1440 兩種寬度）：
 
 | 作品 | 類型 | 網址 | 技術 |
 |---|---|---|---|
@@ -72,6 +72,7 @@ Vite + TypeScript + GSAP + Tailwind CSS（使用者指定）。靜態輸出，�
 | 橘焱胡同 | 電商網站 | www.gyenshop.com.tw | HTML5、Pug、SCSS、Tailwind CSS、JavaScript |
 | 鏡好聽 | 形象網站 | www.mirrorvoice.com.tw | CSS3、Tailwind CSS、JavaScript、Vue、Nuxt |
 | 鏡文學 | 形象網站 | www.mirrorfiction.com | CSS3、SCSS、Bootstrap 4、JavaScript、Vue |
+| 分一分 FenPay（side project） | 網頁應用 | fenpay.app | Vue、Nuxt、TypeScript、Tailwind CSS、a11y |
 
 - 作品簡述：Notion 沒有，由 Claude 依類型與技術草擬，**待使用者確認**（見 CHECKLIST.md）。
 - 沒有客戶推薦、合作品牌 logo 授權、數據成效、價目。不得捏造。

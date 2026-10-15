@@ -61,16 +61,20 @@ function renderWork(work: Work, index: number, all: Work[], owner: string): stri
     size === 'std'
       ? '(min-width: 1024px) 430px, (min-width: 736px) 46vw, 92vw'
       : '(min-width: 1024px) 880px, 92vw'
-  const memo = work.archived ? `<p class="work__memo">原站已下線，連到 GitHub Pages 備份版。</p>` : ''
+  const memo = work.archived
+    ? `<p class="work__memo">原站已下線，連到 GitHub Pages 備份版。</p>`
+    : work.sideProject
+      ? `<p class="work__memo">我的個人 side project。</p>`
+      : ''
 
   return `
 <li class="work work--${size}${lead}" id="${id}" data-type="${esc(work.type)}" data-match="true">
   <article class="panel work__panel" aria-labelledby="${id}-title">
     <div class="work__frame">
-      <a class="work__shot" href="${esc(url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+      <a class="work__shot${work.shotContain ? ' work__shot--contain' : ''}" href="${esc(url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"${work.shotContain ? ` style="--shot-bg: ${esc(work.shotContain)}"` : ''}>
         <img src="/images/works/${work.slug}-720.webp"
           srcset="/images/works/${work.slug}-720.webp 720w, /images/works/${work.slug}-1440.webp 1440w"
-          sizes="${sizes}" width="1440" height="720" loading="lazy" decoding="async" alt="${esc(work.name)}網站首頁截圖">
+          sizes="${sizes}" width="1440" height="720" loading="lazy" decoding="async" alt="${esc(work.shotAlt ?? `${work.name}網站首頁截圖`)}">
       </a>
       <p class="caption work__type"><span class="visually-hidden">類型：</span>${esc(work.type)}</p>
       <p class="balloon balloon--note work__note"><span class="visually-hidden">重點：</span>${esc(work.notes[0])}${balloonTail}</p>
