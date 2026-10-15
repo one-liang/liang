@@ -61,6 +61,11 @@
 - [x] 頁尾只留「© 2026 Liang」
 - [x] 信箱、作品 Demo、canonical、GitHub 連結都依部署帳號對齊（兩個帳號各用自己的）
 
+### 第三次調整（2026-10-16）
+
+- [x] 分頁標題、og:title、JSON-LD alternateName 改用 Liang
+- [x] 新增個人 side project「分一分 FenPay」（https://fenpay.app/），新增「網頁應用」篩選分類；圖片用你提供的分享圖，簡述依官網描述改寫
+
 ### 第一版「卷宗」的已知小瑕疵
 
 改版後裝訂條、No.01 卷宗等元件都已移除，以下項目不再適用。

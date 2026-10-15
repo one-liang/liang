@@ -792,6 +792,16 @@ a {
   object-position: top center;
 }
 
+/* 分享卡不是網頁截圖：整張顯示，空白補上卡片自己的底色 */
+.work__shot--contain {
+  background: var(--shot-bg);
+}
+
+.work__shot--contain img {
+  object-fit: contain;
+  object-position: center;
+}
+
 .work__type {
   position: absolute;
   top: calc(var(--stroke) * -1);

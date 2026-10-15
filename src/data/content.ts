@@ -3,7 +3,7 @@
 // 聯絡 Email 不寫在這裡：建置時由環境變數 VITE_CONTACT_EMAIL 注入（見 .env）。
 // 網址裡的 {owner} 在建置時換成部署所在的 GitHub 帳號（取自 VITE_SITE_URL），各帳號連到自己的 Demo。
 
-export type WorkType = '一頁式' | '形象網站' | '電商網站' | '部落格'
+export type WorkType = '一頁式' | '形象網站' | '電商網站' | '部落格' | '網頁應用'
 
 export interface Work {
   /** 圖檔與錨點用的代號 */
@@ -21,6 +21,12 @@ export interface Work {
   notes: [string, string]
   /** 原站已下線，連到部署帳號自己的 GitHub Pages 備份 */
   archived?: boolean
+  /** 個人 side project（不是接案作品） */
+  sideProject?: boolean
+  /** 截圖的替代文字；圖不是網站首頁截圖時才需要 */
+  shotAlt?: string
+  /** 圖是分享卡而不是網頁截圖時，完整顯示不裁切，空白處補上分享卡的底色 */
+  shotContain?: string
 }
 
 export const WORKS: Work[] = [
@@ -115,9 +121,23 @@ export const WORKS: Work[] = [
     draft: false,
     notes: ['Vue 前端', 'Bootstrap 4 ＋ RWD'],
   },
+  {
+    slug: 'fenpay',
+    name: '分一分 FenPay',
+    type: '網頁應用',
+    url: 'https://fenpay.app/',
+    displayUrl: 'fenpay.app',
+    skills: ['Vue', 'Nuxt', 'TypeScript', 'Tailwind CSS', 'a11y'],
+    summary: '旅遊、聚餐的多人分帳工具：開個連結全團一起分帳，多幣別自動換算，結算化簡成最少轉帳筆數，免註冊、免下載。',
+    draft: false,
+    notes: ['Nuxt ＋ TypeScript', 'a11y 無障礙'],
+    sideProject: true,
+    shotAlt: 'FenPay 分享圖：「一個連結，把帳分乾淨。」免註冊、免下載，記帳到結算一條龍',
+    shotContain: '#fefdf5',
+  },
 ]
 
-export const WORK_TYPES: WorkType[] = ['一頁式', '形象網站', '電商網站', '部落格']
+export const WORK_TYPES: WorkType[] = ['一頁式', '形象網站', '電商網站', '部落格', '網頁應用']
 
 export interface ServiceGroup {
   id: string
