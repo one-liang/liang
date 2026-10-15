@@ -9,7 +9,7 @@
       content="阿良是一名前端工程師，專注將設計稿轉成具互動性的網頁：網站切版、RWD、API 串接、動畫特效、無障礙與 SEO。8 件真實上線作品，歡迎來信洽詢。"
     />
     <meta name="author" content="阿良 One Liang" />
-    <link rel="canonical" href="https://sololiang923.github.io/liang/" />
+    <link rel="canonical" href="%VITE_SITE_URL%" />
     <meta name="theme-color" content="#FFFFFF" />
 
     <meta property="og:type" content="website" />
@@ -25,7 +25,9 @@
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -50,7 +52,7 @@
         "email": "mailto:<!--slot:email-->",
         "url": "%VITE_SITE_URL%",
         "image": "%VITE_SITE_URL%images/avatar-480.webp",
-        "sameAs": ["https://github.com/sololiang923"],
+        "sameAs": ["https://github.com/<!--slot:owner-->"],
         "knowsAbout": ["網站切版", "RWD 響應式設計", "API 串接", "Vue", "Nuxt", "Tailwind CSS", "TypeScript", "網頁無障礙", "SEO"]
       }
     </script>
@@ -63,7 +65,7 @@
       <div class="masthead__inner">
         <a class="brand" href="#top">
           <!--slot:art-brand-->
-          <span class="brand__name">阿良<span class="brand__latin">One Liang</span></span>
+          <span class="brand__name">Liang</span>
         </a>
         <nav class="nav" aria-label="主要導覽">
           <ul>
@@ -106,7 +108,7 @@
 
           <div class="panel panel--portrait" data-cut="portrait">
             <p class="balloon balloon--speech portrait__balloon" data-cut="balloon">
-              嗨，我是前端工程師阿良，目前接案中。你提供設計稿，我把它做成在手機、平板與電腦上都好用、會互動的網站，一路做到上線。<!--slot:balloon-tail-->
+              嗨，我是前端工程師阿良，目前接案中。擅長網站切版、RWD 響應式處理、API 串接、互動效果、a11y 無障礙等，確保網站具備良好的用戶體驗與實用性。<!--slot:balloon-tail-->
             </p>
             <img
               class="portrait__img"
@@ -123,15 +125,15 @@
 
         <ol class="tier tier--strip" aria-label="從設計稿到上線">
           <li class="panel strip strip--comp" data-cut="strip">
-            <p class="caption strip__caption">你給我設計稿，Figma、Zeplin、Adobe XD 都能協作。</p>
+            <p class="caption strip__caption">設計稿提供，Figma、Zeplin、Adobe XD 都能協作</p>
             <div class="strip__art" aria-hidden="true"><!--slot:art-comp--></div>
           </li>
           <li class="panel strip strip--code" data-cut="strip">
-            <p class="caption strip__caption">我切版、串接 API，加上互動與動畫。</p>
+            <p class="caption strip__caption">切版、串接 API，加上互動與動畫。</p>
             <div class="strip__art" aria-hidden="true"><!--slot:art-code--></div>
           </li>
           <li class="panel strip strip--devices" data-cut="strip">
-            <p class="caption strip__caption">手機、平板、電腦都好用，上線！</p>
+            <p class="caption strip__caption">手機、平板、電腦 RWD 響應式都能處理</p>
             <div class="strip__art" aria-hidden="true"><!--slot:art-devices--></div>
           </li>
         </ol>
@@ -224,8 +226,8 @@
       <section class="page page--contact" id="contact" aria-labelledby="contact-title">
         <div class="panel finale">
           <div class="finale__copy">
-            <h2 class="finale__title" id="contact-title">有設計稿了嗎？<br />寄來給我看看。</h2>
-            <p class="finale__lede">說明網站類型、預計時程，附上設計稿或參考網站，我會依內容評估後回覆。</p>
+            <h2 class="finale__title" id="contact-title">有網站要做嗎？<br />一起把它完成。</h2>
+            <p class="finale__lede">切版、RWD、API 串接到互動效果都能處理。寄來需求，我會依內容評估後回覆。</p>
             <a class="finale__email" href="mailto:<!--slot:email-->?subject=%E7%B6%B2%E7%AB%99%E5%A7%94%E8%A8%97%E6%B4%BD%E8%A9%A2"><!--slot:email--></a>
             <div class="actions">
               <a class="btn btn--red" href="mailto:<!--slot:email-->?subject=%E7%B6%B2%E7%AB%99%E5%A7%94%E8%A8%97%E6%B4%BD%E8%A9%A2"><!--icon:mail--><span>寄信洽詢</span></a>
@@ -239,11 +241,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 阿良 One Liang</p>
-      <p>
-        本頁以 Vite、TypeScript、GSAP 與 Tailwind CSS 製作，原始碼在
-        <a href="https://github.com/sololiang923/liang" target="_blank" rel="noopener">GitHub<span class="visually-hidden">（另開新視窗）</span></a>。
-      </p>
+      <p>© 2026 Liang</p>
     </footer>
 
     <div class="toast" role="status" aria-live="polite" data-toast></div>

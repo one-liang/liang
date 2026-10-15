@@ -348,7 +348,7 @@ The palette is flat fills under one black pen: a white page, daylight-blue and s
 
 ### Neutral
 - **Album White / Panel White / Balloon White** (#ffffff): the page, the default panel fill, and every balloon, plain button, filter, tick box, skill chip, end mark and toast. They are three tokens because they part ways at night: page and panel go blue, balloons stay white.
-- **Graphite Ink** (#464b56): secondary text such as work summaries, tech lists, archive memos, the Latin brand name, and the footer (`on-page-soft`).
+- **Graphite Ink** (#464b56): secondary text such as work summaries, tech lists, archive memos, and the footer (`on-page-soft`).
 - **Faded Line** (#a0a7b1): the only lighter line in the system. It is used solely for the borders of panels that a filter has faded.
 - **Hill Green** (#b7d6b0) / **Pale Hill** (#e4f0de): distant hills and drawn mountains. Pale Hill fills the devices strip and the "other services" art header.
 - **Postbox Green** (#3f8f5c): the green Taiwanese postbox beside the red one, and the server status dots in API drawings.
@@ -389,7 +389,7 @@ The night edition (`[data-theme="dark"]`) remaps the same tokens. It never swaps
 - **Balloon** (600, 1.0625rem, 1.6): speech balloon text.
 - **Button** (800, 1.0625rem, 1.2), **Nav** (800, 1rem, 1), **Control** (800, 0.9375rem, 1, the theme toggle) and **Link** (800, 1rem, 1.4, the 開啟網站 links and the toast): interactive lettering.
 - **Caption** (700, 0.9375rem, 1.45, +0.01em): narration boxes. Strip captions drop to 0.875rem between 46rem and 64rem. **Tag** (700, 0.9375rem, 1.2) is for skill chips. **Label** (700, 0.875rem, 1.35) is for note balloons. **Meta** (600, 0.875rem, 1.65) is for the tech list under each work.
-- **Brand** (900, 1.375rem, 1): 阿良. The Latin name One Liang follows at 700, 0.8125rem, in Graphite Ink.
+- **Brand** (900, 1.375rem, 1, letter-spacing 0.02em): the wordmark Liang beside the 良 balloon mark.
 - **Email** (800, `clamp(1.2rem, 0.9rem + 1.3vw, 2rem)`, 1.3): the finale's address, with an underline at `--stroke-bold`.
 - **Body** (Noto 400, 1.0625rem, 1.8): base text and tick items. **Body Prose** (1.95) is for the 關於阿良 paragraphs at a 38em measure. **Lede** (`clamp(1rem, 0.95rem + 0.3vw, 1.125rem)`, 1.8) is for chapter ledes at 36em and the finale lede at 30em. **Summary** (1rem, 1.75) is for work summaries at 34em, in Graphite Ink.
 
@@ -458,7 +458,7 @@ Buttons are inked outlines on flat fills. They are lettered, never glossy.
 - Checking items rewrites the send balloon's text, which is an `aria-live` region, and 寄出委託單 composes an email from the checked groups.
 
 ### Navigation
-- **Masthead:** a sticky Panel White bar with a bottom line. On the left are the brand mark (a yellow speech balloon containing 良, drawn with the same line) and 阿良 One Liang. On the right are 作品, 服務 and 關於 in Nav lettering, the red 聯絡 tab (8px, line border, 2.5rem tall), and the theme toggle, a white balloon button with a moon icon and the label 夜間模式, which becomes a sun icon and 日間模式 at night.
+- **Masthead:** a sticky Panel White bar with a bottom line. On the left are the brand mark (a yellow speech balloon containing 良, drawn with the same line) and the wordmark Liang. On the right are 作品, 服務 and 關於 in Nav lettering, the red 聯絡 tab (8px, line border, 2.5rem tall), and the theme toggle, a white balloon button with a moon icon and the label 夜間模式, which becomes a sun icon and 日間模式 at night.
 - **States:** hover draws a thin underline (`--stroke`) under the word. The current section (`aria-current`, set by an observer reading at 35% from the top of the viewport) draws a bold underline (`--stroke-bold`) in the text colour. The 聯絡 tab and the toggle draw the heavier line on hover.
 - **Mobile:** see Layout. All links stay in the bar, with tighter padding.
 
