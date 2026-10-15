@@ -1,4 +1,4 @@
-import { CONTACT_EMAIL } from '../data/content.ts'
+import { CONTACT_EMAIL } from './email.ts'
 import { copyText, showToast } from './toast.ts'
 
 export function initCopyEmail(): void {

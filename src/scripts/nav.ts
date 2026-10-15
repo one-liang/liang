@@ -1,6 +1,6 @@
-// 導覽標籤與裝訂條：標出目前讀到的區塊與卷宗。
+// 導覽：標出目前讀到的章節（字下的黑線加粗）。
 
-function markCurrent(links: NodeListOf<HTMLAnchorElement> | HTMLAnchorElement[], activeId: string | null): void {
+function markCurrent(links: NodeListOf<HTMLAnchorElement>, activeId: string | null): void {
   links.forEach((link) => {
     if (link.hash === `#${activeId}`) link.setAttribute('aria-current', 'true')
     else link.removeAttribute('aria-current')
@@ -25,24 +25,11 @@ function watch(targets: HTMLElement[], onChange: (id: string | null) => void): v
 }
 
 export function initNav(): void {
-  const header = document.querySelector<HTMLElement>('[data-header]')
-  if (header) {
-    const sentinel = new IntersectionObserver(([entry]) => {
-      header.toggleAttribute('data-scrolled', !entry?.isIntersecting)
-    })
-    const top = document.getElementById('top')
-    if (top) sentinel.observe(top.querySelector('[data-hero-folder]') ?? top)
-  }
-
-  const tabs = document.querySelectorAll<HTMLAnchorElement>('.index-tab')
+  const links = document.querySelectorAll<HTMLAnchorElement>('.nav__link')
   const sections = ['works', 'services', 'about', 'contact']
     .map((id) => document.getElementById(id))
     .filter((el): el is HTMLElement => el !== null)
-  watch(sections, (id) => markCurrent(tabs, id))
-
-  const bindingLinks = document.querySelectorAll<HTMLAnchorElement>('.binding a')
-  const cases = [...document.querySelectorAll<HTMLElement>('.case')]
-  watch(cases, (id) => markCurrent(bindingLinks, id))
+  watch(sections, (id) => markCurrent(links, id))
 
   // 在頁內跳轉後把焦點交給目標，鍵盤使用者才不會留在原地
   document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((link) => {

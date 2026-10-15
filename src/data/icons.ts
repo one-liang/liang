@@ -1,4 +1,4 @@
-// 自繪圖示：24px 格線、1.75 線寬、圓角端點，整頁同一套筆觸。
+// 自繪圖示：24px 格線、圓角端點；線寬和插畫同一支筆（2px、non-scaling-stroke）。
 const paths = {
   external: '<path d="M7 17 17 7" /><path d="M9 7h8v8" />',
   mail: '<rect x="3.5" y="5.5" width="17" height="13" rx="1.5" /><path d="m4 7 8 6 8-6" />',
@@ -12,4 +12,4 @@ const paths = {
 export type IconName = keyof typeof paths
 
 export const icon = (name: IconName, className = 'icon'): string =>
-  `<svg class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${paths[name]}</svg>`
+  `<svg class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${paths[name]}</svg>`

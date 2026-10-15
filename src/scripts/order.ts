@@ -1,5 +1,5 @@
 // 服務委託單：把勾選的項目整理成一封 Email。
-import { CONTACT_EMAIL } from '../data/content.ts'
+import { CONTACT_EMAIL } from './email.ts'
 import { copyText, showToast } from './toast.ts'
 
 const SUBJECT = '網站委託洽詢'
@@ -29,10 +29,12 @@ export function initOrderForm(): void {
   if (!form) return
   const status = form.querySelector<HTMLElement>('[data-order-status]')
 
+  const idleText = status?.textContent?.trim() ?? ''
+
   const updateStatus = () => {
     if (!status) return
     const count = form.querySelectorAll('input[name="service"]:checked').length
-    status.textContent = count > 0 ? `已勾選 ${count} 項，按「寄出委託單」開啟 Email。` : ''
+    status.textContent = count > 0 ? `已勾選 ${count} 項，按「寄出委託單」就會開好 Email。` : idleText
   }
 
   form.addEventListener('change', updateStatus)

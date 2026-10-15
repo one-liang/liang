@@ -1,7 +1,6 @@
 // 頁面內容的唯一來源：自我介紹、服務、技能與作品都來自 Notion「Liang」頁面。
 // 作品簡述（summary）中標記 draft 的為草稿，待本人確認，見 CHECKLIST.md。
-
-export const CONTACT_EMAIL = 'sololiang923@gmail.com'
+// 聯絡 Email 不寫在這裡：建置時由環境變數 VITE_CONTACT_EMAIL 注入（見 .env）。
 
 export type WorkType = '一頁式' | '形象網站' | '電商網站' | '部落格'
 
@@ -17,7 +16,7 @@ export interface Work {
   summary: string
   /** 簡述是否為草稿（Notion 沒有描述，由他人依類型與技術撰寫） */
   draft: boolean
-  /** 截圖上的手寫標註，只寫 Notion 技術標籤裡的事實 */
+  /** 截圖旁的對話框，只寫 Notion 技術標籤裡的事實 */
   notes: [string, string]
   /** 原站已下線，連到 GitHub Pages 備份 */
   archived?: boolean
