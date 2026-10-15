@@ -339,7 +339,6 @@
   }
 
   .index-tab {
-    --focus: var(--pen);
     display: block;
     padding: 1.15rem clamp(0.6rem, 1.6vw, 1.15rem) 0.6rem;
     color: var(--kraft-ink);
@@ -1571,7 +1570,6 @@
   }
 
   .binding a[aria-current="true"] {
-    --focus: var(--pen);
     color: var(--kraft-ink);
     background-color: var(--kraft);
     border-color: var(--kraft);
