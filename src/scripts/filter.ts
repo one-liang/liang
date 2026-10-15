@@ -1,33 +1,30 @@
-// 依類型篩選作品卷宗。動畫由 motion.ts 的 Flip 提供，這裡只負責狀態。
-export type FilterHook = (apply: () => void, cases: HTMLElement[]) => void
-
-const runDirectly: FilterHook = (apply) => apply()
-
-export function initFilter(animate: FilterHook = runDirectly): void {
+// 依類型標出作品：符合的分格保持全彩、黑線加粗，其餘淡一階。版面不重排，就像漫畫頁不會改分格。
+export function initFilter(): void {
   const buttons = [...document.querySelectorAll<HTMLButtonElement>('.filter')]
-  const cases = [...document.querySelectorAll<HTMLElement>('.case')]
-  const bindingItems = [...document.querySelectorAll<HTMLElement>('[data-binding-for]')]
+  const list = document.querySelector<HTMLElement>('[data-works]')
+  const works = [...document.querySelectorAll<HTMLElement>('.work')]
   const status = document.querySelector<HTMLElement>('[data-filter-status]')
-  if (buttons.length === 0 || cases.length === 0) return
+  if (!list || buttons.length === 0 || works.length === 0) return
 
   const select = (value: string) => {
     buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.filter === value)))
 
-    animate(() => {
-      let shown = 0
-      cases.forEach((item) => {
-        const match = value === 'all' || item.dataset.type === value
-        item.hidden = !match
-        if (match) shown += 1
-      })
-      bindingItems.forEach((li) => {
-        const target = cases.find((c) => c.id === li.dataset.bindingFor)
-        li.hidden = target?.hidden ?? false
-      })
-      if (status) {
-        status.textContent = value === 'all' ? `顯示全部 ${shown} 份作品` : `顯示 ${shown} 份「${value}」作品`
-      }
-    }, cases)
+    let shown = 0
+    works.forEach((work) => {
+      const match = value === 'all' || work.dataset.type === value
+      work.dataset.match = String(match)
+      if (match) shown += 1
+    })
+
+    if (value === 'all') list.removeAttribute('data-filtering')
+    else list.dataset.filtering = value
+
+    if (status) {
+      status.textContent =
+        value === 'all'
+          ? `顯示全部 ${shown} 件作品`
+          : `標出 ${shown} 件「${value}」作品，其餘 ${works.length - shown} 件淡化顯示`
+    }
   }
 
   buttons.forEach((button) => {

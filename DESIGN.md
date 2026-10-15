@@ -1,69 +1,144 @@
 ---
 name: 阿良 One Liang
-description: A one-page freelance front-end portfolio filed as Taiwanese office case folders (卷宗) on a pressboard-green desk.
+description: A one-page freelance front-end portfolio drawn as a ligne claire (清線派) comic album, with one uniform ink line, flat fills, white balloons, and red kept for the story's objects.
 colors:
-  desk: "#1E5A45"
-  desk-deep: "#174836"
-  desk-ink: "#F4F3EE"
-  desk-ink-soft: "#CFE1D7"
-  kraft: "#CFA86C"
-  kraft-deep: "#B48A50"
-  kraft-ink: "#1F1A13"
-  kraft-ink-soft: "#3D3120"
-  paper: "#F7F6F1"
-  paper-line: "#D8D4C8"
-  ink: "#1C1B19"
-  ink-soft: "#55524A"
-  print-white: "#FBFAF6"
-  stamp: "#C2301D"
-  stamp-on-kraft: "#7A180E"
-  stamp-ink: "#FFF8F0"
-  pen: "#172866"
-  sun: "#F2B705"
-  sun-ink: "#1C1B19"
-  metal: "#7F878F"
-  shadow-tint: "#061A12"
-  desk-dark: "#0D2219"
-  desk-deep-dark: "#08170F"
-  desk-ink-dark: "#E8EEE9"
-  desk-ink-soft-dark: "#A9C3B6"
-  kraft-dark: "#4A3B27"
-  kraft-deep-dark: "#3A2E1E"
-  kraft-ink-dark: "#F3E9D6"
-  kraft-ink-soft-dark: "#D6C4A3"
-  paper-dark: "#1C2420"
-  paper-line-dark: "#34403A"
-  ink-dark: "#ECEEE9"
-  ink-soft-dark: "#B3BCB6"
-  stamp-dark: "#FF7A63"
-  stamp-on-kraft-dark: "#FF8A72"
-  stamp-ink-dark: "#1C1B19"
-  pen-dark: "#A9BCFF"
-  metal-dark: "#9AA3AA"
-  shadow-tint-dark: "#000000"
+  ink: "#16171b"
+  line: "#16171b"
+  balloon-ink: "#16171b"
+  ink-soft: "#464b56"
+  sky: "#9dcbea"
+  sky-pale: "#dceef8"
+  sand: "#e7c17d"
+  sand-pale: "#f5e6c6"
+  caption: "#ffe07a"
+  red: "#c42f1b"
+  red-ink: "#ffffff"
+  page: "#ffffff"
+  panel: "#ffffff"
+  balloon: "#ffffff"
+  hill: "#b7d6b0"
+  hill-pale: "#e4f0de"
+  green: "#3f8f5c"
+  steel: "#a9b2bc"
+  screen: "#22304a"
+  window: "#f4f8fb"
+  link: "#1b4e91"
+  focus: "#1b4e91"
+  dim: "#a0a7b1"
+  on-sky: "#16171b"
+  on-sky-soft: "#24364d"
+  on-page-soft: "#464b56"
+  page-night: "#3a5584"
+  panel-night: "#152036"
+  ink-night: "#eef2f8"
+  ink-soft-night: "#b9c4d6"
+  line-night: "#07090f"
+  select-night: "#f6d670"
+  sky-night: "#213b68"
+  sky-pale-night: "#1c3152"
+  sand-night: "#6a5434"
+  sand-pale-night: "#2a2947"
+  hill-night: "#2b4a46"
+  hill-pale-night: "#15302e"
+  green-night: "#2f6e47"
+  steel-night: "#59667a"
+  screen-night: "#0e1524"
+  window-night: "#2a3a58"
+  window-lit-night: "#ffd96b"
+  caption-night: "#f6d670"
+  link-night: "#a8cdf5"
+  focus-night: "#f6d670"
+  dim-night: "#6a7b9c"
+  on-sky-night: "#eef2f8"
+  on-sky-soft-night: "#c9d8ec"
+  on-page-soft-night: "#e2e9f3"
+  object-white-night: "#d7e1ee"
+  skyline-white-night: "#3b4f73"
 typography:
   display:
-    fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
-    fontSize: "clamp(2.1rem, 0.85rem + 5vw, 4.75rem)"
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "clamp(2.125rem, 9.6cqi, 4.75rem)"
     fontWeight: 900
-    lineHeight: 1.12
-    letterSpacing: "-0.01em"
-  headline:
-    fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
-    fontSize: "clamp(2rem, 1.2rem + 3vw, 3.5rem)"
+    lineHeight: 1.14
+    letterSpacing: "0.01em"
+  display-finale:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "clamp(2.125rem, 1.25rem + 3.4vw, 4.25rem)"
     fontWeight: 900
     lineHeight: 1.15
-    letterSpacing: "-0.01em"
+    letterSpacing: "0.01em"
+  headline:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "clamp(2.25rem, 1.4rem + 3vw, 3.75rem)"
+    fontWeight: 900
+    lineHeight: 1.1
+    letterSpacing: "0.01em"
   title:
-    fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
-    fontSize: "clamp(1.45rem, 1.05rem + 1.3vw, 2.125rem)"
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "clamp(1.3rem, 1.12rem + 0.6vw, 1.625rem)"
     fontWeight: 900
     lineHeight: 1.25
-  title-sm:
-    fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
-    fontSize: "1.375rem"
+  title-panel:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "1.5rem"
     fontWeight: 900
     lineHeight: 1.3
+  brand:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "1.375rem"
+    fontWeight: 900
+    lineHeight: 1
+  email:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "clamp(1.2rem, 0.9rem + 1.3vw, 2rem)"
+    fontWeight: 800
+    lineHeight: 1.3
+  balloon:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "1.0625rem"
+    fontWeight: 600
+    lineHeight: 1.6
+  button:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "1.0625rem"
+    fontWeight: 800
+    lineHeight: 1.2
+  nav:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "1rem"
+    fontWeight: 800
+    lineHeight: 1
+  link:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "1rem"
+    fontWeight: 800
+    lineHeight: 1.4
+  control:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "0.9375rem"
+    fontWeight: 800
+    lineHeight: 1
+  caption:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "0.9375rem"
+    fontWeight: 700
+    lineHeight: 1.45
+    letterSpacing: "0.01em"
+  tag:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "0.9375rem"
+    fontWeight: 700
+    lineHeight: 1.2
+  label:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "0.875rem"
+    fontWeight: 700
+    lineHeight: 1.35
+  meta:
+    fontFamily: "Chiron GoRound TC, Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
+    fontSize: "0.875rem"
+    fontWeight: 600
+    lineHeight: 1.65
   lede:
     fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
     fontSize: "clamp(1rem, 0.95rem + 0.3vw, 1.125rem)"
@@ -79,456 +154,359 @@ typography:
     fontSize: "1.0625rem"
     fontWeight: 400
     lineHeight: 1.95
-  label:
+  summary:
     fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
-    fontSize: "0.8125rem"
-    fontWeight: 700
-    letterSpacing: "0.2em"
-  tab:
-    fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
-    fontSize: "0.95rem"
-    fontWeight: 700
-    lineHeight: 1.2
-  button:
-    fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
-    fontSize: "1.0625rem"
-    fontWeight: 700
-    lineHeight: 1.2
-  stamp:
-    fontFamily: "Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif"
-    fontSize: "1.2rem"
-    fontWeight: 900
-    lineHeight: 1.45
-    letterSpacing: "0.12em"
-  typed:
-    fontFamily: "Courier Prime, Noto Sans TC, ui-monospace, monospace"
-    fontSize: "0.9375rem"
-    fontWeight: 400
-    lineHeight: 1.7
-  typed-index:
-    fontFamily: "Courier Prime, Noto Sans TC, ui-monospace, monospace"
-    fontSize: "0.9375rem"
-    fontWeight: 700
-    letterSpacing: "0.06em"
-  hand:
-    fontFamily: "LXGW WenKai TC, Noto Sans TC, serif"
-    fontSize: "clamp(1.05rem, 0.95rem + 0.4vw, 1.25rem)"
-    fontWeight: 700
-    lineHeight: 1.3
-  hand-tag:
-    fontFamily: "LXGW WenKai TC, Noto Sans TC, serif"
     fontSize: "1rem"
-    fontWeight: 700
-    lineHeight: 1.5
+    fontWeight: 400
+    lineHeight: 1.75
 rounded:
-  print: "2px"
-  paper: "3px"
-  seal: "4px"
-  control: "6px"
-  chip: "8px"
-  tab: "10px"
-  folder: "12px"
+  panel: "3px"
+  tick: "4px"
+  count: "5px"
+  chip: "6px"
+  control: "8px"
+  balloon: "1.75em"
+  pill: "999px"
+  round: "50%"
 spacing:
-  gutter: "clamp(1rem, 4vw, 3rem)"
-  header: "4.25rem"
-  section-open: "clamp(5rem, 10vw, 8.5rem)"
-  section-mid: "clamp(3rem, 6vw, 5rem)"
-  section-close: "clamp(4rem, 8vw, 7rem)"
-  tab-rise: "2.15rem"
-  folder-overlap: "1rem"
-  gap-xs: "0.5rem"
-  gap-sm: "0.75rem"
-  gap-md: "1.25rem"
-  gap-lg: "2.5rem"
+  gutter: "clamp(10px, 1.1vw, 16px)"
+  margin: "clamp(12px, 3.2vw, 44px)"
+  header: "4rem"
+  page-gap: "clamp(3rem, 6vw, 5rem)"
+  panel-pad: "clamp(1.25rem, 3vw, 2.25rem)"
+  gap-sm: "0.5rem"
+  gap-md: "0.75rem"
+  sidewalk: "2.25rem"
 components:
-  button-desk:
-    backgroundColor: "{colors.desk}"
-    textColor: "{colors.desk-ink}"
-    typography: "{typography.button}"
-    rounded: "{rounded.control}"
-    padding: "0.55rem 1.15rem"
-    height: "2.875rem"
-  button-desk-hover:
-    backgroundColor: "{colors.desk-deep}"
-  button-desk-night:
-    backgroundColor: "{colors.desk-ink-dark}"
-    textColor: "{colors.desk-dark}"
-  button-sun:
-    backgroundColor: "{colors.sun}"
-    textColor: "{colors.sun-ink}"
-    typography: "{typography.button}"
-    rounded: "{rounded.control}"
-    padding: "0.55rem 1.15rem"
-    height: "2.875rem"
-  button-line:
-    backgroundColor: "transparent"
-    textColor: "{colors.kraft-ink}"
-    typography: "{typography.button}"
-    rounded: "{rounded.control}"
-    padding: "0.55rem 1.15rem"
-    height: "2.875rem"
-  button-line-light:
-    backgroundColor: "transparent"
-    textColor: "{colors.desk-ink}"
-    typography: "{typography.button}"
-    rounded: "{rounded.control}"
-    padding: "0.55rem 1.15rem"
-    height: "2.875rem"
-  index-tab:
-    backgroundColor: "{colors.kraft}"
-    textColor: "{colors.kraft-ink}"
-    typography: "{typography.tab}"
-    rounded: "{rounded.tab}"
-    padding: "1.15rem clamp(0.6rem, 1.6vw, 1.15rem) 0.6rem"
-  index-tab-current:
-    backgroundColor: "{colors.paper}"
+  panel:
+    backgroundColor: "{colors.panel}"
     textColor: "{colors.ink}"
-  index-tab-contact:
-    backgroundColor: "{colors.sun}"
-    textColor: "{colors.sun-ink}"
-  theme-toggle-tab:
-    backgroundColor: "{colors.desk-deep}"
-    textColor: "{colors.desk-ink}"
-    rounded: "{rounded.tab}"
-    padding: "1.15rem 0.9rem 0.6rem"
-  brand-seal:
-    backgroundColor: "{colors.stamp}"
-    textColor: "{colors.stamp-ink}"
-    rounded: "{rounded.seal}"
-    size: "2.25rem"
-  filter-chip:
-    backgroundColor: "transparent"
-    textColor: "{colors.desk-ink}"
+    rounded: "{rounded.panel}"
+  panel-night:
+    backgroundColor: "{colors.panel-night}"
+    textColor: "{colors.ink-night}"
+  establishing-panel:
+    backgroundColor: "{colors.sky}"
+    textColor: "{colors.on-sky}"
+    rounded: "{rounded.panel}"
+    padding: "clamp(1.75rem, 5cqi, 3.25rem) clamp(1.1rem, 4cqi, 2.75rem) 1.5rem"
+  establishing-panel-night:
+    backgroundColor: "{colors.sky-night}"
+    textColor: "{colors.on-sky-night}"
+  chapter-sand:
+    backgroundColor: "{colors.sand-pale}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.panel}"
+    padding: "clamp(1.25rem, 3vw, 2.25rem) clamp(1.1rem, 3vw, 2.25rem)"
+  chapter-sky:
+    backgroundColor: "{colors.sky}"
+    textColor: "{colors.on-sky}"
+    rounded: "{rounded.panel}"
+    padding: "clamp(1.25rem, 3vw, 2.25rem) clamp(1.1rem, 3vw, 2.25rem)"
+  caption-box:
+    backgroundColor: "{colors.caption}"
+    textColor: "{colors.balloon-ink}"
+    typography: "{typography.caption}"
+    padding: "0.3em 0.75em 0.35em"
+  caption-box-night:
+    backgroundColor: "{colors.caption-night}"
+    textColor: "{colors.balloon-ink}"
+  speech-balloon:
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    typography: "{typography.balloon}"
+    rounded: "{rounded.balloon}"
+    padding: "1em 1.5em 1.05em"
+  note-balloon:
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    typography: "{typography.label}"
+    rounded: "{rounded.pill}"
+    padding: "0.4em 0.9em 0.45em"
+  button-red:
+    backgroundColor: "{colors.red}"
+    textColor: "{colors.red-ink}"
     typography: "{typography.button}"
-    rounded: "{rounded.chip}"
-    padding: "0.4rem 0.95rem"
+    rounded: "{rounded.control}"
+    padding: "0 1.35rem"
+    height: "3rem"
+  button-plain:
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    typography: "{typography.button}"
+    rounded: "{rounded.control}"
+    padding: "0 1.35rem"
+    height: "3rem"
+  nav-link:
+    textColor: "{colors.ink}"
+    typography: "{typography.nav}"
+    padding: "0 0.8rem"
     height: "2.75rem"
-  filter-chip-pressed:
-    backgroundColor: "{colors.kraft}"
-    textColor: "{colors.kraft-ink}"
-  hero-cover:
-    backgroundColor: "{colors.kraft}"
-    textColor: "{colors.kraft-ink}"
-    rounded: "{rounded.folder}"
-    padding: "clamp(1.4rem, 4vw, 3.25rem)"
-  case-folder:
-    backgroundColor: "{colors.kraft}"
-    textColor: "{colors.kraft-ink}"
-    rounded: "{rounded.folder}"
-    padding: "clamp(2.75rem, 5vw, 3.75rem) clamp(1rem, 3.2vw, 2.75rem)"
-  case-tab:
-    backgroundColor: "{colors.kraft}"
-    textColor: "{colors.kraft-ink}"
-    typography: "{typography.typed-index}"
-    rounded: "{rounded.tab}"
-    padding: "0.15rem 1.6rem 0"
-    height: "2.3rem"
-  photo-print:
-    backgroundColor: "{colors.print-white}"
-    padding: "clamp(0.4rem, 0.9vw, 0.7rem)"
-  open-tag:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.pen}"
-    typography: "{typography.hand-tag}"
-    rounded: "{rounded.print}"
-    padding: "0.15rem 0.65rem"
-  stamp-chip:
-    backgroundColor: "transparent"
-    textColor: "{colors.stamp-on-kraft}"
-    typography: "{typography.stamp}"
-    rounded: "{rounded.seal}"
-    padding: "0 0.45rem"
-  stamp-label-paper:
-    backgroundColor: "transparent"
-    textColor: "{colors.stamp}"
-    rounded: "{rounded.seal}"
-    padding: "0 0.45rem"
-  demo-link:
-    textColor: "{colors.pen}"
-    typography: "{typography.typed}"
-  pencil-note:
-    textColor: "{colors.kraft-ink-soft}"
-    typography: "{typography.hand}"
-  paper-sheet:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.paper}"
-    padding: "clamp(1.5rem, 4.5vw, 3.25rem)"
-  commission-form:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.paper}"
-    padding: "clamp(1.5rem, 5vw, 4rem)"
+  nav-cta:
+    backgroundColor: "{colors.red}"
+    textColor: "{colors.red-ink}"
+    typography: "{typography.nav}"
+    rounded: "{rounded.control}"
+    padding: "0 1rem"
+    height: "2.5rem"
+  theme-toggle:
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    typography: "{typography.control}"
+    rounded: "{rounded.control}"
+    padding: "0 0.85rem"
+    height: "2.5rem"
+  filter-button:
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    rounded: "{rounded.control}"
+    padding: "0 1rem"
+    height: "2.75rem"
+  filter-button-pressed:
+    backgroundColor: "{colors.caption}"
+    textColor: "{colors.balloon-ink}"
+  filter-count:
+    rounded: "{rounded.count}"
+    size: "1.5rem"
+  work-frame:
+    backgroundColor: "{colors.sky-pale}"
+  work-body:
+    padding: "1.1rem 1.25rem 1.3rem"
+  work-link:
+    textColor: "{colors.link}"
+    typography: "{typography.link}"
   tick-box:
-    backgroundColor: "transparent"
-    textColor: "{colors.stamp}"
-    rounded: "{rounded.paper}"
-    size: "1.6rem"
-  skill-tag:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    typography: "{typography.typed}"
-    rounded: "{rounded.paper}"
-    padding: "0.1rem 0.55rem"
-  binding-spine:
-    backgroundColor: "{colors.kraft-deep}"
-    textColor: "{colors.kraft-ink}"
-    rounded: "{rounded.seal}"
-    padding: "3.6rem 0 1.25rem 2rem"
-    width: "11.5rem"
-  binding-spine-current:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-  index-strip:
-    backgroundColor: "{colors.desk-deep}"
-    textColor: "{colors.desk-ink}"
-    padding: "0.55rem clamp(1rem, 4vw, 3rem)"
-  index-strip-link:
-    backgroundColor: "transparent"
-    textColor: "{colors.desk-ink}"
-    rounded: "{rounded.control}"
-    padding: "0.3rem 0.65rem"
-  index-strip-link-current:
-    backgroundColor: "{colors.kraft}"
-    textColor: "{colors.kraft-ink}"
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    rounded: "{rounded.tick}"
+    size: "1.5rem"
+  tick-box-checked:
+    backgroundColor: "{colors.caption}"
+    textColor: "{colors.balloon-ink}"
+  skill-chip:
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    typography: "{typography.tag}"
+    rounded: "{rounded.chip}"
+    padding: "0.4em 0.85em 0.45em"
+  finale-panel:
+    backgroundColor: "{colors.sky}"
+    textColor: "{colors.on-sky}"
+    rounded: "{rounded.panel}"
+    padding: "clamp(1.4rem, 4vw, 3.25rem) clamp(1.1rem, 4vw, 3.25rem) 0"
+  end-mark:
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    rounded: "{rounded.round}"
+    size: "2.75rem"
   toast:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.control}"
-    padding: "0.7rem 1.1rem"
-  skip-link:
-    backgroundColor: "{colors.sun}"
-    textColor: "{colors.sun-ink}"
-    rounded: "{rounded.control}"
-    padding: "0.6rem 1rem"
+    backgroundColor: "{colors.balloon}"
+    textColor: "{colors.balloon-ink}"
+    typography: "{typography.link}"
+    rounded: "{rounded.pill}"
+    padding: "0.7em 1.3em 0.75em"
 ---
 
 # Design System: 阿良 One Liang
 
 ## Overview
 
-**Creative North Star: "The Case-File Desk (卷宗桌)"**
+**Creative North Star: "The Ligne Claire Album"**
 
-The page is a desk in a Taiwanese office. A pressboard-green desk owns the ground. Kraft case folders (卷宗) with index tabs hold the work. Cool file paper holds anything meant for reading. Vermilion rubber stamps mark status and type, ballpoint-pen blue marks only what opens something, and pencil graphite carries the handwritten notes. Every component is an object you would find on that desk. The page takes its grid language from the form printed on the folder cover: field rows, a fixed label column and heavy rules.
+The portfolio is a ligne claire (清線派) comic album. 阿良 is the protagonist, every shipped website is a panel, and the services, the self-introduction and the contact are further panels of the same story. The ground is a white album page. One uniform ink line outlines every panel, speech balloon, caption box, button, field and illustration: 2px on phones and tablets, 2.5px from 64rem. Every SVG stroke is non-scaling, so a drawing placed small or large keeps exactly the same pen. Fills are flat. Daylight blue and sand ochre carry the midtones, hill green and crane steel fill the props, yellow caption boxes narrate, white balloons speak, and red appears only on objects the story needs: the mail and send actions, the 聯絡 tab, the 接案中 sign hanging from the crane, and the red postbox.
 
-Density is calm and readable. CJK body text runs large and loose (1.0625rem, line-height 1.8 to 1.95), and hierarchy comes only from size contrast between Noto Sans TC Black display type and regular body type. Objects sit a little askew (−0.8° to 3°) and cast soft, green-tinted contact shadows. When they move, they move like paper: folders settle onto the desk, prints slide out of the folder mouth, stamps press down, and pencil leaders draw themselves in. Light mode is the default. Dark mode is a night version of the same desk that the visitor turns on with the toggle tab.
+Density is comic-page density, not landing-page air. Panels sit in tiers separated by a narrow white gutter, and each `section` is an album page with a larger gap before the next. Lettering does the voice: Chiron GoRound TC, a rounded gothic, letters titles, balloons, captions, buttons and navigation the way a letterer would. Noto Sans TC sets everything that is read rather than heard. State is drawn, not lit. Hover, current and selection draw the same line heavier. A filter fades the panels that don't match and never moves them. Motion is the comic's own grammar: panels hard-cut in reading order, and one stop-motion crane lowers a web page into the opening scene. The night edition is the same album printed at night. The page turns deep blue, panels go one step deeper, the black line stays, the sun becomes a moon, stars come out, skyline windows light up, and balloons stay white.
 
-Confirmed rejections: the industry-default portfolio (copy on the left, avatar on the right, then a row of equal work cards); cream or warm paper (the file paper is cool on purpose, so it reads against the kraft); and yellow fills on kraft, which fail WCAG 1.4.11 boundary contrast.
+The opening panel departs from the direction contract on purpose. The contract planned a line drawing of a desk monitor. The build instead draws a tower crane hoisting a browser window over a rooftop skyline of water tanks, antennas and tin-roof add-ons, with the red 接案中 sign hanging from the jib, so that "making the website" reads as construction in progress. The crane is now the system's signature illustration. Two directions were rejected when the world was chosen: the industry default of headline-left/avatar-right above a row of equal work cards, and the previous case-file stationery world, with its prop realism, textures and shadows.
 
 **Key Characteristics:**
-- Three materials with three ink sets: desk green, kraft folder, cool file paper.
-- Every case uses the same printed field rows: 類型 / 技術 / 簡述 / 網址.
-- Stamps are ink impressions: a transparent ground, a currentColor border, roughened edges, multiply blending.
-- Each typeface has one job: Noto Sans TC for the voice, Courier Prime for typed data, LXGW WenKai TC for handwriting.
-- Paper-physics motion (expo.out), all of it gated behind prefers-reduced-motion.
-- Index tabs hang from the header. The binding spine marks your place in the stack.
+- One pen: a single ink line (`--stroke` 2px, 2.5px at ≥64rem; `--stroke-bold` 3.5px / 4px) on every edge and every SVG stroke, always `vector-effect: non-scaling-stroke` with round caps and joins.
+- Flat colour only. There are no tonal gradients, no drop shadows, no blur and no texture.
+- A white album page of near-square panels (3px corners) in tiers, separated by a white gutter.
+- Yellow caption boxes for narration and labels, white rounded balloons with drawn tails for speech, and red only on story objects.
+- Selection is the same line drawn heavier. Filtering fades panels without reflowing them.
+- Motion is hard cuts in reading order plus one stop-motion crane. Nothing eases, and everything is visible without motion.
+- The night edition swaps the palette, not the drawing.
 
 ## Colors
 
-Pressboard green, kraft and cool white paper form the ground. Vermilion, sun yellow and pen blue are inks, and each ink has one rule about where it may appear.
+The palette is flat fills under one black pen: a white page, daylight-blue and sand-ochre midtones, narration yellow, and a red that belongs to objects, not to the interface.
 
 ### Primary
-- **Pressboard Green** (#1E5A45): the desk. It fills the page ground, the header and the contact section, and it fills primary buttons placed on kraft or paper. Against kraft its boundary contrast is 3.64:1, which is why the hero's 寄信洽詢 button is green, not yellow. It is also the `theme-color`.
-- **Desk Deep** (#174836): the shadowed edge of the desk. Used for the footer, the theme-toggle tab, the mobile index strip, the hover state of the desk button, and the punched holes in the binding spine.
+- **Album Ink** (#16171b): the pen. It is both `line` (every border, tail, underline and SVG stroke) and `ink` (body text and titles on white and pale fills). In daylight they are the same black. At night they split: the line stays black and the text turns to moonlight.
+- **Lettering Ink** (#16171b): text inside caption boxes, balloons, plain buttons, filters, tick boxes, skill chips and the toast. It is fixed in both editions, because those objects stay white or yellow at night.
 
 ### Secondary
-- **Vermilion Stamp** (#C2301D): stamp ink on file paper (the 報價 label and the commission ticks) and the solid ground of the 良 seal. It reaches 5.2:1 on paper.
-- **Kraft Stamp Oxblood** (#7A180E): the same stamp ink pressed into kraft, which absorbs it and darkens it. Used for the type chips and the hero 接案中 seal. It reaches 4.8:1 on flat kraft, and the chips are 19.2px at weight 900, so they also qualify as large text.
-- **Seal Paper** (#FFF8F0): the paper showing through the carved 良 character on the 白文 brand seal.
+- **Daylight Blue** (#9dcbea): the sky. It fills the establishing panel, the 服務 chapter panel, the send panel of the order tier, the finale, and the sky in illustrations. Text on it uses Ink on Sky (#16171b), with ledes in Soft Ink on Sky (#24364d).
+- **Pale Sky** (#dceef8): the quieter blue for screenshot frames, the code strip, the skills panel, the build service's art header, and header bars and screen interiors in drawings.
+- **Sand Ochre** (#e7c17d): building façades, browser title bars, the pencil's ferrule, the ground strip under the skyline, and chart bars.
+- **Pale Sand** (#f5e6c6): the warm panel fill for the 作品 chapter, the design-comp strip, the feature service's art header, the quote panel, the close-up portrait panel, the sidewalk tiles, and content blocks inside drawn web pages.
 
 ### Tertiary
-- **Avatar Sun** (#F2B705): taken from the sparkles in the hand-drawn avatar. It has three jobs only: primary actions on the green desk, the focus ring on the desk, and the 聯絡 index tab. It reaches 4.44:1 against the desk.
-- **Sun Ink** (#1C1B19): text on sun fills.
-- **Ballpoint Blue** (#172866): reserved for links (the case 網址 rows) and the handwritten 開啟網站 tags, plus the focus ring on kraft and paper. It reaches 6.18:1 on kraft and 12.67:1 on paper.
+- **Narration Yellow** (#ffe07a): caption boxes, pressed filters, checked tick boxes, the brand mark's balloon, the skip link, text selection (`::selection`), the sun, the crane cab and the stars at night. Yellow means "the narrator is speaking" or "this is chosen".
+- **Story Red** (#c42f1b), with Sign White (#ffffff) on it: the 寄信洽詢 and 寄出委託單 buttons, the 聯絡 nav tab, the 接案中 sign on the crane, and the red postbox in the finale. It is the same value in both editions.
 
 ### Neutral
-- **Kraft** (#CFA86C): the folder material, used for the hero cover, case bodies and tabs, index tabs, and pressed filter chips. It always carries procedural SVG grain (`--grain-kraft`, with `--grain-fiber` added on large surfaces).
-- **Kraft Deep** (#B48A50): the back flap of the hero folder and the binding spine.
-- **Kraft Ink** (#1F1A13): text and the 2.5px form rules on kraft.
-- **Pencil Graphite** (#3D3120): the handwritten notes, the memo lines, field labels and the lede on kraft.
-- **File Paper** (#F7F6F1): a cool, slightly grey white used for the commission form, the about sheets, the toast, the 開啟網站 tag and the current index tab. It is deliberately not cream.
-- **Paper Rule** (#D8D4C8): the inset frame and row dividers on paper.
-- **Ink** (#1C1B19) / **Ink Soft** (#55524A): text on paper, primary and secondary.
-- **Print White** (#FBFAF6): the border of photo prints (the ID photo and case screenshots). It stays light in dark mode because a print is a print.
-- **Desk Chalk** (#F4F3EE) / **Desk Chalk Soft** (#CFE1D7): text on the desk, primary and secondary.
-- **Clip Metal** (#7F878F): paperclips and the binding fastener.
-- **Shadow Tint** (#061A12): the channel for every shadow (`rgb(var(--shadow-rgb) / α)`), so shadows read as the desk's own dark green, not grey.
+- **Album White / Panel White / Balloon White** (#ffffff): the page, the default panel fill, and every balloon, plain button, filter, tick box, skill chip, end mark and toast. They are three tokens because they part ways at night: page and panel go blue, balloons stay white.
+- **Graphite Ink** (#464b56): secondary text such as work summaries, tech lists, archive memos, the Latin brand name, and the footer (`on-page-soft`).
+- **Faded Line** (#a0a7b1): the only lighter line in the system. It is used solely for the borders of panels that a filter has faded.
+- **Hill Green** (#b7d6b0) / **Pale Hill** (#e4f0de): distant hills and drawn mountains. Pale Hill fills the devices strip and the "other services" art header.
+- **Postbox Green** (#3f8f5c): the green Taiwanese postbox beside the red one, and the server status dots in API drawings.
+- **Crane Steel** (#a9b2bc): counterweights, rooftop water tanks, tin-roof sheds, monitor stands and the postbox plinths.
+- **Monitor Navy** (#22304a): the code editor screen in the second strip panel.
+- **Window White** (#f4f8fb): unlit skyline windows. By day every window is unlit.
+- **Link Blue** (#1b4e91): the 開啟網站 links and the focus ring in daylight.
 
-### Night Desk (dark tokens)
-Under `[data-theme="dark"]`, each `-dark` token replaces its light counterpart. The desk goes to near-black green (#0D2219). Kraft goes to a dark board (#4A3B27), and its fibre layer becomes finer and lighter (fractal-noise frequency 0.05×0.42, alpha 0.22), so it still reads as paper and not as wood. File paper goes to a dark green-grey (#1C2420). Both stamp reds become coral (#FF7A63 on paper, #FF8A72 on kraft), and pen blue becomes #A9BCFF. Sun yellow does not change. The desk button inverts to a chalk fill with desk-colored text.
-
-Note on the direction contract: the brief named kraft #C49A5C and stamp #C8331F. The build settled on the values above, and the build values are the normative ones.
+### Night Edition
+The night edition (`[data-theme="dark"]`) remaps the same tokens. It never swaps a drawing.
+- **Night Page Blue** (#3a5584) is the page. **Midnight Panel** (#152036) is the default panel, one step deeper than the page. Text becomes **Moonlight Ink** (#eef2f8) with **Soft Moonlight** (#b9c4d6) for secondary text and #e2e9f3 for the footer.
+- **Night Pen Line** (#07090f): the line stays black, even a touch blacker.
+- The midtones go to night. Sky is #213b68 and pale sky #1c3152. Sand is #6a5434. Pale sand turns to a dusk indigo (#2a2947). Hills are #2b4a46 and #15302e, postbox green #2f6e47, steel #59667a, and the monitor #0e1524.
+- Captions use **Night Narration Yellow** (#f6d670). Story Red does not change. Balloons do not change.
+- Inside illustrations, white objects such as clouds, browser windows, devices and letters become **Moonlit White** (#d7e1ee). White skyline façades become **Night Façade Blue** (#3b4f73). Windows are #2a3a58, and a fixed scatter of them turns **Lit Window** (#ffd96b).
+- Links turn to #a8cdf5. The focus ring and the work-panel selection ring both use **Lamp Yellow** (#f6d670), because a black ring outside a black frame would vanish against the deep page.
 
 ### Named Rules
-**The Sun Is for Doing Rule.** Sun yellow appears only where the visitor acts on the green desk: primary buttons, the focus ring and the 聯絡 tab. It never fills anything on kraft or paper, where it measures 1.22:1 against kraft.
+**The One Pen Rule.** Every edge in the album is drawn with the line colour at `--stroke`. There are no grey hairlines, no coloured borders and no second pen. The one sanctioned lighter line is Faded Line, on panels a filter has faded.
 
-**The Pen Opens Things Rule.** Ballpoint blue means "this opens something": links and the 開啟網站 tags. Headings, notes and decoration never use it.
+**The Red Object Rule.** Red is a prop in the story, not an accent. It goes only on mail and send actions, the 聯絡 tab, the 接案中 sign and the red postbox. It never goes on headings, links, emphasis, badges or decoration.
 
-**The Two Reds Rule.** Stamp ink depends on what it lands on: #C2301D on paper and #7A180E on kraft. The paper red on kraft measures 2.54:1, so never cross them.
+**The White Balloon Rule.** Balloons, plain buttons, filters, tick boxes, skill chips and the toast keep a white ground and Lettering Ink in both editions. Captions keep yellow. The night edition darkens the page around them, never the balloons themselves.
 
-**The Focus Follows the Ground Rule.** `--focus` is set by the surface the 3px ring lands on: sun on the desk, pen blue on kraft or paper.
+**The Night Edition Rule.** Dark mode is the same album printed at night. It swaps palette tokens and toggles `.sun`, `.moon` and `.star`. It does not redraw or restyle any illustration.
 
 ## Typography
 
-**Display Font:** Noto Sans TC 900 (fallbacks PingFang TC, Microsoft JhengHei, sans-serif)
-**Body Font:** Noto Sans TC 400 / 500 / 700
-**Label/Mono Font:** Courier Prime 400 / 700, for typed data only (falls back to Noto Sans TC for CJK glyphs)
-**Handwriting Font:** LXGW WenKai TC 700 (霞鶩文楷 TC)
+**Display Font:** Chiron GoRound TC (with Noto Sans TC, PingFang TC, Microsoft JhengHei), loaded at weights 500–900
+**Body Font:** Noto Sans TC (with PingFang TC, Microsoft JhengHei), loaded at weights 400, 500 and 700
 
-**Character:** The voice is a heavy, plain-spoken CJK sans. The typewriter face fills in the fields of the form, and the brush-like kaishu handles the pencil notes. Each face has a single job, so you can tell what kind of mark you are reading from its face alone.
+**Character:** Chiron GoRound TC is the letterer. Its rounded, hand-lettered gothic carries every voice on the page: titles, balloons, captions, buttons, navigation, labels and even the tech lists. Noto Sans TC is the typesetter, used for the paragraphs a visitor reads at length. Weight stays heavy on lettering (600–900), the way a comic letterer inks.
 
 ### Hierarchy
-- **Display** (900, clamp(2.1rem → 4.75rem), 1.12): the hero headline and the contact headline. 4.75rem is the ceiling.
-- **Headline** (900, clamp(2rem → 3.5rem), 1.15): section titles (作品卷宗, 服務委託單, 關於阿良).
-- **Title** (900, clamp(1.45rem → 2.125rem), 1.25): case names on the folder label.
-- **Title Small** (900, 1.375rem / 1.25rem): sheet titles and commission row titles.
-- **Lede** (400, clamp(1rem → 1.125rem), 1.8): intro lines, max 34em.
-- **Body** (400, 1.0625rem, 1.8): everything else. Prose paragraphs run at 1.95 with a 38em measure.
-- **Label** (700, 0.8125–0.875rem, letter-spacing 0.18–0.2em): printed field labels (承辦人, 類型, 技術, 網址) in the form's label column. These are form captions, not kickers.
-- **Tab / Button** (700, 0.95rem / 1.0625rem, 1.2): index tabs, buttons, filter chips.
-- **Stamp** (900, 1.2rem, 1.45, letter-spacing 0.12em): type chips. Stamp text is at least 19px bold.
-- **Typed** (Courier Prime 400–700, 0.875–0.9375rem; the email address scales to 2.25rem): case numbers No.01–08, URLs, tech lists, filter counts, the email address.
-- **Hand** (LXGW WenKai TC 700, clamp(1.05rem → 1.25rem), 1.3): pencil notes with leader arrows. The same face appears on the 開啟網站 tag (1rem), the peek label and memo lines.
+- **Display** (900, `clamp(2.125rem, 9.6cqi, 4.75rem)`, line-height 1.14, +0.01em): the opening headline 把設計稿，做成會動的網站。 It is sized in container units of the establishing panel, and at ≥64rem it switches to `clamp(2.5rem, 6.4cqi, 4.75rem)`. The finale headline 有設計稿了嗎？寄來給我看看。 uses **Display Finale** (900, `clamp(2.125rem, 1.25rem + 3.4vw, 4.25rem)`, 1.15).
+- **Headline** (900, `clamp(2.25rem, 1.4rem + 3vw, 3.75rem)`, 1.1, +0.01em): chapter titles 作品, 服務 and 關於阿良.
+- **Title** (900, `clamp(1.3rem, 1.12rem + 0.6vw, 1.625rem)`, 1.25): work titles. **Title Panel** (900, 1.5rem, 1.3) is used for service titles and 報價怎麼算？. The 技能與工具 heading uses the same face at 1.625rem.
+- **Balloon** (600, 1.0625rem, 1.6): speech balloon text.
+- **Button** (800, 1.0625rem, 1.2), **Nav** (800, 1rem, 1), **Control** (800, 0.9375rem, 1, the theme toggle) and **Link** (800, 1rem, 1.4, the 開啟網站 links and the toast): interactive lettering.
+- **Caption** (700, 0.9375rem, 1.45, +0.01em): narration boxes. Strip captions drop to 0.875rem between 46rem and 64rem. **Tag** (700, 0.9375rem, 1.2) is for skill chips. **Label** (700, 0.875rem, 1.35) is for note balloons. **Meta** (600, 0.875rem, 1.65) is for the tech list under each work.
+- **Brand** (900, 1.375rem, 1): 阿良. The Latin name One Liang follows at 700, 0.8125rem, in Graphite Ink.
+- **Email** (800, `clamp(1.2rem, 0.9rem + 1.3vw, 2rem)`, 1.3): the finale's address, with an underline at `--stroke-bold`.
+- **Body** (Noto 400, 1.0625rem, 1.8): base text and tick items. **Body Prose** (1.95) is for the 關於阿良 paragraphs at a 38em measure. **Lede** (`clamp(1rem, 0.95rem + 0.3vw, 1.125rem)`, 1.8) is for chapter ledes at 36em and the finale lede at 30em. **Summary** (1rem, 1.75) is for work summaries at 34em, in Graphite Ink.
 
 ### Named Rules
-**The Typed Is Data Rule.** Courier Prime sets only data a clerk would type into the form: case numbers, URLs, tech lists, index numbers, counts, the email address. It is not a costume for "technical", so never use it for headings, labels or prose.
+**The Letterer and Typesetter Rule.** Chiron GoRound TC letters anything a comic letterer would letter: titles, balloons, captions, controls, navigation and labels. Noto Sans TC sets anything that is read as running text: ledes, summaries, prose, form items and the footer. Never swap them.
 
-**The Size Is Hierarchy Rule.** Rank comes from size contrast between 900 and 400, never from color or a third weight. The same Noto Sans TC Black carries every level of title.
-
-**The Pencil Rule.** Handwritten notes are pencil graphite (#3D3120 on kraft). The only pen-blue handwriting is the 開啟網站 tag, because it opens something.
-
-**The CJK Leading Rule.** Running CJK text stays at 1.0625rem with line-height 1.8 to 1.95. Tighter leading (1.12–1.3) is only for 900-weight titles of 1.375rem and up, and for one-line UI labels.
+**The Caption Does the Narrating Rule.** No small label or eyebrow sits above a title. Narration and category names live in a yellow caption box tucked into a panel's top-left corner.
 
 ## Layout
 
-The desk is full-bleed. Content sits in centered containers inside a fluid gutter (clamp(1rem, 4vw, 3rem)): 77.5rem for the header and works, 70rem for the hero folder and the commission form, 72rem for the about sheets. The header is sticky at 4.25rem, and `scroll-padding-top` clears it plus 1rem.
+The album is a column of pages (`min(100% − 2 × margin, 84rem)`, centred, with side margin `clamp(12px, 3.2vw, 44px)`). Each page is a stack of tiers. A tier is a CSS grid of panels with a white gutter of `clamp(10px, 1.1vw, 16px)` between panels and between tiers. Consecutive pages are separated by a larger `clamp(3rem, 6vw, 5rem)`. The masthead is sticky, 4rem tall, and sits on a panel-white bar closed by a line along the bottom edge. In-page anchors scroll-pad by the header plus 1rem.
 
-- **Hero cover:** a two-column grid, with the headline beside the photo and the field rows spanning beneath. On mobile it stacks: photo, headline, fields. The folder is rotated −0.8° (0° below 48rem), with the back flap sitting behind it at +1.8°.
-- **Works:** below 75rem, a single column of folders under a sticky index strip. At 75rem and above, two columns: an 11.5rem binding spine and the folders, with a 2.5rem gap. Folders overlap by 1rem, and their tabs step across the width by index (`--tab` 0–3, a 21% step on desktop and 9% on mobile), so the stack staggers the way real folders do. At 64rem and above, the case body splits 1.7fr / 1fr, and even-numbered cases flip sides.
-- **Commission form:** at 48rem and above, the head and the item lists go two-column. At 64rem and above, each row title moves into an 11rem left column.
-- **About:** at 64rem and above, two columns (1.35fr / 1fr). The attachment sheet drops 4.5rem and overlaps the profile sheet by 2.5rem.
-- **Contact:** centered on the desk below a 2px dashed rule.
-- **Rhythm:** sections open with clamp(5rem, 10vw, 8.5rem) of space, mid sections with clamp(3rem, 6vw, 5rem), and they close with clamp(4rem, 8vw, 7rem). Inline gaps step through 0.5 / 0.75 / 1.25 / 2.5rem.
-- **The form is the grid:** field blocks are framed by 2.5px kraft-ink rules top and bottom, with 1px rows at 45–55% ink. Each row has a fixed label column (5.5em on the cover and 3.6em in cases; 4em on the cover on mobile).
+- **Under 46rem (phone):** every tier is one column, so panels read one by one in story order: establishing panel, portrait, the three strips, then chapters and works. The establishing scene drops below the copy at 4:3. Strip art is fixed at 8.5rem. The theme toggle shows its icon only below 48rem, and below 30rem the Latin brand name hides, nav links tighten to 0.55rem padding and the brand mark shrinks to 2.4rem. Below 25rem the 阿良 wordmark is visually hidden and the yellow 良 balloon carries the brand. All four nav links stay visible at every width. There is no hamburger menu.
+- **From 46rem (tablet):** the strips go three-up and works go two columns. The first work and a closing full-width work span both columns as horizontal panels (screenshot 58%, at least 18rem tall). The order tier splits 7fr / 5fr. Services go two columns, with the lead service spanning both horizontally (art 44%). Skills rows gain a 5.5rem caption column. About splits 4fr / 8fr.
+- **From 64rem (desktop):** the line thickens to 2.5px (bold 4px). The opening tier splits 8fr / 4fr at a height of `clamp(30rem, 100svh − 22.5rem, 35rem)`, so the three-strip tier enters the first viewport. The establishing scene fills the panel behind copy capped at 62% width, with the crane at 41% width on the right. Works sit on a 12-column grid. Services split 6fr / 3fr / 3fr. The finale splits 1.25fr / 1fr, with the mailbox art standing on the sidewalk.
+
+**Work panel sizes** follow a comic four-tier rotation rather than equal cards. The cycle is wide, std, std, std, std, std, wide. On 12 columns that gives one tier of wide (8) + std (4), one of three std (4 each), and one of std (4) + wide (8). A work that lands alone at the start of a new cycle becomes full (12). With eight works the result is exactly four tiers. Wide panels put the screenshot on top at 2.3:1 and split the body into two columns (1.15fr / 1fr). The full panel is horizontal, with the screenshot at 64% and at least 22rem tall.
+
+### Named Rules
+**The Gutter Rule.** Panels never touch and never overlap. A white gutter always separates them. Only balloons may cross a frame.
+
+**The Fixed Page Rule.** Filtering never reflows, hides or reorders panels, just as a printed comic page cannot re-panel itself. Non-matching panels fade in place.
 
 ## Elevation & Depth
 
-Depth is physical: paper stacked on a desk. Surfaces are tonally distinct (desk, then kraft, then paper). Thicker objects cast longer, softer contact shadows. Every shadow uses a large negative spread, so it pools under the object instead of haloing around it, and in light mode every shadow is tinted with the desk's own green-black. Kraft surfaces also get a one-pixel inset highlight along the top edge. Slight rotation adds to the sense of depth. There are no hard offset shadows.
-
-Material is procedural. `--grain-kraft` is fractal noise at 0.9. `--grain-fiber` is directional fibres (0.008×0.42, made finer and lighter in dark mode). `--grain-desk` is noise at 0.7. All three are inline SVG data URIs. The `#ink` SVG filter (turbulence plus a 1.1 displacement plus a speckle mask) roughens and speckles stamp edges.
+The system is flat. There are no drop shadows, no blur, no glow, no texture and no tonal gradients. Depth comes from the drawing itself. Overlap does part of the work: a balloon crossing a panel edge, a caption box sharing the panel's border, the crane standing in front of the skyline, and the postboxes standing on the sidewalk. Fill steps do the rest: pale panel, mid fill, ink line, and at night a deep page with deeper panels. `box-shadow` appears in exactly one form, a zero-offset, zero-blur spread ring in a line colour. That ring is not a shadow. It is the line drawn heavier.
 
 ### Shadow Vocabulary
-- **Folder** (`box-shadow: 0 1px 0 rgb(255 255 255 / 0.15) inset, 0 24px 48px -30px rgb(var(--shadow-rgb) / 0.95)`): case bodies. The hero cover uses 0 28px 56px -30px with a 0.18 highlight.
-- **Sheet** (`box-shadow: 0 26px 52px -32px rgb(var(--shadow-rgb) / 0.95)`): about sheets. The commission form goes one step thicker: 0 30px 60px -36px.
-- **Flap / Spine** (`box-shadow: 0 18px 40px -24px rgb(var(--shadow-rgb) / 0.9)`): the hero back flap. The spine uses 0 18px 34px -22px plus an inset right-edge shade, `inset -8px 0 12px -10px`.
-- **Print** (`box-shadow: 0 16px 28px -18px rgb(var(--shadow-rgb) / 0.85)`): case screenshots. The ID photo uses 0 14px 22px -14px / 0.8.
-- **Tab** (`box-shadow: 0 8px 14px -10px rgb(var(--shadow-rgb) / 0.8)`): index tabs, the theme toggle, the current spine entry. The 開啟網站 tag uses 0 8px 14px -8px / 0.75.
-- **Lift** (`box-shadow: 0 8px 16px -10px rgb(var(--shadow-rgb) / 0.7)`): button hover only.
-- **Header** (`box-shadow: 0 10px 24px -18px rgb(var(--shadow-rgb) / 0.9)`): appears once the hero folder scrolls out of view.
-- **Toast** (`box-shadow: 0 16px 32px -16px rgb(var(--shadow-rgb) / 0.9)`).
-- **Clip** (`filter: drop-shadow(1px 2px 1px rgb(var(--shadow-rgb) / 0.35))`): paperclips and the fastener.
+- **Heavier line** (`box-shadow: 0 0 0 1.5px var(--line)`): hover on buttons, filters, the theme toggle, the 聯絡 tab and tick boxes, plus the resting state of pressed filters and checked tick boxes. Outside a 2px border it totals 3.5px, and outside a 2.5px border it totals 4px, exactly `--stroke-bold` at each width.
+- **Selected panel** (`box-shadow: 0 0 0 1.5px var(--select)`): hover or focus-within on a work panel, and every matching panel while a filter is active. `--select` is the line colour by day and Lamp Yellow at night.
 
 ### Named Rules
-**The Thickness Rule.** Shadow length follows how thick the object is: folders and sheets > flap and spine > print > tab and tag. A new object takes the shadow of the real object it imitates.
+**The Flat Page Rule.** Nothing lifts off the page. A state change may thicken a line, fill a box yellow or fade a panel, but it never adds a shadow, an offset or a glow.
 
-**The Contact Shadow Rule.** Every shadow uses negative spread and the desk-green tint. A shadow that rings an element, or a flat black offset shadow, does not belong on this desk.
+**The Heavier Line Rule.** Hover, current, pressed and selected are all the same line drawn heavier. That means a 1.5px spread ring (totalling `--stroke-bold`), or a `--stroke-bold` underline under the current nav link and the email address.
 
 ## Shapes
 
-Corners are asymmetric because folders are asymmetric. A folder body is 4–6px at the corner its tab grows from and 12px everywhere else. Folder tabs are trapezoids, 10px at the top corners, clipped to `polygon(7% 0, 93% 0, 100% 100%, 0 100%)`. Index tabs hang from the header with only their bottom corners rounded (0 0 10px 10px). Filter chips are tab-shaped too (8px 8px 2px 2px). File paper is nearly square (3px). Photo prints are square, the 開啟網站 tag is 2px, seals and stamp borders are 4px, and controls (buttons, the toast, the skip link, strip links) are 6px. The spine is 4px on its bound edge and 2px on its free edge.
+Panels are almost square: a 3px corner, the softness of a pen turning a corner. Controls are 8px: buttons, filters, the theme toggle, the 聯絡 tab, the skip link, and the hit area of each tick row. The small parts nest inside that range: tick boxes at 4px, filter counts at 5px and skill chips at 6px. Speech balloons are generously round at 1.75em. Note balloons and the toast are full pills at 999px. The finale's 完 end mark is a circle. Caption boxes are square except for the 3px corner they share with their panel; they sit at minus one stroke from the top-left corner, so their border and the panel border are one line.
 
-Lines carry the paperwork: 2.5px solid rules frame each form block, 1px rules divide rows, a 3px double rule closes the commission-form head, a 1.5px inset frame borders the commission sheet, and a 2px dashed rule opens the contact section. Recurring drawn shapes are the paperclip (a 28×72 SVG path with a round 3px stroke), the two-post binding fastener, the punched holes down the spine, the 24px icon set (1.75 stroke, round caps and joins), and the pencil leader arrows (2.2 stroke).
+Balloon tails are drawn SVG paths (32×30 viewBox), filled white and stroked with the same non-scaling line. They point at the speaker: down by default, up with `balloon--up`, mirrored when the speaker is to the right, and 18px reversed on note balloons. Illustrations share one geometry. Lines have round caps and joins. Rectangles have small radii (1–6 user units), and pill shapes are rounded fully. Clouds are flat-bottomed with three arcs. Dashed paths (`4 5`) show data and flight. The recurring motif is a drawn web page: a pale-sky header bar, a pale-sand hero block (often with hills and a yellow sun), ink text lines, and on browser windows a sand title bar with three white dots. It hangs from the crane, lies on the design comp, fills all three devices and heads the build service.
 
 ## Components
 
 ### Buttons
-Sturdy and printed, like a rubber-stamped action on a form.
-- **Shape:** gently squared (6px), 2px border slot, min-height 2.875rem, icon plus label with a 0.5rem gap.
-- **Desk (primary on kraft and paper):** a Pressboard Green fill with Desk Chalk text. Hovering deepens it to Desk Deep. In dark mode it inverts to a chalk fill with desk text.
-- **Sun (primary on the desk):** an Avatar Sun fill with Sun Ink text. Used only in the contact section.
-- **Line (secondary):** transparent, with a 2px currentColor border on kraft and paper. The light version on the desk has a Desk Chalk Soft border.
-- **Hover / Focus:** lifts −2px with the Lift shadow (0.25s, expo-out curve) and settles back when pressed. Focus is a 3px solid `--focus` ring with a 3px offset. `aria-busy` drops the button to 0.7 opacity with a progress cursor.
+Buttons are inked outlines on flat fills. They are lettered, never glossy.
+- **Shape:** gently rounded (8px), with a 2px / 2.5px line border, a minimum height of 3rem, horizontal padding of 1.35rem, and a 1.25rem icon with a 0.5rem gap.
+- **Red:** Story Red with Sign White lettering. Only for mail and send actions: 寄信洽詢 and 寄出委託單.
+- **Plain:** Balloon White with Lettering Ink, for secondary actions: 複製 Email and 複製委託內容. It stays white at night.
+- **Hover / Focus:** hover draws the heavier line. Active nudges down 1px, the only displacement in the system. Focus is a 3px outline offset by 3px in Link Blue, or Lamp Yellow at night. `aria-busy` drops the button to 0.7 opacity with a progress cursor. Nothing transitions.
 
-### Navigation: Hanging Index Tabs
-- **Style:** kraft tabs with grain, hanging from the sticky desk header, with their bottom corners rounded and the Tab shadow. Labels are 0.95rem/700.
-- **States:** hovering drops a tab 4px. The current section's tab turns to File Paper and drops 8px, as if pulled out of the drawer. 聯絡 is always a sun tab.
-- **Theme toggle:** the last tab, in Desk Deep with a chalk inset baseline. It shows a moon icon plus 夜間模式, or a sun icon plus 日間模式, and the label hides below 48rem. Its `aria-pressed` tracks dark mode.
-- **Brand:** the 良 seal (a solid 白文 seal: a stamp fill, Seal Paper character, and a 2px inner ring at 55%) beside 阿良 at 900, with One Liang hidden below 48rem.
+### Chips
+- **Filter buttons** (作品 chapter): white, 8px corners, 2.75rem tall, each with a square count box (1.5rem, 5px corners, line border, tabular numerals). Hover draws the heavier line. Pressed (`aria-pressed="true"`) fills Narration Yellow and keeps the heavier line.
+- **Skill chips:** white, 6px corners, line border, set in Tag lettering. They are grouped under caption-box labels in a definition list.
 
-### Filter Chips
-- **Style:** tab-shaped (8px 8px 2px 2px), transparent on the desk, with a 2px chalk border at 40%. A Courier Prime count follows the label.
-- **State:** the pressed chip becomes a kraft tab with grain (`aria-pressed="true"`). Hovering firms the border to full chalk. Filtering reorders the folders with GSAP Flip (0.7s expo.out). Entering folders rise 40px, leaving folders lift 20px and fade.
+### Cards / Containers
+- **Corner Style:** 3px on every panel.
+- **Background:** Panel White by default. Daylight Blue for the establishing panel, the 服務 chapter, the send panel and the finale. Pale Sand for the 作品 chapter, the quote panel, the close-up and the comp strip. Pale Sky for the code strip, the skills panel and screenshot frames. Pale Hill for the devices strip. At night each fill takes its night token.
+- **Shadow Strategy:** none. See Elevation & Depth.
+- **Border:** one line at `--stroke`. Internal divisions such as screenshot frames and service art headers use the same line as a border-bottom, or a border-right when the panel lies horizontally.
+- **Internal Padding:** `clamp(1.25rem, 3vw, 2.25rem)` on chapter and skills panels, and 1.1rem 1.25rem 1.3rem on work bodies. Strips pad the top by 3.25rem to clear the corner caption.
 
-### Hero Cover Form
-The opened case folder. A kraft cover with the back flap visible behind it, and a 委託案件 tab on the flap. The headline sits top-left. The ID photo is a white-bordered print, clipped on at 3°, with the 接案中 round seal pressed across it at −14°. Below sit the printed field rows (承辦人 / 服務 / 經手 / 聯絡), and the 聯絡 row holds the desk button and the line button. A peek of the No.01 folder below the cover links to the works.
+### Inputs / Fields
+- **Service ticks:** each service item is a full-row label (8px hit area) with an invisible checkbox laid over it. The visible box is 1.5rem, white, with 4px corners and a line border.
+- **Hover:** the box draws the heavier line. **Checked:** it fills Narration Yellow, shows a drawn check icon, keeps the heavier line, and the item text goes to 700. **Focus:** a 3px focus outline offset by 3px around the box.
+- Checking items rewrites the send balloon's text, which is an `aria-live` region, and 寄出委託單 composes an email from the checked groups.
 
-### Case Folder (signature)
-- **Tab:** a trapezoid kraft tab with a Courier Prime No.0x label, offset by index.
-- **Body:** kraft with fibre and grain, 12px corners (6px at the top-left), the Folder shadow, and generous padding (clamp(2.75rem, 5vw, 3.75rem) block).
-- **Print:** the screenshot (2:1, cropped from the top) on a Print White mount tilted ±1°, held by a paperclip. Hovering straightens it and lifts it 6px. A paper 開啟網站 tag in pen blue sits in the bottom corner.
-- **Label:** the case title at Title size, then the printed field rows 類型 (an ink stamp chip) / 技術 (typed) / 簡述 / 網址 (a pen-blue typed link with an external-arrow icon). Archived sites add a pencil memo.
-- **Pencil notes:** two LXGW WenKai notes with hand-drawn leader arrows, placed around the print at 64rem and above. Below that, they line up as a plain row and the arrows are hidden.
-- **Motion:** at 78% of the viewport (once), the print slides out of the folder (yPercent 14, ±4°, 1.1s), the stamp drops (scale 1.8, back.out, 0.45s), and the leaders draw in (DrawSVG, 0.6s, staggered 0.12s).
+### Navigation
+- **Masthead:** a sticky Panel White bar with a bottom line. On the left are the brand mark (a yellow speech balloon containing 良, drawn with the same line) and 阿良 One Liang. On the right are 作品, 服務 and 關於 in Nav lettering, the red 聯絡 tab (8px, line border, 2.5rem tall), and the theme toggle, a white balloon button with a moon icon and the label 夜間模式, which becomes a sun icon and 日間模式 at night.
+- **States:** hover draws a thin underline (`--stroke`) under the word. The current section (`aria-current`, set by an observer reading at 35% from the top of the viewport) draws a bold underline (`--stroke-bold`) in the text colour. The 聯絡 tab and the toggle draw the heavier line on hover.
+- **Mobile:** see Layout. All links stay in the bar, with tighter padding.
 
-### Ink Stamps
-- **Impression stamps:** a transparent ground, a 2px currentColor border, 4px corners, weight 900, letter-spacing 0.12–0.2em, rotated −2° to −3°, `filter: url(#ink)`, and `mix-blend-mode: multiply` in light mode (normal in dark). Use the type chip on kraft (#7A180E) and the 報價 label on paper (#C2301D).
-- **Round seal:** the hero 接案中 SVG seal: a double ring, a typed ring legend, and the word at 900. It is pressed in with scale 1.9 and −40°, back.out(2.2), 0.55s.
-- **Brand seal:** the only solid seal (白文). Never use a solid fill for a status or type stamp.
+### Caption Box
+This is the narrator's yellow box. It uses Narration Yellow with Lettering Ink in Caption lettering, with a line border, padding of 0.3em 0.75em 0.35em, and a square shape. It is tucked into a panel's top-left corner at minus one stroke, so it shares the panel's border. It names each strip beat (你給我設計稿…, 我切版、串接 API…, 手機、平板、電腦都好用，上線！), each work's type (一頁式, 形象網站, 電商網站, 部落格), and each skills group.
 
-### Binding Spine / Index Strip
-- **Desktop (75rem and above):** a sticky Kraft Deep spine 1.75rem below the header. It has a metal two-post fastener on top, punched holes down its bound edge, and No.0x (typed) plus the case name per entry. Hovering nudges an entry 3px right. The current case becomes a paper slip that sticks 1rem out of the spine with the Tab shadow.
-- **Below 75rem:** a sticky Desk Deep strip under the header that scrolls horizontally. It shows outlined typed No.0x chips (6px corners, a 1.5px chalk border at 35%), with names visually hidden. The current case becomes a kraft chip.
+### Speech Balloon
+A balloon is speech from 阿良. It is Balloon White with Lettering Ink, 1.75em corners and a line border, with a drawn tail aimed at the speaker. The portrait balloon (嗨，我是前端工程師阿良，目前接案中…) breaks its frame at ≥64rem: it hangs 2.25rem past the portrait panel's left edge, across the gutter and over the establishing panel. The close-up balloon points its tail upward at the face. The send balloon's tail is mirrored toward the buttons. **Note balloons** are small pills (Label lettering, no wrapping) pinned to the bottom-right of each screenshot with a reversed 18px tail, carrying one highlight such as AOS 捲動動畫.
 
-### Inputs: Commission Ticks
-- **Style:** each service is a full-row label (6px corners, padding 0.55rem 0.5rem) with a hover wash of paper rule at 35%. The box is 1.6rem, with a 2px ink border and 3px corners.
-- **Checked:** a vermilion check is stamped in (scale 1.6 → 1, 0.35s expo-out, opacity 0.15s), and the label turns bold.
-- **Focus:** the native checkbox is transparent over the row, so the 3px pen-blue ring draws around the box.
+### Work Panel
+Each work is a panel. It holds a 16:10 screenshot frame on Pale Sky (cover, anchored top centre), a type caption in the corner, a note balloon, and a body with the title, a summary in Graphite Ink, a tech list in Meta lettering separated by middle dots, and an underlined 開啟網站 link with its display URL and an external icon. The underline thickens to `--stroke-bold` on hover. Archived sites add a small memo. Hover or focus-within draws the selected-panel ring.
+- **Filter state:** matching panels keep full colour and the selected ring. Non-matching panels fade by one step. Their borders turn Faded Line, the screenshot goes grayscale at 0.8 contrast and 0.4 opacity, captions and balloons go to panel fill with Graphite Ink and Faded Line borders, and the title goes to Graphite Ink. The layout does not change. A polite live region reports the result (for example, 標出 3 件「形象網站」作品，其餘 5 件淡化顯示).
 
-### Attachment Sheet and Skill Tags
-File paper tilted 1.2° and clipped to the profile sheet (tilted −0.5°) with a paperclip. Skill groups use the Label style. Tags are typed, on paper, with a 1.5px ink border at 55% and 3px corners.
+### Illustration System
+Every drawing is inline SVG with class `art`: no fill by default, a line stroke at `--stroke`, round caps and joins, and `vector-effect: non-scaling-stroke` on every child, so all drawings share the pen with the panels. Fills come only from the flat fill classes (`f-white`, `f-sky`, `f-sky-pale`, `f-sand`, `f-sand-pale`, `f-hill`, `f-cap`, `f-red`, `f-green`, `f-ink`, `f-steel`, `f-screen`, `f-window` plus `is-lit`), which map to palette tokens so the night edition recolours them for free. Code lines on the dark monitor are the one coloured-stroke exception: 4px bars that stand for coloured code, not ink. The set comprises the crane over the skyline (420×400, anchored bottom-right), the rooftop skyline (960×200, sliced to the bottom), night stars, three strip drawings (240×150: design comp with pencil, code editor talking to an API, one site on desktop, tablet and phone), three service headers (200×110: build, feature, extra) and the finale's green and red postboxes with a flying letter (360×272). Icons are custom-drawn on a 24px grid with the same round caps and a non-scaling 2px stroke. All drawings are `aria-hidden`.
 
-### Toast and Skip Link
-- **Toast:** a paper slip at the bottom center (6px corners, 700, the Toast shadow). It rises 1rem into place over 0.35s, stays for 2.6s, and is announced via `role="status"`.
-- **Skip link:** a sun fill with Sun Ink, off-screen until focused, then it slides in at the top left with a chalk focus ring.
+### Finale
+The last panel is Daylight Blue, with the finale headline, the lede, the email address lettered large, and the red and plain actions. A full-width sidewalk runs along the bottom (2.25rem of Pale Sand with line joints every 5.5rem and a line on top), and the two postboxes stand on it. A white 完 disc sits in the top-right corner like the end mark of a story.
 
-### Known Gaps (shipped, not rules)
-The build ships with these open items. They are defects to fix later, not patterns to copy.
-1. The desktop binding spine is a separate sticky column about 40px from the folders, not attached to their edge.
-2. The punched holes repeat every 1.7rem down the spine and read like list bullets.
-3. The mobile index strip gives no cue that No.06–08 are off-screen to the right.
-4. The hero's No.01 peek sliver fades into the desk through a mask gradient instead of ending on a hard paper edge, and the real No.01 tab appears just below it, so No.01 shows twice.
+### Toast
+Copy confirmations appear as a white pill balloon fixed at the bottom centre, with three speed lines trailing to its left. The speed lines are black by day and white at night so they stay visible on the deep page. The toast hard-cuts in and out, stays for 2.6s, and is announced through `role="status"`.
 
-### Drift Noted at Documentation (not rules)
-- Pen blue also colors the commission form's handwritten status line, which is outside its reservation for links and 開啟網站.
-- Courier Prime is applied to two pieces that are not data: the 委託案件 flap label (it actually renders in the Noto Sans TC fallback) and the hero seal's ring legend.
-- Sun yellow also appears in `::selection` on every surface, and in the contact email's underline and hover color.
-- The favicon is an outlined (朱文) seal in #9C2416, a red that is not a token, while the header uses the solid 白文 seal in stamp red.
-- Print White and the screenshot placeholders (#ECE8DD, #E9E6DC) are literal values, not custom properties.
-- The cover-form rows (承辦人 / 服務 / 經手 / 聯絡) are set in Noto Sans TC. The brief specified typed rows of 承辦人 / 服務 / 狀態.
+### Panel Cuts (motion)
+Panels appear the way a reader's eye meets them. When motion is allowed, the opening runs as one timeline of zero-duration cuts: the establishing panel at 0s, the portrait at 0.3s, its balloon at 0.65s, then the three strips from 1s at 0.28s intervals. Meanwhile the crane's load drops 60 units into place in eight stepped frames over 1.2s (`steps(8)`), which is the one piece of stop-motion. Work panels start hidden and cut in by batch, in reading order, as they cross 88% of the viewport, at 0.16s intervals, once. There is no easing anywhere, and the stylesheet has no transitions. Under `prefers-reduced-motion: reduce` none of this runs and smooth scrolling is off. Content is visible by default, with or without JavaScript.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** put every new surface on one of the three materials (desk #1E5A45, kraft #CFA86C, file paper #F7F6F1), and take its text color from that material's ink tokens.
-- **Do** use the desk-green button for primary actions on kraft or paper, and the sun button only on the green desk.
-- **Do** set `--focus` by the surface the ring lands on: sun on the desk, pen blue on kraft or paper (3px solid, 3px offset).
-- **Do** stamp, don't fill: a transparent ground, a 2px currentColor border, `filter: url(#ink)`, multiply in light mode, rotated −2° to −14°.
-- **Do** keep stamp text on kraft at 1.2rem/900 or larger in #7A180E, and use #C2301D only on paper.
-- **Do** set Courier Prime only on typed data: case numbers, URLs, tech lists, counts, the email address.
-- **Do** write annotations in LXGW WenKai TC 700 in pencil graphite (#3D3120).
-- **Do** keep running text at 1.0625rem with line-height 1.8 (1.95 for prose), with measures of 34–40em.
-- **Do** tint every shadow with `--shadow-rgb` and give it negative spread, sized to the object's thickness.
-- **Do** keep content visible in the HTML and animate with GSAP `.from()` (expo.out) inside `gsap.matchMedia('(prefers-reduced-motion: no-preference)')`.
-- **Do** default to light and switch to dark only through the toggle, stored in `localStorage['liang-theme']` and applied before first paint.
+- **Do** draw every new edge with the line colour at `--stroke` (2px, 2.5px at ≥64rem), and give every SVG child `vector-effect: non-scaling-stroke` with round caps and joins.
+- **Do** show hover, current, pressed and selected states by drawing the line heavier: a `0 0 0 1.5px` spread ring in the line colour, or a `--stroke-bold` underline.
+- **Do** fill illustrations only through the flat fill classes, so the night edition recolours them without a second drawing.
+- **Do** keep balloons, plain buttons, filters, tick boxes, skill chips and the toast white with Lettering Ink, and captions yellow, in both editions.
+- **Do** tuck narration and category labels into a yellow caption box that shares the panel's top-left border, and give every speech balloon a drawn tail aimed at its speaker.
+- **Do** vary panel sizes by the comic tier rotation (wide + std, three std, std + wide, a closing full tier) instead of equal cards.
+- **Do** reveal panels with zero-duration cuts in reading order, and keep every panel visible when motion is reduced or scripts don't run.
+- **Do** reserve Story Red (#c42f1b) for the mail and send actions, the 聯絡 tab, the 接案中 sign and the red postbox.
 
 ### Don't:
-- **Don't** fill controls with sun yellow on kraft or paper (1.22:1 against kraft fails WCAG 1.4.11).
-- **Don't** use pen blue for headings, notes, rules or decoration. It means "this opens something".
-- **Don't** warm the file paper toward cream. Its coolness is what separates it from kraft.
-- **Don't** put the paper red #C2301D on kraft (2.54:1).
-- **Don't** use Courier Prime as a "technical" costume for headings, labels or prose.
-- **Don't** follow `prefers-color-scheme`. Dark mode is the visitor's choice only.
-- **Don't** give a status or type stamp a solid fill. The 良 brand mark is the only solid seal.
-- **Don't** build hierarchy with color or extra weights. Size contrast between 900 and 400 carries it.
-- **Don't** use hard offset shadows, or untinted black shadows in light mode.
-- **Don't** lay the work out as a row of equal cards beside a copy-left, avatar-right hero.
+- **Don't** add drop shadows, blur, glow, texture or soft tonal gradients. Gradient syntax appears only as hard-stop line drawing (the sidewalk joints and the toast's speed lines).
+- **Don't** add CSS transitions, eased entrances or hover lifts. State changes are instant, and the 1px press on buttons is the only displacement.
+- **Don't** use red for headings, links, emphasis, badges, errors-as-decoration or ornament.
+- **Don't** introduce a second line colour or grey hairline borders. The only lighter line is Faded Line on panels a filter has faded.
+- **Don't** reflow, hide or reorder panels when filtering. Fade the non-matching ones in place.
+- **Don't** put a small label or eyebrow above a title. Narration belongs in a caption box.
+- **Don't** redraw or restyle an illustration for the night edition. Swap tokens and toggle the sun, moon and stars.
+- **Don't** set running paragraphs in Chiron GoRound TC or titles and balloons in Noto Sans TC.
+- **Don't** fall back to the headline-left/avatar-right hero over a row of equal work cards, or to stationery props (folders, stamps, paper textures), both rejected when this world was chosen.
+
+### Known limits (not rules)
+- The avatar exists only as a 480px raster (derived from a 599px original, background removed). In the 關於阿良 close-up it is cropped to cover a tall panel and scaled 1.1×, so it is upscaled about 2× on Retina displays and can look soft. This is a known gap in the source asset, not a target. Replace it with a larger source when one exists.
+- Six of the eight work summaries (all except 鏡好聽 and 鏡文學) are drafts awaiting the owner's confirmation (`draft: true` in the content data). Don't treat their wording as voice reference.

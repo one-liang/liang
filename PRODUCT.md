@@ -54,12 +54,12 @@ Vite + TypeScript + GSAP + Tailwind CSS（使用者指定）。靜態輸出，�
 
 - 名稱：阿良 / One Liang / Liang。
 - 自我介紹語氣：直白、務實、第一人稱「我」，繁體中文。
-- 頭像：手繪插畫風格的自畫像（灰髮、圓眼鏡、拿書的烏龜、魔杖），來源 Notion，存於 `src/assets/images/avatar.png`。
-- 聯絡 Email：`sololiang923@gmail.com`（使用者確認公開）。
+- 頭像：手繪插畫風格的自畫像（灰髮、圓眼鏡、拿書的烏龜、魔杖），來源 Notion，存於 `public/images/avatar-240.webp`／`avatar-480.webp`（2026-10-15 改版時做成去背圖，日夜兩種底色都能用）。
+- 聯絡 Email：依部署的 repo 而不同，建置時由環境變數 `VITE_CONTACT_EMAIL` 注入（GitHub Actions 變數 `CONTACT_EMAIL`，預設值見 `.env`）。原始碼不寫死任何個人信箱。
 
 ## Evidence on Hand
 
-真實作品 8 件，截圖來自 Notion 封面（`src/assets/images/works/`）：
+真實作品 8 件，截圖來自 Notion 封面（`public/images/works/`，720／1440 兩種寬度）：
 
 | 作品 | 類型 | 網址 | 技術 |
 |---|---|---|---|

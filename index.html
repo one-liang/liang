@@ -10,7 +10,7 @@
     />
     <meta name="author" content="阿良 One Liang" />
     <link rel="canonical" href="https://sololiang923.github.io/liang/" />
-    <meta name="theme-color" content="#1E5A45" />
+    <meta name="theme-color" content="#FFFFFF" />
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_TW" />
@@ -30,7 +30,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@500..900&family=Noto+Sans+TC:wght@400;500;700&display=swap"
     />
 
     <script>
@@ -47,7 +47,7 @@
         "name": "阿良",
         "alternateName": "One Liang",
         "jobTitle": "前端工程師",
-        "email": "mailto:sololiang923@gmail.com",
+        "email": "mailto:<!--slot:email-->",
         "url": "%VITE_SITE_URL%",
         "image": "%VITE_SITE_URL%images/avatar-480.webp",
         "sameAs": ["https://github.com/sololiang923"],
@@ -59,27 +59,18 @@
   <body>
     <a class="skip-link" href="#main">跳至主要內容</a>
 
-    <svg class="svg-defs" aria-hidden="true" focusable="false">
-      <filter id="ink" x="-8%" y="-8%" width="116%" height="116%">
-        <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="7" result="noise" />
-        <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.1" result="rough" />
-        <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.1 0 0 0 1.45" result="speckle" />
-        <feComposite in="rough" in2="speckle" operator="in" />
-      </filter>
-    </svg>
-
-    <header class="site-header" data-header>
-      <div class="site-header__inner">
+    <header class="masthead" data-header>
+      <div class="masthead__inner">
         <a class="brand" href="#top">
-          <span class="brand__mark" aria-hidden="true">良</span>
+          <!--slot:art-brand-->
           <span class="brand__name">阿良<span class="brand__latin">One Liang</span></span>
         </a>
-        <nav class="site-nav" aria-label="主要導覽">
-          <ul class="index-tabs">
-            <li><a class="index-tab" href="#works" data-nav="works">作品</a></li>
-            <li><a class="index-tab" href="#services" data-nav="services">服務</a></li>
-            <li><a class="index-tab" href="#about" data-nav="about">關於</a></li>
-            <li><a class="index-tab index-tab--contact" href="#contact" data-nav="contact">聯絡</a></li>
+        <nav class="nav" aria-label="主要導覽">
+          <ul>
+            <li><a class="nav__link" href="#works">作品</a></li>
+            <li><a class="nav__link" href="#services">服務</a></li>
+            <li><a class="nav__link" href="#about">關於</a></li>
+            <li><a class="nav__link nav__link--cta" href="#contact">聯絡</a></li>
           </ul>
         </nav>
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
@@ -91,150 +82,158 @@
     </header>
 
     <main id="main" tabindex="-1">
-      <!-- 開場：攤開的卷宗封面 -->
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero__folder" data-hero-folder>
-          <div class="hero__flap" aria-hidden="true"><span class="typed">委託案件</span></div>
-          <div class="hero__cover">
-            <div class="hero__headline">
-              <h1 class="hero__title" id="hero-title">把設計稿，<br />做成會動的網站。</h1>
-              <p class="hero__lede">
-                我是阿良，一名前端工程師。你提供設計稿，我把它做成在手機、平板與電腦上都好用、會互動的網站，一路做到上線。
-              </p>
+      <!-- 第一頁：開場大格、頭像特寫、三格條漫 -->
+      <section class="page page--opening" id="top" aria-labelledby="hero-title">
+        <div class="tier tier--opening">
+          <div class="panel panel--establish" data-cut="establish">
+            <div class="establish__copy">
+              <h1 class="establish__title" id="hero-title">把設計稿，<br />做成會動的網站。</h1>
+              <div class="actions">
+                <a class="btn btn--red" href="mailto:<!--slot:email-->?subject=%E7%B6%B2%E7%AB%99%E5%A7%94%E8%A8%97%E6%B4%BD%E8%A9%A2">
+                  <!--icon:mail--><span>寄信洽詢</span>
+                </a>
+                <button class="btn btn--plain" type="button" data-copy-email>
+                  <!--icon:copy--><span>複製 Email</span>
+                </button>
+              </div>
             </div>
+            <div class="establish__scene" aria-hidden="true">
+              <div class="establish__stars"><!--slot:art-stars--></div>
+              <div class="establish__crane"><!--slot:art-crane--></div>
+              <div class="establish__city"><!--slot:art-skyline--></div>
+            </div>
+          </div>
 
-            <figure class="id-photo" data-id-photo>
-              <svg class="clip clip--photo" viewBox="0 0 28 72" aria-hidden="true" focusable="false"><path d="M9 20V9a5 5 0 0 1 10 0v46a8 8 0 0 1-16 0V17" /></svg>
-              <img
-                src="/images/avatar-480.webp"
-                srcset="/images/avatar-240.webp 240w, /images/avatar-480.webp 480w"
-                sizes="(min-width: 1024px) 220px, 132px"
-                width="480"
-                height="480"
-                alt="阿良的手繪自畫像：灰色頭髮、戴圓框眼鏡，懷裡抱著一隻正在看書的烏龜"
-                fetchpriority="high"
-              />
-              <figcaption class="visually-hidden">阿良 One Liang</figcaption>
-            </figure>
-
-            <svg class="hero__stamp" data-hero-stamp viewBox="0 0 120 120" aria-hidden="true" focusable="false">
-              <defs>
-                <path id="stamp-ring" d="M60 60m-42 0a42 42 0 1 1 84 0a42 42 0 1 1-84 0" />
-              </defs>
-              <g filter="url(#ink)">
-                <circle cx="60" cy="60" r="56" fill="none" stroke="currentColor" stroke-width="3.5" />
-                <circle cx="60" cy="60" r="34" fill="none" stroke="currentColor" stroke-width="1.75" />
-                <text class="hero__stamp-ring"><textPath href="#stamp-ring" textLength="252" lengthAdjust="spacing">ONE LIANG · FRONTEND · WEB ·</textPath></text>
-                <text class="hero__stamp-word" x="60" y="66.5" text-anchor="middle">接案中</text>
-              </g>
-            </svg>
-
-            <dl class="cover-fields">
-              <div class="cover-fields__row">
-                <dt>承辦人</dt>
-                <dd>阿良 One Liang・前端工程師・<strong>目前接案中</strong></dd>
-              </div>
-              <div class="cover-fields__row">
-                <dt>服務</dt>
-                <dd>一頁式活動頁、多頁式網站、響應式設計（RWD）、串接後端資料、SEO 與無障礙、GA／GTM 整合</dd>
-              </div>
-              <div class="cover-fields__row">
-                <dt>經手</dt>
-                <dd>品牌官網、一頁式活動頁、形象網站、電商平台</dd>
-              </div>
-              <div class="cover-fields__row cover-fields__row--contact">
-                <dt>聯絡</dt>
-                <dd class="action-row">
-                  <a class="btn btn--desk" href="mailto:<!--slot:email-->?subject=%E7%B6%B2%E7%AB%99%E5%A7%94%E8%A8%97%E6%B4%BD%E8%A9%A2">
-                    <!--icon:mail--><span>寄信洽詢</span>
-                  </a>
-                  <button class="btn btn--line" type="button" data-copy-email>
-                    <!--icon:copy--><span>複製 Email</span>
-                  </button>
-                </dd>
-              </div>
-            </dl>
+          <div class="panel panel--portrait" data-cut="portrait">
+            <p class="balloon balloon--speech portrait__balloon" data-cut="balloon">
+              嗨，我是前端工程師阿良，目前接案中。你提供設計稿，我把它做成在手機、平板與電腦上都好用、會互動的網站，一路做到上線。<!--slot:balloon-tail-->
+            </p>
+            <img
+              class="portrait__img"
+              src="/images/avatar-480.webp"
+              srcset="/images/avatar-240.webp 240w, /images/avatar-480.webp 480w"
+              sizes="(min-width: 1024px) 400px, 300px"
+              width="480"
+              height="480"
+              alt="阿良的手繪自畫像：灰色頭髮、戴圓框眼鏡，懷裡抱著一隻正在看書的烏龜"
+              fetchpriority="high"
+            />
           </div>
         </div>
-        <a class="hero__peek" href="#works">
-          <span class="hero__peek-tab typed" aria-hidden="true">No.01</span>
-          <span class="hero__peek-body"><span>翻開 <!--slot:work-count--> 份作品卷宗</span><!--icon:arrowDown--></span>
-        </a>
+
+        <ol class="tier tier--strip" aria-label="從設計稿到上線">
+          <li class="panel strip strip--comp" data-cut="strip">
+            <p class="caption strip__caption">你給我設計稿，Figma、Zeplin、Adobe XD 都能協作。</p>
+            <div class="strip__art" aria-hidden="true"><!--slot:art-comp--></div>
+          </li>
+          <li class="panel strip strip--code" data-cut="strip">
+            <p class="caption strip__caption">我切版、串接 API，加上互動與動畫。</p>
+            <div class="strip__art" aria-hidden="true"><!--slot:art-code--></div>
+          </li>
+          <li class="panel strip strip--devices" data-cut="strip">
+            <p class="caption strip__caption">手機、平板、電腦都好用，上線！</p>
+            <div class="strip__art" aria-hidden="true"><!--slot:art-devices--></div>
+          </li>
+        </ol>
       </section>
 
-      <!-- 作品：一疊卷宗 -->
-      <section class="works" id="works" aria-labelledby="works-title">
-        <div class="works__head">
-          <h2 class="section-title" id="works-title">作品卷宗</h2>
-          <p class="section-lede">
-            每份卷宗都是真實上線的作品。點截圖或網址，就能直接打開網站看看。
-          </p>
+      <!-- 第二頁：作品 -->
+      <section class="page" id="works" aria-labelledby="works-title">
+        <div class="panel chapter chapter--sand">
+          <div class="chapter__text">
+            <h2 class="chapter__title" id="works-title">作品</h2>
+            <p class="chapter__lede"><!--slot:work-count--> 件真實上線的網站，點畫面就能直接打開看看。</p>
+          </div>
           <!--slot:filter-->
           <p class="visually-hidden" aria-live="polite" data-filter-status></p>
         </div>
-        <div class="works__layout">
-          <!--slot:binding-->
-          <!--slot:works-->
-        </div>
+        <!--slot:works-->
       </section>
 
-      <!-- 服務：可以勾選、直接寄出的委託單 -->
-      <section class="services" id="services" aria-labelledby="services-title">
+      <!-- 第三頁：服務委託單 -->
+      <section class="page" id="services" aria-labelledby="services-title">
         <form class="order" data-order-form action="mailto:<!--slot:email-->" method="post" enctype="text/plain">
-          <div class="order__head">
-            <h2 class="section-title" id="services-title">服務委託單</h2>
-            <p class="order__intro">
-              從響應式切版到較複雜的功能實作，提供前端開發、功能建置與網站效能提升。勾選需要的項目，按「寄出委託單」就會開好一封整理過的 Email。
-            </p>
+          <div class="panel chapter chapter--sky">
+            <div class="chapter__text">
+              <h2 class="chapter__title" id="services-title">服務</h2>
+              <p class="chapter__lede">
+                從響應式切版到較複雜的功能實作，提供前端開發、功能建置與網站效能提升。勾選需要的項目，按「寄出委託單」就會開好一封整理過的 Email。
+              </p>
+            </div>
           </div>
-          <div class="order__rows">
+          <div class="tier tier--services">
             <!--slot:services-->
           </div>
-          <div class="order__foot">
-            <p class="order__quote">
-              <span class="order__quote-label">報價</span>
-              依每個專案的具體需求、功能複雜度、設計細節、預期時程以及所需技術深度，客製化評估。
-            </p>
-            <div class="action-row">
-              <button class="btn btn--desk" type="submit"><!--icon:mail--><span>寄出委託單</span></button>
-              <button class="btn btn--line" type="button" data-copy-order><!--icon:copy--><span>複製委託內容</span></button>
+          <div class="tier tier--order">
+            <div class="panel order__quote">
+              <h3 class="order__quote-title">報價怎麼算？</h3>
+              <p class="order__quote-text">依每個專案的具體需求、功能複雜度、設計細節、預期時程以及所需技術深度，客製化評估。</p>
             </div>
-            <p class="order__status" data-order-status aria-live="polite"></p>
+            <div class="panel order__send">
+              <p class="balloon balloon--speech order__balloon">
+                <span data-order-status aria-live="polite">還沒想好要哪些也沒關係，直接寄出，我會協助評估。</span><!--slot:balloon-tail-->
+              </p>
+              <div class="actions">
+                <button class="btn btn--red" type="submit"><!--icon:mail--><span>寄出委託單</span></button>
+                <button class="btn btn--plain" type="button" data-copy-order><!--icon:copy--><span>複製委託內容</span></button>
+              </div>
+            </div>
           </div>
         </form>
       </section>
 
-      <!-- 關於：承辦人資料與技能附件 -->
-      <section class="about" id="about" aria-labelledby="about-title">
-        <article class="sheet sheet--profile">
-          <h2 class="section-title" id="about-title">關於阿良</h2>
-          <div class="prose">
-            <p>
-              我是阿良，一名前端工程師，專注於將設計稿轉換成具備互動性、視覺效果的網頁畫面。熟悉 Tailwind CSS、Bootstrap 等樣式框架，也熟悉 Figma、Zeplin、Adobe XD 等設計工具的協作流程，並能處理跨裝置相容性，快速將 UI 設計稿轉換為具備響應式與互動性的網頁。
-            </p>
-            <p>
-              提供的服務包含：網站切版、RWD 響應式處理、API 串接與資料渲染邏輯處理、CSR／SSR 架構建置、簡易動畫與特效開發、a11y 無障礙優化與 SEO 基礎建置，確保網站在設計與功能兩端都具備良好的用戶體驗與實用性。
-            </p>
-            <p>實務經驗包含品牌官網、一頁式活動頁、形象網站、電商平台等，從設計對接到開發交付都能獨立作業。</p>
+      <!-- 第四頁：關於阿良與技能 -->
+      <section class="page" id="about" aria-labelledby="about-title">
+        <div class="tier tier--about">
+          <div class="panel panel--closeup">
+            <img
+              class="closeup__img"
+              src="/images/avatar-480.webp"
+              width="480"
+              height="480"
+              loading="lazy"
+              decoding="async"
+              alt="阿良自畫像的特寫：圓框眼鏡與灰色頭髮"
+            />
+            <p class="balloon balloon--speech balloon--up closeup__balloon">從設計對接到開發交付，我都能一個人完成。<!--slot:balloon-tail--></p>
           </div>
-        </article>
-        <aside class="sheet sheet--attach" aria-labelledby="skills-title">
-          <svg class="clip clip--attach" viewBox="0 0 28 72" aria-hidden="true" focusable="false"><path d="M9 20V9a5 5 0 0 1 10 0v46a8 8 0 0 1-16 0V17" /></svg>
-          <h3 class="sheet__title" id="skills-title">附件：技能與工具</h3>
-          <dl class="skills">
-            <!--slot:skills-->
-          </dl>
-        </aside>
+          <article class="panel prose-panel">
+            <h2 class="chapter__title" id="about-title">關於阿良</h2>
+            <div class="prose">
+              <p>
+                我是阿良，一名前端工程師，專注於將設計稿轉換成具備互動性、視覺效果的網頁畫面。熟悉 Tailwind CSS、Bootstrap 等樣式框架，也熟悉 Figma、Zeplin、Adobe XD 等設計工具的協作流程，並能處理跨裝置相容性，快速將 UI 設計稿轉換為具備響應式與互動性的網頁。
+              </p>
+              <p>
+                提供的服務包含：網站切版、RWD 響應式處理、API 串接與資料渲染邏輯處理、CSR／SSR 架構建置、簡易動畫與特效開發、a11y 無障礙優化與 SEO 基礎建置，確保網站在設計與功能兩端都具備良好的用戶體驗與實用性。
+              </p>
+              <p>實務經驗包含品牌官網、一頁式活動頁、形象網站、電商平台等，從設計對接到開發交付都能獨立作業。</p>
+            </div>
+          </article>
+        </div>
+        <div class="tier">
+          <aside class="panel skills-panel" aria-labelledby="skills-title">
+            <h3 class="skills-panel__title" id="skills-title">技能與工具</h3>
+            <dl class="skills">
+              <!--slot:skills-->
+            </dl>
+          </aside>
+        </div>
       </section>
 
-      <!-- 聯絡：卷宗封底 -->
-      <section class="contact" id="contact" aria-labelledby="contact-title">
-        <h2 class="contact__title" id="contact-title">有設計稿了嗎？<br />寄來給我看看。</h2>
-        <p class="contact__lede">說明網站類型、預計時程，附上設計稿或參考網站，我會依內容評估後回覆。</p>
-        <a class="contact__email typed" href="mailto:<!--slot:email-->?subject=%E7%B6%B2%E7%AB%99%E5%A7%94%E8%A8%97%E6%B4%BD%E8%A9%A2"><!--slot:email--></a>
-        <div class="action-row action-row--center">
-          <a class="btn btn--sun" href="mailto:<!--slot:email-->?subject=%E7%B6%B2%E7%AB%99%E5%A7%94%E8%A8%97%E6%B4%BD%E8%A9%A2"><!--icon:mail--><span>寄信洽詢</span></a>
-          <button class="btn btn--line-light" type="button" data-copy-email><!--icon:copy--><span>複製 Email</span></button>
+      <!-- 最後一頁：聯絡 -->
+      <section class="page page--contact" id="contact" aria-labelledby="contact-title">
+        <div class="panel finale">
+          <div class="finale__copy">
+            <h2 class="finale__title" id="contact-title">有設計稿了嗎？<br />寄來給我看看。</h2>
+            <p class="finale__lede">說明網站類型、預計時程，附上設計稿或參考網站，我會依內容評估後回覆。</p>
+            <a class="finale__email" href="mailto:<!--slot:email-->?subject=%E7%B6%B2%E7%AB%99%E5%A7%94%E8%A8%97%E6%B4%BD%E8%A9%A2"><!--slot:email--></a>
+            <div class="actions">
+              <a class="btn btn--red" href="mailto:<!--slot:email-->?subject=%E7%B6%B2%E7%AB%99%E5%A7%94%E8%A8%97%E6%B4%BD%E8%A9%A2"><!--icon:mail--><span>寄信洽詢</span></a>
+              <button class="btn btn--plain" type="button" data-copy-email><!--icon:copy--><span>複製 Email</span></button>
+            </div>
+          </div>
+          <div class="finale__art" aria-hidden="true"><!--slot:art-mailbox--></div>
+          <p class="finale__end" aria-hidden="true">完</p>
         </div>
       </section>
     </main>
