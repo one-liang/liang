@@ -9,6 +9,7 @@
       content="阿良是一名前端工程師，專注將設計稿轉成具互動性的網頁：網站切版、RWD、API 串接、動畫特效、無障礙與 SEO。8 件真實上線作品，歡迎來信洽詢。"
     />
     <meta name="author" content="阿良 One Liang" />
+    <!-- 兩個 repo 都會部署同一份內容，canonical 固定指向主站，避免搜尋引擎視為重複內容 -->
     <link rel="canonical" href="https://one-liang.github.io/liang/" />
     <meta name="theme-color" content="#1E5A45" />
 
@@ -19,8 +20,8 @@
       property="og:description"
       content="前端工程師阿良的接案作品集：品牌官網、一頁式活動頁、形象網站與電商平台，8 件真實上線作品。"
     />
-    <meta property="og:url" content="https://one-liang.github.io/liang/" />
-    <meta property="og:image" content="https://one-liang.github.io/liang/og.jpg" />
+    <meta property="og:url" content="%VITE_SITE_URL%" />
+    <meta property="og:image" content="%VITE_SITE_URL%og.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -48,8 +49,8 @@
         "alternateName": "One Liang",
         "jobTitle": "前端工程師",
         "email": "mailto:sololiang923@gmail.com",
-        "url": "https://one-liang.github.io/liang/",
-        "image": "https://one-liang.github.io/liang/images/avatar-480.webp",
+        "url": "%VITE_SITE_URL%",
+        "image": "%VITE_SITE_URL%images/avatar-480.webp",
         "sameAs": ["https://github.com/one-liang"],
         "knowsAbout": ["網站切版", "RWD 響應式設計", "API 串接", "Vue", "Nuxt", "Tailwind CSS", "TypeScript", "網頁無障礙", "SEO"]
       }

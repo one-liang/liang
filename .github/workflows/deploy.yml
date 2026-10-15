@@ -1,5 +1,8 @@
-# 推到 master（Git Flow 的發佈分支）時，建置並部署到 gh-pages 分支。
-# GitHub Pages 設定沿用原本的「Deploy from a branch：gh-pages / root」。
+# 推到 master（Git Flow 的發佈分支）時建置並部署到 GitHub Pages。
+# 同一份程式碼會推到 one-liang/liang 與 sololiang923/liang，兩邊各自用這個 workflow 發佈：
+#   https://one-liang.github.io/liang/
+#   https://sololiang923.github.io/liang/
+# 每個 repo 都要先把 Settings → Pages → Source 設成「GitHub Actions」。
 name: 部署到 GitHub Pages
 
 on:
@@ -8,14 +11,16 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: 取得原始碼
@@ -32,16 +37,25 @@ jobs:
 
       - name: 型別檢查並建置
         run: npm run build
-
-      - name: 推送 dist 到 gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cd dist
-          touch .nojekyll
-          git init -q -b gh-pages
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -q -m "deploy: ${GITHUB_SHA}"
-          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+          # og:url、分享圖與結構化資料用各自 repo 的網址；canonical 固定指向主站
+          VITE_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+
+      - name: 設定 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上傳建置結果
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署
+        id: deployment
+        uses: actions/deploy-pages@v4
