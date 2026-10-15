@@ -1,7 +1,7 @@
 {
   "name": "liang",
   "private": true,
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "阿良 One Liang 的一頁式接案作品集",
   "type": "module",
   "scripts": {
