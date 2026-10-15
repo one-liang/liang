@@ -1,638 +1,183 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-15T08:09:35.745Z",
+  "generatedAt": "2026-10-15T12:25:29.000Z",
   "title": "Design System: 阿良 One Liang",
   "extensions": {
     "colorMeta": {
-      "desk": {
-        "role": "primary",
-        "displayName": "Pressboard Green",
-        "canonical": "oklch(42.2% 0.071 166.5)",
-        "tonalRamp": [
-          "#000F08",
-          "#012D1F",
-          "#0E4E39",
-          "#346E58",
-          "#569079",
-          "#79B49B",
-          "#9CD9BF",
-          "#C1FFE4"
-        ],
-        "theme": "light"
-      },
-      "desk-deep": {
-        "role": "primary",
-        "displayName": "Desk Deep",
-        "canonical": "oklch(36.3% 0.062 165.5)",
-        "tonalRamp": [
-          "#000F08",
-          "#022D1F",
-          "#1C4C3A",
-          "#3D6C59",
-          "#5E8E7A",
-          "#80B29C",
-          "#A4D6C0",
-          "#C9FCE5"
-        ],
-        "theme": "light"
-      },
-      "desk-ink": {
-        "role": "neutral",
-        "displayName": "Desk Chalk",
-        "canonical": "oklch(96.4% 0.007 97.4)",
-        "tonalRamp": [
-          "#0C0B08",
-          "#262521",
-          "#43423E",
-          "#62615D",
-          "#83827E",
-          "#A6A5A0",
-          "#CAC9C4",
-          "#EFEEEA"
-        ],
-        "theme": "light"
-      },
-      "desk-ink-soft": {
-        "role": "neutral",
-        "displayName": "Desk Chalk Soft",
-        "canonical": "oklch(89.3% 0.023 161.7)",
-        "tonalRamp": [
-          "#030E08",
-          "#1B2921",
-          "#37463E",
-          "#56665D",
-          "#76877E",
-          "#99AAA0",
-          "#BCCEC4",
-          "#E1F4EA"
-        ],
-        "theme": "light"
-      },
-      "kraft": {
-        "role": "neutral",
-        "displayName": "Kraft",
-        "canonical": "oklch(75.3% 0.090 77.5)",
-        "tonalRamp": [
-          "#130900",
-          "#332101",
-          "#593C02",
-          "#7D5A1B",
-          "#A07B40",
-          "#C59E62",
-          "#EAC285",
-          "#FFECD0"
-        ],
-        "theme": "light"
-      },
-      "kraft-deep": {
-        "role": "neutral",
-        "displayName": "Kraft Deep",
-        "canonical": "oklch(66.1% 0.091 74.0)",
-        "tonalRamp": [
-          "#130900",
-          "#352001",
-          "#5B3A02",
-          "#80581B",
-          "#A37A40",
-          "#C79D62",
-          "#EDC186",
-          "#FFEBD2"
-        ],
-        "theme": "light"
-      },
-      "kraft-ink": {
-        "role": "neutral",
-        "displayName": "Kraft Ink",
-        "canonical": "oklch(22.1% 0.015 76.1)",
-        "tonalRamp": [
-          "#0F0A05",
-          "#29241D",
-          "#474139",
-          "#666058",
-          "#888178",
-          "#ABA49B",
-          "#CFC8BE",
-          "#F4EDE4"
-        ],
-        "theme": "light"
-      },
-      "kraft-ink-soft": {
-        "role": "neutral",
-        "displayName": "Pencil Graphite",
-        "canonical": "oklch(32.2% 0.033 75.8)",
-        "tonalRamp": [
-          "#130900",
-          "#2E2312",
-          "#4C402E",
-          "#6C5F4D",
-          "#8E806D",
-          "#B1A38F",
-          "#D6C7B2",
-          "#FCECD7"
-        ],
-        "theme": "light"
-      },
-      "paper": {
-        "role": "neutral",
-        "displayName": "File Paper",
-        "canonical": "oklch(97.3% 0.007 97.4)",
-        "tonalRamp": [
-          "#0C0B08",
-          "#262521",
-          "#43423E",
-          "#62615D",
-          "#83827E",
-          "#A6A5A0",
-          "#CAC9C4",
-          "#EFEEEA"
-        ],
-        "theme": "light"
-      },
-      "paper-line": {
-        "role": "neutral",
-        "displayName": "Paper Rule",
-        "canonical": "oklch(87.0% 0.017 91.6)",
-        "tonalRamp": [
-          "#0E0B04",
-          "#28251C",
-          "#454238",
-          "#656157",
-          "#868277",
-          "#A9A599",
-          "#CDC9BD",
-          "#F2EEE2"
-        ],
-        "theme": "light"
-      },
       "ink": {
-        "role": "neutral",
-        "displayName": "Ink",
-        "canonical": "oklch(22.2% 0.004 84.6)",
+        "role": "primary",
+        "displayName": "Album Ink",
+        "canonical": "oklch(20.5% 0.008 274.5)",
         "tonalRamp": [
-          "#0C0B09",
-          "#262523",
-          "#434240",
-          "#62615F",
-          "#838280",
-          "#A6A5A2",
-          "#CAC9C6",
-          "#F0EEEB"
+          "#0A0B0F",
+          "#242529",
+          "#414246",
+          "#606166",
+          "#818287",
+          "#A3A5AA",
+          "#C7C9CE",
+          "#EDEEF4"
         ],
-        "theme": "light"
+        "theme": "light",
+        "purpose": "Body text and titles on white and pale fills; the same black as the line by day."
+      },
+      "line": {
+        "role": "primary",
+        "displayName": "Pen Line",
+        "canonical": "oklch(20.5% 0.008 274.5)",
+        "tonalRamp": [
+          "#0A0B0F",
+          "#242529",
+          "#414246",
+          "#606166",
+          "#818287",
+          "#A3A5AA",
+          "#C7C9CE",
+          "#EDEEF4"
+        ],
+        "theme": "light",
+        "purpose": "Every border, balloon tail, underline and SVG stroke at --stroke."
+      },
+      "balloon-ink": {
+        "role": "primary",
+        "displayName": "Lettering Ink",
+        "canonical": "oklch(20.5% 0.008 274.5)",
+        "tonalRamp": [
+          "#0A0B0F",
+          "#242529",
+          "#414246",
+          "#606166",
+          "#818287",
+          "#A3A5AA",
+          "#C7C9CE",
+          "#EDEEF4"
+        ],
+        "theme": "light",
+        "purpose": "Text inside captions, balloons, plain buttons, filters, ticks, chips and the toast; fixed in both editions."
       },
       "ink-soft": {
         "role": "neutral",
-        "displayName": "Ink Soft",
-        "canonical": "oklch(43.9% 0.013 89.8)",
+        "displayName": "Graphite Ink",
+        "canonical": "oklch(41.2% 0.020 266.1)",
         "tonalRamp": [
-          "#0D0B05",
-          "#28251E",
-          "#45423A",
-          "#646159",
-          "#858279",
-          "#A8A59C",
-          "#CCC9C0",
-          "#F2EEE5"
+          "#070B13",
+          "#21252F",
+          "#3D424D",
+          "#5C616D",
+          "#7D828E",
+          "#9FA5B2",
+          "#C3C9D6",
+          "#E8EFFC"
         ],
-        "theme": "light"
+        "theme": "light",
+        "purpose": "Work summaries, tech lists, memos, the Latin brand name."
       },
-      "print-white": {
-        "role": "neutral",
-        "displayName": "Print White",
-        "canonical": "oklch(98.5% 0.005 95.1)",
-        "tonalRamp": [
-          "#0C0B09",
-          "#262522",
-          "#43423F",
-          "#62615E",
-          "#83827F",
-          "#A6A5A1",
-          "#CAC9C5",
-          "#EFEEEA"
-        ],
-        "theme": "light"
-      },
-      "stamp": {
+      "sky": {
         "role": "secondary",
-        "displayName": "Vermilion Stamp",
-        "canonical": "oklch(53.7% 0.185 31.0)",
+        "displayName": "Daylight Blue",
+        "canonical": "oklch(82.0% 0.065 238.1)",
+        "tonalRamp": [
+          "#000D17",
+          "#00283E",
+          "#1B4761",
+          "#3C6782",
+          "#5C88A5",
+          "#7FACCA",
+          "#A2D0EF",
+          "#DFF2FF"
+        ],
+        "theme": "light",
+        "purpose": "Establishing panel, 服務 chapter, send panel, finale, drawn skies."
+      },
+      "sky-pale": {
+        "role": "secondary",
+        "displayName": "Pale Sky",
+        "canonical": "oklch(93.9% 0.023 231.8)",
+        "tonalRamp": [
+          "#020D13",
+          "#19272F",
+          "#36444C",
+          "#54646C",
+          "#75858E",
+          "#97A8B1",
+          "#BBCCD6",
+          "#E0F2FC"
+        ],
+        "theme": "light",
+        "purpose": "Screenshot frames, code strip, skills panel, build service header, drawn header bars."
+      },
+      "sand": {
+        "role": "secondary",
+        "displayName": "Sand Ochre",
+        "canonical": "oklch(82.9% 0.096 81.3)",
+        "tonalRamp": [
+          "#120900",
+          "#322200",
+          "#573D00",
+          "#7D5B0E",
+          "#A07C38",
+          "#C49F5C",
+          "#E9C37F",
+          "#FFECCB"
+        ],
+        "theme": "light",
+        "purpose": "Façades, browser title bars, ground strip, chart bars."
+      },
+      "sand-pale": {
+        "role": "secondary",
+        "displayName": "Pale Sand",
+        "canonical": "oklch(92.9% 0.045 85.9)",
+        "tonalRamp": [
+          "#110A00",
+          "#2F2308",
+          "#4D4025",
+          "#6D6043",
+          "#8E8164",
+          "#B2A485",
+          "#D6C8A8",
+          "#FCEDCD"
+        ],
+        "theme": "light",
+        "purpose": "作品 chapter, comp strip, feature service header, quote panel, close-up, sidewalk tiles."
+      },
+      "caption": {
+        "role": "tertiary",
+        "displayName": "Narration Yellow",
+        "canonical": "oklch(91.2% 0.126 92.8)",
+        "tonalRamp": [
+          "#100B00",
+          "#2E2400",
+          "#504000",
+          "#755F00",
+          "#9C7F00",
+          "#C0A239",
+          "#E6C761",
+          "#FFEEB8"
+        ],
+        "theme": "light",
+        "purpose": "Caption boxes, pressed filters, checked ticks, brand balloon, skip link, ::selection, sun, crane cab."
+      },
+      "red": {
+        "role": "tertiary",
+        "displayName": "Story Red",
+        "canonical": "oklch(53.9% 0.188 31.1)",
         "tonalRamp": [
           "#1E0100",
-          "#4C0400",
+          "#4B0400",
           "#7E0C00",
-          "#B31D09",
-          "#DB4935",
+          "#B41A04",
+          "#DC4833",
           "#FF745E",
-          "#FEB4A6",
-          "#FEE9E5"
-        ],
-        "theme": "light"
-      },
-      "stamp-on-kraft": {
-        "role": "secondary",
-        "displayName": "Kraft Stamp Oxblood",
-        "canonical": "oklch(38.0% 0.134 30.2)",
-        "tonalRamp": [
-          "#1F0000",
-          "#4C0200",
-          "#7A180E",
-          "#9F3D2F",
-          "#C65F50",
-          "#ED8271",
-          "#FEB3A6",
-          "#FEE9E5"
-        ],
-        "theme": "light"
-      },
-      "stamp-ink": {
-        "role": "secondary",
-        "displayName": "Seal Paper",
-        "canonical": "oklch(98.2% 0.013 71.3)",
-        "tonalRamp": [
-          "#0F0A06",
-          "#29241E",
-          "#46413B",
-          "#666059",
-          "#87817A",
-          "#AAA49C",
-          "#CFC8C0",
-          "#F4EDE5"
-        ],
-        "theme": "light"
-      },
-      "pen": {
-        "role": "tertiary",
-        "displayName": "Ballpoint Blue",
-        "canonical": "oklch(30.5% 0.111 267.6)",
-        "tonalRamp": [
-          "#020035",
-          "#0E1D5A",
-          "#283C7C",
-          "#455DA0",
-          "#657FC5",
-          "#86A2EB",
-          "#B3C8FE",
-          "#E8EEFF"
-        ],
-        "theme": "light"
-      },
-      "sun": {
-        "role": "tertiary",
-        "displayName": "Avatar Sun",
-        "canonical": "oklch(81.1% 0.166 85.0)",
-        "tonalRamp": [
-          "#110A00",
-          "#312200",
-          "#553E00",
-          "#7B5C04",
-          "#A47B03",
-          "#CF9C01",
-          "#FABF1F",
-          "#FFEDC8"
-        ],
-        "theme": "light"
-      },
-      "sun-ink": {
-        "role": "tertiary",
-        "displayName": "Sun Ink",
-        "canonical": "oklch(22.2% 0.004 84.6)",
-        "tonalRamp": [
-          "#0C0B09",
-          "#262523",
-          "#434240",
-          "#62615F",
-          "#838280",
-          "#A6A5A2",
-          "#CAC9C6",
-          "#F0EEEB"
-        ],
-        "theme": "light"
-      },
-      "metal": {
-        "role": "neutral",
-        "displayName": "Clip Metal",
-        "canonical": "oklch(61.9% 0.015 248.1)",
-        "tonalRamp": [
-          "#060C11",
-          "#1F262C",
-          "#3C434A",
-          "#5B626A",
-          "#7B838B",
-          "#9EA6AE",
-          "#C2CAD3",
-          "#E7F0F9"
-        ],
-        "theme": "light"
-      },
-      "shadow-tint": {
-        "role": "neutral",
-        "displayName": "Shadow Tint",
-        "canonical": "oklch(19.8% 0.031 165.1)",
-        "tonalRamp": [
-          "#000F08",
-          "#162A21",
-          "#32473E",
-          "#51675D",
-          "#71897E",
-          "#94ACA0",
-          "#B7D0C4",
-          "#DCF6E9"
-        ],
-        "theme": "light"
-      },
-      "desk-dark": {
-        "role": "primary",
-        "displayName": "Pressboard Green (Night)",
-        "canonical": "oklch(23.1% 0.033 164.0)",
-        "tonalRamp": [
-          "#000F08",
-          "#152A21",
-          "#32483D",
-          "#50675C",
-          "#71897D",
-          "#93ACA0",
-          "#B7D0C3",
-          "#DCF6E9"
-        ],
-        "theme": "dark",
-        "replaces": "desk"
-      },
-      "desk-deep-dark": {
-        "role": "primary",
-        "displayName": "Desk Deep (Night)",
-        "canonical": "oklch(18.8% 0.027 159.3)",
-        "tonalRamp": [
-          "#020F07",
-          "#1A2920",
-          "#36473D",
-          "#55665C",
-          "#75887D",
-          "#98AA9F",
-          "#BBCFC3",
-          "#E0F4E8"
-        ],
-        "theme": "dark",
-        "replaces": "desk-deep"
-      },
-      "desk-ink-dark": {
-        "role": "neutral",
-        "displayName": "Desk Chalk (Night)",
-        "canonical": "oklch(94.3% 0.009 150.7)",
-        "tonalRamp": [
-          "#080C09",
-          "#222623",
-          "#3F433F",
-          "#5E635E",
-          "#7F847F",
-          "#A1A7A2",
-          "#C5CBC6",
-          "#EAF0EB"
-        ],
-        "theme": "dark",
-        "replaces": "desk-ink"
-      },
-      "desk-ink-soft-dark": {
-        "role": "neutral",
-        "displayName": "Desk Chalk Soft (Night)",
-        "canonical": "oklch(79.4% 0.034 164.0)",
-        "tonalRamp": [
-          "#000F08",
-          "#142A21",
-          "#31483D",
-          "#50685C",
-          "#70897D",
-          "#93AC9F",
-          "#B6D0C3",
-          "#DBF6E8"
-        ],
-        "theme": "dark",
-        "replaces": "desk-ink-soft"
-      },
-      "kraft-dark": {
-        "role": "neutral",
-        "displayName": "Kraft (Night)",
-        "canonical": "oklch(36.3% 0.038 74.1)",
-        "tonalRamp": [
-          "#130900",
-          "#30220F",
-          "#4E3F2B",
-          "#6E5E49",
-          "#907F69",
-          "#B4A28B",
-          "#D8C6AE",
-          "#FEEBD3"
-        ],
-        "theme": "dark",
-        "replaces": "kraft"
-      },
-      "kraft-deep-dark": {
-        "role": "neutral",
-        "displayName": "Kraft Deep (Night)",
-        "canonical": "oklch(31.0% 0.032 74.2)",
-        "tonalRamp": [
-          "#130900",
-          "#2E2313",
-          "#4C402F",
-          "#6C5F4D",
-          "#8E806E",
-          "#B1A390",
-          "#D6C7B3",
-          "#FCECD8"
-        ],
-        "theme": "dark",
-        "replaces": "kraft-deep"
-      },
-      "kraft-ink-dark": {
-        "role": "neutral",
-        "displayName": "Kraft Ink (Night)",
-        "canonical": "oklch(93.7% 0.027 83.5)",
-        "tonalRamp": [
-          "#110A01",
-          "#2B2415",
-          "#494131",
-          "#696050",
-          "#8A8170",
-          "#ADA492",
-          "#D2C8B6",
-          "#F7EDDA"
-        ],
-        "theme": "dark",
-        "replaces": "kraft-ink"
-      },
-      "kraft-ink-soft-dark": {
-        "role": "neutral",
-        "displayName": "Pencil Graphite (Night)",
-        "canonical": "oklch(82.7% 0.049 82.7)",
-        "tonalRamp": [
-          "#110A00",
-          "#312205",
-          "#4F4022",
-          "#6F5F41",
-          "#918061",
-          "#B4A383",
-          "#D9C7A6",
-          "#FFECCA"
-        ],
-        "theme": "dark",
-        "replaces": "kraft-ink-soft"
-      },
-      "paper-dark": {
-        "role": "neutral",
-        "displayName": "File Paper (Night)",
-        "canonical": "oklch(25.1% 0.014 163.6)",
-        "tonalRamp": [
-          "#060D0A",
-          "#1F2723",
-          "#3C4440",
-          "#5B645F",
-          "#7B8580",
-          "#9EA8A3",
-          "#C2CCC7",
-          "#E7F2EC"
-        ],
-        "theme": "dark",
-        "replaces": "paper"
-      },
-      "paper-line-dark": {
-        "role": "neutral",
-        "displayName": "Paper Rule (Night)",
-        "canonical": "oklch(35.9% 0.019 163.7)",
-        "tonalRamp": [
-          "#040E09",
-          "#1D2823",
-          "#39453F",
-          "#58655E",
-          "#79867F",
-          "#9BA9A2",
-          "#BFCDC6",
-          "#E4F3EB"
-        ],
-        "theme": "dark",
-        "replaces": "paper-line"
-      },
-      "ink-dark": {
-        "role": "neutral",
-        "displayName": "Ink (Night)",
-        "canonical": "oklch(94.6% 0.007 124.5)",
-        "tonalRamp": [
-          "#0A0C09",
-          "#242622",
-          "#41433F",
-          "#60625E",
-          "#81837F",
-          "#A4A6A1",
-          "#C8CAC5",
-          "#EDEFEA"
-        ],
-        "theme": "dark",
-        "replaces": "ink"
-      },
-      "ink-soft-dark": {
-        "role": "neutral",
-        "displayName": "Ink Soft (Night)",
-        "canonical": "oklch(78.6% 0.013 156.9)",
-        "tonalRamp": [
-          "#070D09",
-          "#202722",
-          "#3D443F",
-          "#5B645E",
-          "#7C857F",
-          "#9FA8A2",
-          "#C3CCC6",
-          "#E8F1EB"
-        ],
-        "theme": "dark",
-        "replaces": "ink-soft"
-      },
-      "stamp-dark": {
-        "role": "secondary",
-        "displayName": "Vermilion Stamp (Night)",
-        "canonical": "oklch(73.0% 0.167 31.5)",
-        "tonalRamp": [
-          "#1E0100",
-          "#4B0600",
-          "#7D0F01",
-          "#AC2C19",
-          "#D3533E",
-          "#FC7760",
-          "#FFB4A5",
+          "#FFB3A5",
           "#FFE9E4"
         ],
-        "theme": "dark",
-        "replaces": "stamp"
+        "theme": "light",
+        "purpose": "Story objects only: mail/send buttons, 聯絡 tab, 接案中 sign, red postbox."
       },
-      "stamp-on-kraft-dark": {
-        "role": "secondary",
-        "displayName": "Kraft Stamp Oxblood (Night)",
-        "canonical": "oklch(75.7% 0.147 32.7)",
-        "tonalRamp": [
-          "#1E0100",
-          "#4A0700",
-          "#7C1400",
-          "#A43823",
-          "#CB5B45",
-          "#F37F67",
-          "#FFB4A3",
-          "#FFE9E4"
-        ],
-        "theme": "dark",
-        "replaces": "stamp-on-kraft"
-      },
-      "stamp-ink-dark": {
-        "role": "secondary",
-        "displayName": "Seal Paper (Night)",
-        "canonical": "oklch(22.2% 0.004 84.6)",
-        "tonalRamp": [
-          "#0C0B09",
-          "#262523",
-          "#434240",
-          "#62615F",
-          "#838280",
-          "#A6A5A2",
-          "#CAC9C6",
-          "#F0EEEB"
-        ],
-        "theme": "dark",
-        "replaces": "stamp-ink"
-      },
-      "pen-dark": {
+      "red-ink": {
         "role": "tertiary",
-        "displayName": "Ballpoint Blue (Night)",
-        "canonical": "oklch(80.5% 0.098 271.9)",
-        "tonalRamp": [
-          "#040033",
-          "#161E53",
-          "#303D75",
-          "#4E5D98",
-          "#6E7EBD",
-          "#8FA1E3",
-          "#B7C7FE",
-          "#E9EEFF"
-        ],
-        "theme": "dark",
-        "replaces": "pen"
-      },
-      "metal-dark": {
-        "role": "neutral",
-        "displayName": "Clip Metal (Night)",
-        "canonical": "oklch(71.0% 0.014 241.0)",
-        "tonalRamp": [
-          "#060C11",
-          "#1F262C",
-          "#3B4349",
-          "#5A6269",
-          "#7B848A",
-          "#9DA6AD",
-          "#C1CBD2",
-          "#E6F0F8"
-        ],
-        "theme": "dark",
-        "replaces": "metal"
-      },
-      "shadow-tint-dark": {
-        "role": "neutral",
-        "displayName": "Shadow Tint (Night)",
-        "canonical": "oklch(0.0% 0.000 0)",
+        "displayName": "Sign White",
+        "canonical": "oklch(100.0% 0 0)",
         "tonalRamp": [
           "#0B0B0B",
           "#252525",
@@ -643,483 +188,1152 @@
           "#C9C9C9",
           "#EEEEEE"
         ],
-        "theme": "dark",
-        "replaces": "shadow-tint"
+        "theme": "light",
+        "purpose": "Lettering on Story Red."
+      },
+      "page": {
+        "role": "neutral",
+        "displayName": "Album White",
+        "canonical": "oklch(100.0% 0 0)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ],
+        "theme": "light",
+        "purpose": "The album page."
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel White",
+        "canonical": "oklch(100.0% 0 0)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ],
+        "theme": "light",
+        "purpose": "Default panel fill and the masthead bar."
+      },
+      "balloon": {
+        "role": "neutral",
+        "displayName": "Balloon White",
+        "canonical": "oklch(100.0% 0 0)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ],
+        "theme": "light",
+        "purpose": "Balloons, plain buttons, filters, tick boxes, chips, end mark, toast; stays white at night."
+      },
+      "hill": {
+        "role": "neutral",
+        "displayName": "Hill Green",
+        "canonical": "oklch(84.3% 0.062 139.9)",
+        "tonalRamp": [
+          "#011000",
+          "#132C0D",
+          "#304A2A",
+          "#4F6A48",
+          "#6F8C69",
+          "#91AF8A",
+          "#B5D4AE",
+          "#D9F9D2"
+        ],
+        "theme": "light",
+        "purpose": "Distant hills and drawn mountains."
+      },
+      "hill-pale": {
+        "role": "neutral",
+        "displayName": "Pale Hill",
+        "canonical": "oklch(94.1% 0.027 135.0)",
+        "tonalRamp": [
+          "#060E04",
+          "#1F281B",
+          "#3C4537",
+          "#5B6556",
+          "#7B8676",
+          "#9EA998",
+          "#C2CDBC",
+          "#E7F3E1"
+        ],
+        "theme": "light",
+        "purpose": "Devices strip and other-services header."
+      },
+      "green": {
+        "role": "neutral",
+        "displayName": "Postbox Green",
+        "canonical": "oklch(58.6% 0.111 153.3)",
+        "tonalRamp": [
+          "#001004",
+          "#002E14",
+          "#005028",
+          "#1F7342",
+          "#469562",
+          "#6AB984",
+          "#8EDFA7",
+          "#C6FFD6"
+        ],
+        "theme": "light",
+        "purpose": "The green postbox and API status dots."
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Crane Steel",
+        "canonical": "oklch(76.0% 0.018 250.9)",
+        "tonalRamp": [
+          "#060C12",
+          "#1F262D",
+          "#3B434B",
+          "#5A626B",
+          "#7B838D",
+          "#9DA6B0",
+          "#C1CAD4",
+          "#E6F0FA"
+        ],
+        "theme": "light",
+        "purpose": "Counterweights, water tanks, sheds, monitor stands, postbox plinths."
+      },
+      "screen": {
+        "role": "neutral",
+        "displayName": "Monitor Navy",
+        "canonical": "oklch(31.0% 0.051 262.2)",
+        "tonalRamp": [
+          "#020920",
+          "#17253E",
+          "#33425D",
+          "#52627F",
+          "#7283A1",
+          "#94A6C6",
+          "#B7CAEB",
+          "#E6EFFF"
+        ],
+        "theme": "light",
+        "purpose": "The code editor screen."
+      },
+      "window": {
+        "role": "neutral",
+        "displayName": "Window White",
+        "canonical": "oklch(97.7% 0.006 239.8)",
+        "tonalRamp": [
+          "#090C0D",
+          "#232528",
+          "#3F4245",
+          "#5E6264",
+          "#7F8385",
+          "#A2A6A8",
+          "#C6CACD",
+          "#EBEFF2"
+        ],
+        "theme": "light",
+        "purpose": "Unlit skyline windows (all windows by day)."
+      },
+      "link": {
+        "role": "neutral",
+        "displayName": "Link Blue",
+        "canonical": "oklch(42.8% 0.123 256.8)",
+        "tonalRamp": [
+          "#000A21",
+          "#002351",
+          "#0A4081",
+          "#2E61A6",
+          "#4F83CB",
+          "#71A7F1",
+          "#A7CCFF",
+          "#E4F0FF"
+        ],
+        "theme": "light",
+        "purpose": "開啟網站 links and plain anchors."
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Blue",
+        "canonical": "oklch(42.8% 0.123 256.8)",
+        "tonalRamp": [
+          "#000A21",
+          "#002351",
+          "#0A4081",
+          "#2E61A6",
+          "#4F83CB",
+          "#71A7F1",
+          "#A7CCFF",
+          "#E4F0FF"
+        ],
+        "theme": "light",
+        "purpose": "3px focus outline in daylight."
+      },
+      "dim": {
+        "role": "neutral",
+        "displayName": "Faded Line",
+        "canonical": "oklch(72.6% 0.017 257.2)",
+        "tonalRamp": [
+          "#070B12",
+          "#20252D",
+          "#3D424B",
+          "#5B626B",
+          "#7C838C",
+          "#9FA6B0",
+          "#C2CAD4",
+          "#E8EFFA"
+        ],
+        "theme": "light",
+        "purpose": "Borders of panels faded by the filter; the only lighter line."
+      },
+      "on-sky": {
+        "role": "neutral",
+        "displayName": "Ink on Sky",
+        "canonical": "oklch(20.5% 0.008 274.5)",
+        "tonalRamp": [
+          "#0A0B0F",
+          "#242529",
+          "#414246",
+          "#606166",
+          "#818287",
+          "#A3A5AA",
+          "#C7C9CE",
+          "#EDEEF4"
+        ],
+        "theme": "light",
+        "purpose": "Titles and text on Daylight Blue."
+      },
+      "on-sky-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink on Sky",
+        "canonical": "oklch(32.8% 0.047 255.0)",
+        "tonalRamp": [
+          "#000B1E",
+          "#14263C",
+          "#31435B",
+          "#4F637C",
+          "#6F849F",
+          "#91A7C3",
+          "#B5CBE8",
+          "#E4F0FF"
+        ],
+        "theme": "light",
+        "purpose": "Ledes on Daylight Blue."
+      },
+      "on-page-soft": {
+        "role": "neutral",
+        "displayName": "Footer Graphite",
+        "canonical": "oklch(41.2% 0.020 266.1)",
+        "tonalRamp": [
+          "#070B13",
+          "#21252F",
+          "#3D424D",
+          "#5C616D",
+          "#7D828E",
+          "#9FA5B2",
+          "#C3C9D6",
+          "#E8EFFC"
+        ],
+        "theme": "light",
+        "purpose": "Footer text on the page."
+      },
+      "page-night": {
+        "role": "neutral",
+        "displayName": "Night Page Blue",
+        "canonical": "oklch(45.1% 0.084 260.9)",
+        "tonalRamp": [
+          "#000826",
+          "#0B234D",
+          "#27416E",
+          "#456191",
+          "#6583B5",
+          "#87A6DA",
+          "#ABCAFF",
+          "#E6EFFF"
+        ],
+        "theme": "night",
+        "purpose": "The album page at night."
+      },
+      "panel-night": {
+        "role": "neutral",
+        "displayName": "Midnight Panel",
+        "canonical": "oklch(24.5% 0.045 263.3)",
+        "tonalRamp": [
+          "#030A1E",
+          "#19253B",
+          "#35425A",
+          "#54617B",
+          "#74839E",
+          "#96A5C2",
+          "#BACAE7",
+          "#E6EFFF"
+        ],
+        "theme": "night",
+        "purpose": "Default panel one step deeper than the night page; masthead bar."
+      },
+      "ink-night": {
+        "role": "primary",
+        "displayName": "Moonlight Ink",
+        "canonical": "oklch(96.0% 0.009 258.3)",
+        "tonalRamp": [
+          "#090B0F",
+          "#22252A",
+          "#3F4247",
+          "#5E6166",
+          "#7F8388",
+          "#A2A5AB",
+          "#C5C9CF",
+          "#EBEFF5"
+        ],
+        "theme": "night",
+        "purpose": "Text on night panels."
+      },
+      "ink-soft-night": {
+        "role": "neutral",
+        "displayName": "Soft Moonlight",
+        "canonical": "oklch(81.7% 0.028 260.3)",
+        "tonalRamp": [
+          "#050B17",
+          "#1D2533",
+          "#394251",
+          "#586272",
+          "#798394",
+          "#9BA6B7",
+          "#BFCADC",
+          "#E5EFFF"
+        ],
+        "theme": "night",
+        "purpose": "Secondary text at night."
+      },
+      "line-night": {
+        "role": "primary",
+        "displayName": "Night Pen Line",
+        "canonical": "oklch(14.0% 0.014 268.5)",
+        "tonalRamp": [
+          "#090B11",
+          "#22252C",
+          "#3F424A",
+          "#5E6169",
+          "#7F828B",
+          "#A1A5AE",
+          "#C5C9D2",
+          "#EAEEF8"
+        ],
+        "theme": "night",
+        "purpose": "The line stays black at night."
+      },
+      "select-night": {
+        "role": "tertiary",
+        "displayName": "Lamp Yellow",
+        "canonical": "oklch(88.3% 0.127 92.3)",
+        "tonalRamp": [
+          "#100B00",
+          "#2E2400",
+          "#514000",
+          "#765F00",
+          "#9D7F00",
+          "#C1A238",
+          "#E6C760",
+          "#FFEEB9"
+        ],
+        "theme": "night",
+        "purpose": "Work-panel selection ring at night."
+      },
+      "sky-night": {
+        "role": "secondary",
+        "displayName": "Night Sky",
+        "canonical": "oklch(35.6% 0.085 260.6)",
+        "tonalRamp": [
+          "#000825",
+          "#0A234D",
+          "#27416F",
+          "#456191",
+          "#6583B5",
+          "#87A6DB",
+          "#ABCAFF",
+          "#E6EFFF"
+        ],
+        "theme": "night",
+        "purpose": "Sky panels at night."
+      },
+      "sky-pale-night": {
+        "role": "secondary",
+        "displayName": "Pale Night Sky",
+        "canonical": "oklch(31.3% 0.065 259.1)",
+        "tonalRamp": [
+          "#000923",
+          "#102444",
+          "#2C4265",
+          "#4B6287",
+          "#6B83AA",
+          "#8DA6CF",
+          "#B0CBF4",
+          "#E5EFFF"
+        ],
+        "theme": "night",
+        "purpose": "Screenshot frames and pale-sky panels at night."
+      },
+      "sand-night": {
+        "role": "secondary",
+        "displayName": "Night Ochre",
+        "canonical": "oklch(46.0% 0.055 76.0)",
+        "tonalRamp": [
+          "#130900",
+          "#342100",
+          "#533E1E",
+          "#735D3D",
+          "#967E5D",
+          "#B9A17F",
+          "#DEC5A2",
+          "#FFEBD0"
+        ],
+        "theme": "night",
+        "purpose": "Façades and title bars at night."
+      },
+      "sand-pale-night": {
+        "role": "secondary",
+        "displayName": "Dusk Indigo",
+        "canonical": "oklch(29.7% 0.054 284.1)",
+        "tonalRamp": [
+          "#0A0620",
+          "#22213E",
+          "#3E3E5E",
+          "#5D5D7F",
+          "#7E7EA2",
+          "#A0A1C6",
+          "#C4C5EC",
+          "#ECEDFF"
+        ],
+        "theme": "night",
+        "purpose": "Pale-sand panels at night."
+      },
+      "hill-night": {
+        "role": "neutral",
+        "displayName": "Night Hill",
+        "canonical": "oklch(38.4% 0.038 185.4)",
+        "tonalRamp": [
+          "#000F0D",
+          "#0B2B28",
+          "#2A4945",
+          "#496864",
+          "#698A85",
+          "#8BADA8",
+          "#AFD2CC",
+          "#D4F7F2"
+        ],
+        "theme": "night",
+        "purpose": "Hills at night."
+      },
+      "hill-pale-night": {
+        "role": "neutral",
+        "displayName": "Deep Night Hill",
+        "canonical": "oklch(28.7% 0.033 189.2)",
+        "tonalRamp": [
+          "#000F0D",
+          "#0F2A28",
+          "#2D4846",
+          "#4B6865",
+          "#6C8986",
+          "#8EACA9",
+          "#B2D1CD",
+          "#D6F6F3"
+        ],
+        "theme": "night",
+        "purpose": "Pale-hill panels at night."
+      },
+      "green-night": {
+        "role": "neutral",
+        "displayName": "Night Postbox Green",
+        "canonical": "oklch(48.6% 0.091 154.0)",
+        "tonalRamp": [
+          "#001005",
+          "#002E15",
+          "#084F2B",
+          "#317049",
+          "#549269",
+          "#76B68B",
+          "#9ADBAE",
+          "#C5FFD6"
+        ],
+        "theme": "night",
+        "purpose": "Green postbox and status dots at night."
+      },
+      "steel-night": {
+        "role": "neutral",
+        "displayName": "Night Steel",
+        "canonical": "oklch(50.7% 0.036 258.9)",
+        "tonalRamp": [
+          "#030B1A",
+          "#1A2536",
+          "#374355",
+          "#556276",
+          "#768398",
+          "#98A6BC",
+          "#BBCAE1",
+          "#E5EFFF"
+        ],
+        "theme": "night",
+        "purpose": "Steel props at night."
+      },
+      "screen-night": {
+        "role": "neutral",
+        "displayName": "Night Monitor",
+        "canonical": "oklch(19.7% 0.032 264.5)",
+        "tonalRamp": [
+          "#050B19",
+          "#1D2535",
+          "#394254",
+          "#586174",
+          "#798396",
+          "#9BA5BA",
+          "#BFC9DF",
+          "#E7EFFF"
+        ],
+        "theme": "night",
+        "purpose": "Code screen at night."
+      },
+      "window-night": {
+        "role": "neutral",
+        "displayName": "Dark Window",
+        "canonical": "oklch(34.9% 0.057 262.4)",
+        "tonalRamp": [
+          "#010923",
+          "#162440",
+          "#314260",
+          "#506182",
+          "#7083A5",
+          "#92A6C9",
+          "#B5CAEF",
+          "#E6EFFF"
+        ],
+        "theme": "night",
+        "purpose": "Unlit windows at night."
+      },
+      "window-lit-night": {
+        "role": "tertiary",
+        "displayName": "Lit Window",
+        "canonical": "oklch(89.6% 0.135 90.4)",
+        "tonalRamp": [
+          "#100A00",
+          "#2F2300",
+          "#524000",
+          "#775E00",
+          "#9F7E00",
+          "#C5A12A",
+          "#EBC556",
+          "#FFEEBE"
+        ],
+        "theme": "night",
+        "purpose": "The fixed scatter of lit windows at night."
+      },
+      "caption-night": {
+        "role": "tertiary",
+        "displayName": "Night Narration Yellow",
+        "canonical": "oklch(88.3% 0.127 92.3)",
+        "tonalRamp": [
+          "#100B00",
+          "#2E2400",
+          "#514000",
+          "#765F00",
+          "#9D7F00",
+          "#C1A238",
+          "#E6C760",
+          "#FFEEB9"
+        ],
+        "theme": "night",
+        "purpose": "Caption boxes, pressed filters, checked ticks at night."
+      },
+      "link-night": {
+        "role": "neutral",
+        "displayName": "Night Link Blue",
+        "canonical": "oklch(83.5% 0.069 250.6)",
+        "tonalRamp": [
+          "#000B1C",
+          "#052645",
+          "#244465",
+          "#436487",
+          "#6386AB",
+          "#85A9CF",
+          "#A8CDF5",
+          "#E3F0FF"
+        ],
+        "theme": "night",
+        "purpose": "Links at night."
+      },
+      "focus-night": {
+        "role": "tertiary",
+        "displayName": "Night Focus Yellow",
+        "canonical": "oklch(88.3% 0.127 92.3)",
+        "tonalRamp": [
+          "#100B00",
+          "#2E2400",
+          "#514000",
+          "#765F00",
+          "#9D7F00",
+          "#C1A238",
+          "#E6C760",
+          "#FFEEB9"
+        ],
+        "theme": "night",
+        "purpose": "Focus outline at night."
+      },
+      "dim-night": {
+        "role": "neutral",
+        "displayName": "Night Faded Line",
+        "canonical": "oklch(58.2% 0.055 263.5)",
+        "tonalRamp": [
+          "#020922",
+          "#172440",
+          "#33425F",
+          "#516181",
+          "#7183A4",
+          "#93A5C8",
+          "#B7CAEE",
+          "#E6EFFF"
+        ],
+        "theme": "night",
+        "purpose": "Faded-panel borders at night."
+      },
+      "on-sky-night": {
+        "role": "neutral",
+        "displayName": "Moonlight on Sky",
+        "canonical": "oklch(96.0% 0.009 258.3)",
+        "tonalRamp": [
+          "#090B0F",
+          "#22252A",
+          "#3F4247",
+          "#5E6166",
+          "#7F8388",
+          "#A2A5AB",
+          "#C5C9CF",
+          "#EBEFF5"
+        ],
+        "theme": "night",
+        "purpose": "Text on night sky panels."
+      },
+      "on-sky-soft-night": {
+        "role": "neutral",
+        "displayName": "Soft Moonlight on Sky",
+        "canonical": "oklch(87.7% 0.032 255.6)",
+        "tonalRamp": [
+          "#030B18",
+          "#1B2635",
+          "#374353",
+          "#556274",
+          "#768496",
+          "#98A6B9",
+          "#BCCBDE",
+          "#E4F0FF"
+        ],
+        "theme": "night",
+        "purpose": "Ledes on night sky panels."
+      },
+      "on-page-soft-night": {
+        "role": "neutral",
+        "displayName": "Night Footer Ink",
+        "canonical": "oklch(93.2% 0.015 257.2)",
+        "tonalRamp": [
+          "#070B12",
+          "#20252D",
+          "#3D424A",
+          "#5C626A",
+          "#7D838C",
+          "#9FA6AF",
+          "#C3CAD3",
+          "#E8EFF9"
+        ],
+        "theme": "night",
+        "purpose": "Footer text and footer links at night."
+      },
+      "object-white-night": {
+        "role": "neutral",
+        "displayName": "Moonlit White",
+        "canonical": "oklch(90.6% 0.021 254.9)",
+        "tonalRamp": [
+          "#060C14",
+          "#1E262F",
+          "#3B434D",
+          "#59626D",
+          "#7A838F",
+          "#9DA6B2",
+          "#C0CAD7",
+          "#E5F0FD"
+        ],
+        "theme": "night",
+        "purpose": "White objects inside illustrations at night (clouds, windows, devices, letters)."
+      },
+      "skyline-white-night": {
+        "role": "neutral",
+        "displayName": "Night Façade Blue",
+        "canonical": "oklch(42.7% 0.065 261.7)",
+        "tonalRamp": [
+          "#000826",
+          "#122444",
+          "#2E4265",
+          "#4D6187",
+          "#6D83AA",
+          "#8FA6CF",
+          "#B2CAF5",
+          "#E6EFFF"
+        ],
+        "theme": "night",
+        "purpose": "White skyline façades at night."
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Hero headline and contact headline only; Noto Sans TC Black, ceiling 4.75rem."
+        "purpose": "Opening headline only; container-query sized in the establishing panel; at ≥64rem clamp(2.5rem, 6.4cqi, 4.75rem)."
+      },
+      "display-finale": {
+        "displayName": "Display Finale",
+        "purpose": "The finale headline 有設計稿了嗎？寄來給我看看。"
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Section titles: 作品卷宗, 服務委託單, 關於阿良."
+        "purpose": "Chapter titles 作品, 服務, 關於阿良."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Case names on the folder label."
+        "purpose": "Work titles."
       },
-      "title-sm": {
-        "displayName": "Title Small",
-        "purpose": "Sheet titles (附件：技能與工具) and commission row titles (1.25rem)."
+      "title-panel": {
+        "displayName": "Title Panel",
+        "purpose": "Service titles and 報價怎麼算？; 技能與工具 uses 1.625rem."
       },
-      "lede": {
-        "displayName": "Lede",
-        "purpose": "Intro lines under display and section titles; max 34em."
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "阿良 wordmark in the masthead."
       },
-      "body": {
-        "displayName": "Body",
-        "purpose": "All running CJK text; 1.0625rem at line-height 1.8."
+      "email": {
+        "displayName": "Email",
+        "purpose": "The finale's address, underlined at --stroke-bold."
       },
-      "body-prose": {
-        "displayName": "Body Prose",
-        "purpose": "Multi-paragraph prose on the about sheet; line-height 1.95, measure 38em."
-      },
-      "label": {
-        "displayName": "Field Label",
-        "purpose": "Printed form captions in the label column (承辦人, 類型, 技術, 網址); 0.8125–0.875rem, tracked 0.18–0.2em."
-      },
-      "tab": {
-        "displayName": "Tab",
-        "purpose": "Hanging index tab labels."
+      "balloon": {
+        "displayName": "Balloon",
+        "purpose": "Speech balloon text."
       },
       "button": {
         "displayName": "Button",
-        "purpose": "Buttons and filter chips."
+        "purpose": "Red and plain buttons."
       },
-      "stamp": {
-        "displayName": "Stamp",
-        "purpose": "Ink-stamp type chips; ≥19px at 900 so stamp text counts as large text."
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Masthead links and the 聯絡 tab."
       },
-      "typed": {
-        "displayName": "Typed Data",
-        "purpose": "Courier Prime for data a clerk would type: tech lists, URLs, counts, the email address. Never headings, labels or prose."
+      "link": {
+        "displayName": "Link",
+        "purpose": "開啟網站 links and the toast."
       },
-      "typed-index": {
-        "displayName": "Typed Index",
-        "purpose": "Case numbers No.01–08 on folder tabs and the binding."
+      "control": {
+        "displayName": "Control",
+        "purpose": "Theme toggle label."
       },
-      "hand": {
-        "displayName": "Pencil Note",
-        "purpose": "LXGW WenKai TC handwritten notes with leader arrows, in pencil graphite."
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Narration caption boxes; strip captions 0.875rem between 46rem and 64rem."
       },
-      "hand-tag": {
-        "displayName": "Pen Tag",
-        "purpose": "The handwritten 開啟網站 tag on screenshots, the only pen-blue handwriting."
+      "tag": {
+        "displayName": "Tag",
+        "purpose": "Skill chips."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Note balloons on screenshots."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Tech list under each work."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Chapter ledes (36em) and the finale lede (30em). Noto Sans TC."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base running text and tick items. Noto Sans TC."
+      },
+      "body-prose": {
+        "displayName": "Body Prose",
+        "purpose": "關於阿良 paragraphs at a 38em measure."
+      },
+      "summary": {
+        "displayName": "Summary",
+        "purpose": "Work summaries at 34em in Graphite Ink."
       }
     },
+    "strokes": [
+      {
+        "name": "stroke",
+        "value": "2px",
+        "valueAt64rem": "2.5px",
+        "token": "--stroke",
+        "purpose": "The one pen: every panel, balloon, caption, button, field border and SVG stroke (non-scaling)."
+      },
+      {
+        "name": "stroke-bold",
+        "value": "3.5px",
+        "valueAt64rem": "4px",
+        "token": "--stroke-bold",
+        "purpose": "The line drawn heavier: current nav underline, email underline, hovered link underline; equals stroke + the 1.5px selection ring."
+      },
+      {
+        "name": "icon-stroke",
+        "value": "2px",
+        "purpose": "Custom 24px icons (stroke-width attribute, non-scaling); does not follow --stroke at ≥64rem."
+      },
+      {
+        "name": "screen-code",
+        "value": "4px",
+        "purpose": "Coloured code bars on the drawn monitor only; stands for coloured text, not ink."
+      },
+      {
+        "name": "dash",
+        "value": "stroke-dasharray: 4 5",
+        "purpose": "Data links and the letter's flight path."
+      }
+    ],
     "shadows": [
       {
-        "name": "folder",
-        "value": "0 1px 0 rgb(255 255 255 / 0.15) inset, 0 24px 48px -30px rgb(var(--shadow-rgb) / 0.95)",
-        "purpose": "Case folder bodies; the hero cover uses 0 28px 56px -30px with a 0.18 top highlight."
+        "name": "heavier-line",
+        "value": "0 0 0 1.5px var(--line)",
+        "purpose": "Not a shadow: the line drawn heavier. Hover on buttons, filters, toggle, 聯絡 tab, tick boxes; resting state of pressed filters and checked ticks."
       },
       {
-        "name": "sheet",
-        "value": "0 26px 52px -32px rgb(var(--shadow-rgb) / 0.95)",
-        "purpose": "About sheets; the commission form uses 0 30px 60px -36px."
-      },
-      {
-        "name": "flap",
-        "value": "0 18px 40px -24px rgb(var(--shadow-rgb) / 0.9)",
-        "purpose": "The hero folder back flap."
-      },
-      {
-        "name": "spine",
-        "value": "inset -8px 0 12px -10px rgb(var(--shadow-rgb) / 0.7), 0 18px 34px -22px rgb(var(--shadow-rgb) / 0.9)",
-        "purpose": "Desktop binding spine: inner fold shade plus contact shadow."
-      },
-      {
-        "name": "print",
-        "value": "0 16px 28px -18px rgb(var(--shadow-rgb) / 0.85)",
-        "purpose": "Case screenshot prints; the ID photo uses 0 14px 22px -14px / 0.8."
-      },
-      {
-        "name": "tab",
-        "value": "0 8px 14px -10px rgb(var(--shadow-rgb) / 0.8)",
-        "purpose": "Index tabs, theme toggle, current binding slip."
-      },
-      {
-        "name": "tag",
-        "value": "0 8px 14px -8px rgb(var(--shadow-rgb) / 0.75)",
-        "purpose": "The 開啟網站 paper tag."
-      },
-      {
-        "name": "lift",
-        "value": "0 8px 16px -10px rgb(var(--shadow-rgb) / 0.7)",
-        "purpose": "Button hover only."
-      },
-      {
-        "name": "header",
-        "value": "0 10px 24px -18px rgb(var(--shadow-rgb) / 0.9)",
-        "purpose": "Sticky header once the hero folder leaves the viewport (data-scrolled)."
-      },
-      {
-        "name": "strip",
-        "value": "0 12px 18px -16px rgb(var(--shadow-rgb) / 0.9)",
-        "purpose": "Sticky mobile index strip."
-      },
-      {
-        "name": "toast",
-        "value": "0 16px 32px -16px rgb(var(--shadow-rgb) / 0.9)",
-        "purpose": "Toast slip."
-      },
-      {
-        "name": "clip",
-        "value": "drop-shadow(1px 2px 1px rgb(var(--shadow-rgb) / 0.35))",
-        "purpose": "filter: on paperclips and the binding fastener (0.4)."
-      },
-      {
-        "name": "seal-ring",
-        "value": "inset 0 0 0 2px color-mix(in oklab, var(--stamp-ink) 55%, transparent)",
-        "purpose": "Inner ring of the solid 良 brand seal."
+        "name": "selected-panel",
+        "value": "0 0 0 1.5px var(--select)",
+        "purpose": "Work panel hover/focus-within and filter matches; --select is the line by day, Lamp Yellow (#f6d670) at night."
       }
     ],
     "motion": [
       {
-        "name": "paper-ease",
-        "value": "expo.out (GSAP) / cubic-bezier(0.16, 1, 0.3, 1) (CSS)",
-        "purpose": "Every paper movement: folders settling, prints sliding, tabs dropping, Flip reorder."
+        "name": "cut",
+        "value": "gsap autoAlpha 0 → 1, duration 0",
+        "purpose": "Every panel entrance: a hard cut, no easing."
       },
       {
-        "name": "stamp-ease",
-        "value": "back.out(2.2–2.4)",
-        "purpose": "Stamps pressing down with a slight overshoot."
+        "name": "opening-sequence",
+        "value": "establish 0s · crane load 0.1s · portrait 0.3s · balloon 0.65s · strips 1s, stagger 0.28s",
+        "purpose": "First-page reading order."
       },
       {
-        "name": "line-draw",
-        "value": "power2.out, 0.6s, stagger 0.12s (DrawSVG)",
-        "purpose": "Pencil leader arrows drawing in."
+        "name": "crane-stop-motion",
+        "value": "y −60 → 0, duration 1.2s, ease steps(8)",
+        "purpose": "The crane lowers the web page in eight frames; the only stop-motion."
       },
       {
-        "name": "ui-fade",
-        "value": "0.2s ease-out",
-        "purpose": "Colour, background and border changes on controls."
-      },
-      {
-        "name": "hover-lift",
-        "value": "translateY(-2px), 0.25s paper-ease",
-        "purpose": "Buttons."
-      },
-      {
-        "name": "tab-drop",
-        "value": "translateY(4px) hover / 8px current, 0.35s paper-ease",
-        "purpose": "Hanging index tabs and theme toggle."
-      },
-      {
-        "name": "print-straighten",
-        "value": "rotate 0deg + translate 0 -6px, 0.5s paper-ease",
-        "purpose": "Case print on folder hover."
-      },
-      {
-        "name": "hero-entrance",
-        "value": "folder y48 rotate2.2 1.3s; photo y-36 rotate14 1.1s @0.25; seal scale1.9 rotate-40 0.55s back.out(2.2) @0.85",
-        "purpose": "First-load timeline, from() so content is visible without JS."
-      },
-      {
-        "name": "case-reveal",
-        "value": "ScrollTrigger start 'top 78%' once; print yPercent14 ±4deg 1.1s; stamp scale1.8 0.45s @0.35; leaders 0.6s @0.55",
-        "purpose": "Each case folder on first scroll into view."
-      },
-      {
-        "name": "filter-flip",
-        "value": "Flip 0.7s expo.out absolute nested; enter y40→0 0.6s; leave y-20 fade 0.3s",
-        "purpose": "Reordering folders when a type filter is pressed."
+        "name": "work-cuts",
+        "value": "ScrollTrigger.batch, start 'top 88%', once, duration 0, stagger 0.16s",
+        "purpose": "Work panels cut in by batch in reading order."
       },
       {
         "name": "toast",
-        "value": "translate 1rem→0 0.35s paper-ease, opacity 0.2s; visible 2600ms",
-        "purpose": "Copy confirmations."
+        "value": "visibility toggle, 2600ms",
+        "purpose": "Copy confirmation hard-cuts in and out."
+      },
+      {
+        "name": "transitions",
+        "value": "none",
+        "purpose": "The stylesheet declares no transitions or keyframes; every state change is instant."
       },
       {
         "name": "reduced-motion",
-        "value": "gsap.matchMedia('(prefers-reduced-motion: no-preference)') gate; CSS transition/animation-duration 0.01ms; smooth scroll only without reduce",
-        "purpose": "Everything static and visible when motion is reduced."
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "No timelines run, smooth scroll off; content is visible by default with or without JS."
       }
     ],
     "breakpoints": [
       {
-        "name": "mobile-max",
-        "value": "47.99rem",
-        "purpose": "Hero stacks photo→headline→fields; latin brand and toggle label hidden; tabs step 9%."
+        "name": "xs-max",
+        "value": "25rem",
+        "purpose": "≤: 阿良 wordmark visually hidden; the 良 balloon mark carries the brand."
+      },
+      {
+        "name": "sm-max",
+        "value": "30rem",
+        "purpose": "≤: Latin name and toggle label hidden, nav padding 0.55rem, mark 2.4rem."
+      },
+      {
+        "name": "toggle-label",
+        "value": "48rem",
+        "purpose": "<: theme toggle is icon-only."
       },
       {
         "name": "md",
-        "value": "48rem",
-        "purpose": "Works head, commission head and tick lists go two-column."
+        "value": "46rem",
+        "purpose": "≥: strips 3-up, works 2-col with horizontal lead/full panels, order 7fr/5fr, services 2-col, skills label column, about 4fr/8fr. <: strip art fixed 8.5rem."
       },
       {
         "name": "lg",
         "value": "64rem",
-        "purpose": "Case body 1.7fr/1fr alternating; pencil notes float with arrows; about two-column."
-      },
-      {
-        "name": "spine",
-        "value": "75rem",
-        "purpose": "Binding spine column (11.5rem) replaces the sticky index strip."
+        "purpose": "≥: stroke 2.5px / bold 4px, opening 8fr/4fr at clamp(30rem, 100svh − 22.5rem, 35rem), works on 12 columns, services 6fr/3fr/3fr, finale 1.25fr/1fr, portrait balloon breaks the frame."
       }
     ],
     "containers": [
       {
-        "name": "wide",
-        "value": "77.5rem",
-        "purpose": "Header inner and works section."
-      },
-      {
-        "name": "about",
-        "value": "72rem",
-        "purpose": "About sheets."
-      },
-      {
-        "name": "folder",
-        "value": "70rem",
-        "purpose": "Hero folder and commission form."
-      },
-      {
-        "name": "peek",
-        "value": "66rem",
-        "purpose": "Hero No.01 peek sliver."
-      },
-      {
-        "name": "binding",
-        "value": "11.5rem",
-        "purpose": "Desktop binding spine column."
+        "name": "page",
+        "value": "min(100% - 2 * var(--margin), 84rem)",
+        "purpose": "Album page, masthead inner and footer width."
       }
     ],
+    "workPanelPattern": {
+      "cycle": [
+        "wide",
+        "std",
+        "std",
+        "std",
+        "std",
+        "std",
+        "wide"
+      ],
+      "lastOnNewCycle": "full",
+      "spansAt64rem": {
+        "std": 4,
+        "wide": 8,
+        "full": 12
+      },
+      "at46rem": "2 columns; the first work (lead) and a full work span both, laid horizontally (shot 58%).",
+      "note": "Comic four-tier rotation: wide+std, three std, std+wide, closing full tier."
+    },
+    "illustration": {
+      "baseClass": "art",
+      "stroke": "var(--line), var(--stroke), round caps and joins, vector-effect: non-scaling-stroke on every child",
+      "fillClasses": [
+        "f-white",
+        "f-sky",
+        "f-sky-pale",
+        "f-sand",
+        "f-sand-pale",
+        "f-hill",
+        "f-cap",
+        "f-red",
+        "f-green",
+        "f-ink",
+        "f-steel",
+        "f-screen",
+        "f-window",
+        "f-window.is-lit"
+      ],
+      "drawings": {
+        "crane": "420×400, xMaxYMax meet; tower crane, red 接案中 sign, hoisted browser window (data-crane-load)",
+        "skyline": "960×200, xMidYMax slice; hills, rooftop water tanks, antennas, tin sheds, windows",
+        "stars": "400×300, slice; night only",
+        "strips": "240×150; comp + pencil, code editor + API, one site on three devices",
+        "services": "200×110; build, feature, extra",
+        "mailbox": "360×272; green and red postboxes, flying letter"
+      },
+      "night": ".sun hidden, .moon/.star shown; f-white → #d7e1ee; skyline f-white → #3b4f73; is-lit windows → #ffd96b"
+    },
     "focus": {
       "width": "3px",
       "style": "solid",
       "offset": "3px",
       "token": "--focus",
-      "onDesk": "sun",
-      "onKraftOrPaper": "pen",
-      "note": "Chosen by the surface the ring lands on, not the element’s own material."
+      "light": "#1b4e91",
+      "night": "#f6d670"
     },
-    "textures": [
-      {
-        "name": "grain-kraft",
-        "value": "feTurbulence fractalNoise baseFrequency 0.9, 3 octaves, brown matrix alpha 0.6/-0.16, 260px tile",
-        "purpose": "Every kraft surface."
-      },
-      {
-        "name": "grain-fiber",
-        "value": "feTurbulence fractalNoise baseFrequency 0.008 0.42, 2 octaves, seed 4, alpha 0.5/-0.18, 420px tile",
-        "purpose": "Directional fibres layered over grain-kraft on large kraft surfaces."
-      },
-      {
-        "name": "grain-fiber-dark",
-        "value": "baseFrequency 0.05 0.42, light matrix (0.85/0.75/0.6) alpha 0.22/-0.08",
-        "purpose": "Night kraft: finer, lighter fibres so #4A3B27 reads as paper, not wood."
-      },
-      {
-        "name": "grain-desk",
-        "value": "feTurbulence fractalNoise baseFrequency 0.7, 3 octaves, seed 11, green matrix alpha 0.5/-0.12, 300px tile",
-        "purpose": "Body background on the desk."
-      },
-      {
-        "name": "ink",
-        "value": "SVG filter #ink: fractalNoise 0.8 → displacement 1.1 → speckle mask (alpha -1.1/1.45) composited in",
-        "purpose": "Rough edges and speckle on every stamp impression."
-      }
-    ],
     "themes": {
       "default": "light",
       "attribute": "html[data-theme]",
       "darkSelector": "[data-theme=\"dark\"]",
+      "name": "Night edition",
       "followsSystemPreference": false,
       "storageKey": "localStorage 'liang-theme'",
       "appliedBeforePaint": true,
       "themeColor": {
-        "light": "#1E5A45",
-        "dark": "#0D2219"
+        "light": "#FFFFFF",
+        "dark": "#152036"
       },
-      "darkOverrides": "Stamps and the hero seal switch mix-blend-mode multiply → normal; desk button inverts to desk-ink fill with desk text; shadow tint becomes pure black."
+      "nightOverrides": "Palette tokens only; balloon, red and balloon-ink unchanged; toast speed lines switch to white; work-panel selection ring switches to Lamp Yellow."
     }
   },
   "components": [
     {
-      "name": "Desk Button",
+      "name": "Red Button",
       "kind": "button",
-      "refersTo": "button-desk",
-      "description": "Primary action on kraft or paper (寄信洽詢, 寄出委託單). Green, never yellow, on kraft: sun fails 1.4.11 there. Inverts to a chalk fill in dark mode.",
-      "html": "<div class=\"ds-on-kraft-a\"><a class=\"ds-btn-desk\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3.5\" y=\"5.5\" width=\"17\" height=\"13\" rx=\"1.5\" /><path d=\"m4 7 8 6 8-6\" /></svg><span>寄信洽詢</span></a></div>",
-      "css": ".ds-on-kraft-a{display:flex;flex-wrap:wrap;gap:0.75rem;padding:28px;color:var(--kraft-ink, #1F1A13);background-color:var(--kraft, #CFA86C);background-image:var(--grain-fiber, none),var(--grain-kraft, none);--focus:var(--pen, #172866)}.ds-btn-desk{display:inline-flex;align-items:center;gap:0.5rem;min-height:2.875rem;padding:0.55rem 1.15rem;font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-size:1.0625rem;font-weight:700;line-height:1.2;border:2px solid transparent;border-radius:6px;text-decoration:none;cursor:pointer;transition:transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),background-color 0.2s ease-out}.ds-btn-desk svg{width:1.15rem;height:1.15rem;flex:none}.ds-btn-desk:hover{transform:translateY(-2px);box-shadow:0 8px 16px -10px rgb(var(--shadow-rgb, 6 26 18) / 0.7)}.ds-btn-desk:active{transform:translateY(0);box-shadow:none}.ds-btn-desk:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-btn-desk{color:var(--desk-ink, #F4F3EE);background:var(--desk, #1E5A45)}.ds-btn-desk:hover{background:var(--desk-deep, #174836)}"
+      "refersTo": "button-red",
+      "description": "Story Red action, only for mail and send: 寄信洽詢, 寄出委託單. Hover draws the line heavier; nothing lifts or transitions.",
+      "html": "<div class=\"ds-stage-sky\"><a class=\"ds-btn-red\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3.5\" y=\"5.5\" width=\"17\" height=\"13\" rx=\"1.5\" /><path d=\"m4 7 8 6 8-6\" /></svg><span>寄信洽詢</span></a></div>",
+      "css": ".ds-stage-sky{display:flex;flex-wrap:wrap;gap:0.75rem;padding:28px;background:var(--sky, #9dcbea);color:var(--on-sky, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:3px}.ds-btn-red{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-height:3rem;padding:0 1.35rem;background:var(--red, #c42f1b);color:var(--red-ink, #ffffff);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:8px;font:800 1.0625rem/1.2 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);text-decoration:none;cursor:pointer}.ds-btn-red svg{width:1.25rem;height:1.25rem;flex:none}.ds-btn-red svg *{vector-effect:non-scaling-stroke}.ds-btn-red:hover{box-shadow:0 0 0 1.5px var(--line, #16171b)}.ds-btn-red:active{transform:translateY(1px)}.ds-btn-red:focus-visible{outline:3px solid var(--focus, #1b4e91);outline-offset:3px}"
     },
     {
-      "name": "Sun Button",
+      "name": "Plain Button",
       "kind": "button",
-      "refersTo": "button-sun",
-      "description": "Primary action on the green desk only (contact section). Paired with the light line button.",
-      "html": "<div class=\"ds-on-desk-b\"><a class=\"ds-btn-sun\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"3.5\" y=\"5.5\" width=\"17\" height=\"13\" rx=\"1.5\" /><path d=\"m4 7 8 6 8-6\" /></svg><span>寄信洽詢</span></a><button class=\"ds-btn-line-light\" type=\"button\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"8.5\" y=\"8.5\" width=\"11\" height=\"11\" rx=\"1.5\" /><path d=\"M15.5 8.5V6a1.5 1.5 0 0 0-1.5-1.5H6A1.5 1.5 0 0 0 4.5 6v8A1.5 1.5 0 0 0 6 15.5h2.5\" /></svg><span>複製 Email</span></button></div>",
-      "css": ".ds-on-desk-b{display:flex;flex-wrap:wrap;gap:0.75rem;padding:28px;color:var(--desk-ink, #F4F3EE);background-color:var(--desk, #1E5A45);background-image:var(--grain-desk, none);--focus:var(--sun, #F2B705)}.ds-btn-sun{display:inline-flex;align-items:center;gap:0.5rem;min-height:2.875rem;padding:0.55rem 1.15rem;font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-size:1.0625rem;font-weight:700;line-height:1.2;border:2px solid transparent;border-radius:6px;text-decoration:none;cursor:pointer;transition:transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),background-color 0.2s ease-out}.ds-btn-sun svg{width:1.15rem;height:1.15rem;flex:none}.ds-btn-sun:hover{transform:translateY(-2px);box-shadow:0 8px 16px -10px rgb(var(--shadow-rgb, 6 26 18) / 0.7)}.ds-btn-sun:active{transform:translateY(0);box-shadow:none}.ds-btn-sun:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-btn-sun{color:var(--sun-ink, #1C1B19);background:var(--sun, #F2B705)}.ds-btn-line-light{display:inline-flex;align-items:center;gap:0.5rem;min-height:2.875rem;padding:0.55rem 1.15rem;font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-size:1.0625rem;font-weight:700;line-height:1.2;border:2px solid transparent;border-radius:6px;text-decoration:none;cursor:pointer;transition:transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),background-color 0.2s ease-out}.ds-btn-line-light svg{width:1.15rem;height:1.15rem;flex:none}.ds-btn-line-light:hover{transform:translateY(-2px);box-shadow:0 8px 16px -10px rgb(var(--shadow-rgb, 6 26 18) / 0.7)}.ds-btn-line-light:active{transform:translateY(0);box-shadow:none}.ds-btn-line-light:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-btn-line-light{color:var(--desk-ink, #F4F3EE);background:transparent;border-color:var(--desk-ink-soft, #CFE1D7)}"
+      "refersTo": "button-plain",
+      "description": "White balloon-ground secondary action (複製 Email, 複製委託內容); stays white in the night edition.",
+      "html": "<div class=\"ds-stage-sky\"><button class=\"ds-btn-plain\" type=\"button\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"8.5\" y=\"8.5\" width=\"11\" height=\"11\" rx=\"1.5\" /><path d=\"M15.5 8.5V6a1.5 1.5 0 0 0-1.5-1.5H6A1.5 1.5 0 0 0 4.5 6v8A1.5 1.5 0 0 0 6 15.5h2.5\" /></svg><span>複製 Email</span></button></div>",
+      "css": ".ds-stage-sky{display:flex;flex-wrap:wrap;gap:0.75rem;padding:28px;background:var(--sky, #9dcbea);color:var(--on-sky, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:3px}.ds-btn-plain{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-height:3rem;padding:0 1.35rem;background:var(--balloon, #ffffff);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:8px;font:800 1.0625rem/1.2 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);text-decoration:none;cursor:pointer}.ds-btn-plain svg{width:1.25rem;height:1.25rem;flex:none}.ds-btn-plain svg *{vector-effect:non-scaling-stroke}.ds-btn-plain:hover{box-shadow:0 0 0 1.5px var(--line, #16171b)}.ds-btn-plain:active{transform:translateY(1px)}.ds-btn-plain:focus-visible{outline:3px solid var(--focus, #1b4e91);outline-offset:3px}"
     },
     {
-      "name": "Line Button",
-      "kind": "button",
-      "refersTo": "button-line",
-      "description": "Secondary action on kraft or paper (複製 Email, 複製委託內容): transparent with a 2px currentColor border.",
-      "html": "<div class=\"ds-on-kraft-c\"><button class=\"ds-btn-line\" type=\"button\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"8.5\" y=\"8.5\" width=\"11\" height=\"11\" rx=\"1.5\" /><path d=\"M15.5 8.5V6a1.5 1.5 0 0 0-1.5-1.5H6A1.5 1.5 0 0 0 4.5 6v8A1.5 1.5 0 0 0 6 15.5h2.5\" /></svg><span>複製 Email</span></button></div>",
-      "css": ".ds-on-kraft-c{display:flex;flex-wrap:wrap;gap:0.75rem;padding:28px;color:var(--kraft-ink, #1F1A13);background-color:var(--kraft, #CFA86C);background-image:var(--grain-fiber, none),var(--grain-kraft, none);--focus:var(--pen, #172866)}.ds-btn-line{display:inline-flex;align-items:center;gap:0.5rem;min-height:2.875rem;padding:0.55rem 1.15rem;font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-size:1.0625rem;font-weight:700;line-height:1.2;border:2px solid transparent;border-radius:6px;text-decoration:none;cursor:pointer;transition:transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),background-color 0.2s ease-out}.ds-btn-line svg{width:1.15rem;height:1.15rem;flex:none}.ds-btn-line:hover{transform:translateY(-2px);box-shadow:0 8px 16px -10px rgb(var(--shadow-rgb, 6 26 18) / 0.7)}.ds-btn-line:active{transform:translateY(0);box-shadow:none}.ds-btn-line:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-btn-line{color:inherit;background:transparent;border-color:currentColor}"
-    },
-    {
-      "name": "Hanging Index Tabs",
+      "name": "Masthead Navigation",
       "kind": "nav",
-      "refersTo": "index-tab",
-      "description": "Header navigation: kraft tabs hanging from the desk; the current section is a paper tab dropped 8px; 聯絡 is always sun; the theme toggle is the last tab. Focus ring is sun because it lands on the desk (the build currently uses pen here; see drift).",
-      "html": "<header class=\"ds-tabbar\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-seal\" aria-hidden=\"true\">良</span><span>阿良</span></a><nav aria-label=\"主要導覽\"><ul class=\"ds-tabs\"><li><a class=\"ds-tab\" href=\"#\" aria-current=\"true\">作品</a></li><li><a class=\"ds-tab\" href=\"#\">服務</a></li><li><a class=\"ds-tab\" href=\"#\">關於</a></li><li><a class=\"ds-tab ds-tab--contact\" href=\"#\">聯絡</a></li></ul></nav><button class=\"ds-toggle\" type=\"button\" aria-pressed=\"false\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z\" /></svg><span>夜間模式</span></button></header>",
-      "css": ".ds-tabbar{display:flex;align-items:flex-start;gap:1rem;min-height:4.25rem;padding:0 20px 14px;background:var(--desk, #1E5A45);font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-brand{display:flex;align-items:center;gap:0.6rem;align-self:center;margin-right:auto;color:var(--desk-ink, #F4F3EE);font-weight:900;font-size:1.125rem;line-height:1;text-decoration:none}.ds-seal{display:grid;place-items:center;width:2.25rem;height:2.25rem;color:var(--stamp-ink, #FFF8F0);background:var(--stamp, #C2301D);border-radius:4px;font-size:1.2rem;box-shadow:inset 0 0 0 2px color-mix(in oklab, var(--stamp-ink, #FFF8F0) 55%, transparent)}.ds-tabs{display:flex;gap:0.5rem;margin:0;padding:0;list-style:none}.ds-tab{display:block;padding:1.15rem 1.15rem 0.6rem;color:var(--kraft-ink, #1F1A13);background-color:var(--kraft, #CFA86C);background-image:var(--grain-kraft, none);border-radius:0 0 10px 10px;font-weight:700;font-size:0.95rem;line-height:1.2;text-decoration:none;white-space:nowrap;box-shadow:0 8px 14px -10px rgb(var(--shadow-rgb, 6 26 18) / 0.8);transition:transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),background-color 0.2s ease-out}.ds-tab:hover{transform:translateY(4px)}.ds-tab[aria-current=\"true\"]{color:var(--ink, #1C1B19);background-color:var(--paper, #F7F6F1);transform:translateY(8px)}.ds-tab--contact{color:var(--sun-ink, #1C1B19);background-color:var(--sun, #F2B705)}.ds-toggle{display:inline-flex;align-items:center;gap:0.45rem;padding:1.15rem 0.9rem 0.6rem;color:var(--desk-ink, #F4F3EE);background:var(--desk-deep, #174836);border:0;border-radius:0 0 10px 10px;box-shadow:inset 0 -2px 0 color-mix(in oklab, var(--desk-ink, #F4F3EE) 24%, transparent),0 8px 14px -10px rgb(var(--shadow-rgb, 6 26 18) / 0.8);font-family:inherit;font-size:0.875rem;font-weight:700;line-height:1.2;cursor:pointer;transition:transform 0.35s cubic-bezier(0.16, 1, 0.3, 1)}.ds-toggle:hover{transform:translateY(4px)}.ds-toggle svg{width:1.15rem;height:1.15rem}.ds-tab:focus-visible,.ds-toggle:focus-visible,.ds-brand:focus-visible{outline:3px solid var(--sun, #F2B705);outline-offset:3px}"
+      "refersTo": "nav-link",
+      "description": "Sticky panel-white bar closed by the line: yellow 良 balloon mark, 阿良 One Liang, links with a drawn underline (thin on hover, bold when current), the red 聯絡 tab and the white theme toggle.",
+      "html": "<header class=\"ds-mast\"><a class=\"ds-brand\" href=\"#\"><svg class=\"ds-mark\" viewBox=\"0 0 48 40\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M24 3C36.2 3 45 9.4 45 17.5S36.2 32 24 32c-2.6 0-5-.3-7.3-.8L7.5 37.5l2.6-8.6C5.6 26.3 3 22.2 3 17.5 3 9.4 11.8 3 24 3Z\"/><text x=\"24\" y=\"24\" text-anchor=\"middle\">良</text></svg><span class=\"ds-brand-name\">阿良<span class=\"ds-brand-latin\">One Liang</span></span></a><nav aria-label=\"主要導覽\"><ul class=\"ds-nav\"><li><a class=\"ds-nav-link\" href=\"#\" aria-current=\"true\">作品</a></li><li><a class=\"ds-nav-link\" href=\"#\">服務</a></li><li><a class=\"ds-nav-link\" href=\"#\">關於</a></li><li><a class=\"ds-nav-cta\" href=\"#\">聯絡</a></li></ul></nav><button class=\"ds-toggle\" type=\"button\" aria-pressed=\"false\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z\" /></svg><span>夜間模式</span></button></header>",
+      "css": ".ds-mast{display:flex;align-items:center;gap:0.75rem;height:4rem;padding:0 20px;background:var(--panel, #ffffff);border-bottom:var(--stroke, 2px) solid var(--line, #16171b)}.ds-brand{display:inline-flex;align-items:center;gap:0.5rem;margin-right:auto;color:var(--ink, #16171b);text-decoration:none}.ds-mark{width:2.75rem;height:auto;overflow:visible;stroke:var(--line, #16171b);stroke-width:var(--stroke, 2px);stroke-linejoin:round}.ds-mark path{fill:var(--caption, #ffe07a);vector-effect:non-scaling-stroke}.ds-mark text{fill:var(--balloon-ink, #16171b);stroke:none;font:900 17px/1 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-brand-name{display:inline-flex;align-items:baseline;gap:0.45rem;font:900 1.375rem/1 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-brand-latin{font:700 0.8125rem/1 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);color:var(--ink-soft, #464b56);letter-spacing:0.03em}.ds-nav{display:flex;align-items:center;gap:0.15rem;margin:0;padding:0;list-style:none}.ds-nav-link{position:relative;display:inline-flex;align-items:center;min-height:2.75rem;padding:0 0.8rem;color:var(--ink, #16171b);font:800 1rem/1 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);text-decoration:none}.ds-nav-link::after{content:\"\";position:absolute;left:0.8rem;right:0.8rem;bottom:0.45rem;height:var(--stroke-bold, 3.5px);border-radius:2px;background:currentColor;transform:scaleX(0)}.ds-nav-link:hover::after{transform:scaleX(1);height:var(--stroke, 2px)}.ds-nav-link[aria-current=\"true\"]::after{transform:scaleX(1);height:var(--stroke-bold, 3.5px)}.ds-nav-cta{display:inline-flex;align-items:center;min-height:2.5rem;margin-left:0.3rem;padding:0 1rem;background:var(--red, #c42f1b);color:var(--red-ink, #ffffff);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:8px;font:800 1rem/1 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);text-decoration:none}.ds-nav-cta:hover,.ds-toggle:hover{box-shadow:0 0 0 1.5px var(--line, #16171b)}.ds-toggle{display:inline-flex;align-items:center;gap:0.4rem;min-height:2.5rem;padding:0 0.85rem;background:var(--balloon, #ffffff);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:8px;font:800 0.9375rem/1 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);cursor:pointer}.ds-toggle svg{width:1.25rem;height:1.25rem}.ds-toggle svg *{vector-effect:non-scaling-stroke}.ds-nav-link:focus-visible,.ds-nav-cta:focus-visible,.ds-toggle:focus-visible{outline:3px solid var(--focus, #1b4e91);outline-offset:3px}"
     },
     {
-      "name": "Type Filter Chips",
+      "name": "Type Filter Buttons",
       "kind": "chip",
-      "refersTo": "filter-chip",
-      "description": "Tab-shaped filter toggles on the desk with typed counts; the pressed chip becomes a kraft tab. Filtering reorders folders with GSAP Flip.",
-      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"依類型篩選作品\"><button type=\"button\" class=\"ds-filter\" aria-pressed=\"true\">全部<span class=\"ds-filter__n\">8</span></button><button type=\"button\" class=\"ds-filter\" aria-pressed=\"false\">一頁式<span class=\"ds-filter__n\">2</span></button><button type=\"button\" class=\"ds-filter\" aria-pressed=\"false\">形象網站<span class=\"ds-filter__n\">3</span></button><button type=\"button\" class=\"ds-filter\" aria-pressed=\"false\">電商網站<span class=\"ds-filter__n\">2</span></button></div>",
-      "css": ".ds-filters{display:flex;flex-wrap:wrap;gap:0.5rem;padding:24px;background-color:var(--desk, #1E5A45);background-image:var(--grain-desk, none)}.ds-filter{display:inline-flex;align-items:center;gap:0.5rem;min-height:2.75rem;padding:0.4rem 0.95rem;color:var(--desk-ink, #F4F3EE);background:transparent;border:2px solid color-mix(in oklab, var(--desk-ink, #F4F3EE) 40%, transparent);border-radius:8px 8px 2px 2px;font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-size:1.0625rem;font-weight:700;cursor:pointer;transition:background-color 0.2s ease-out,color 0.2s ease-out,border-color 0.2s ease-out}.ds-filter:hover{border-color:var(--desk-ink, #F4F3EE)}.ds-filter[aria-pressed=\"true\"]{color:var(--kraft-ink, #1F1A13);background-color:var(--kraft, #CFA86C);background-image:var(--grain-kraft, none);border-color:var(--kraft, #CFA86C)}.ds-filter:focus-visible{outline:3px solid var(--sun, #F2B705);outline-offset:3px}.ds-filter__n{font-family:var(--font-typed, \"Courier Prime\", \"Noto Sans TC\", ui-monospace, monospace);font-size:0.8125rem;font-weight:700;opacity:0.85}"
+      "refersTo": "filter-button",
+      "description": "White filter buttons with a square count box on the pale-sand 作品 chapter panel; pressed fills Narration Yellow and keeps the heavier line.",
+      "html": "<div class=\"ds-chapter-sand\"><div class=\"ds-filters\" role=\"group\" aria-label=\"依類型標出作品\"><button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\">全部<span class=\"ds-count\">8</span></button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">一頁式<span class=\"ds-count\">2</span></button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">形象網站<span class=\"ds-count\">3</span></button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">電商網站<span class=\"ds-count\">2</span></button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">部落格<span class=\"ds-count\">1</span></button></div></div>",
+      "css": ".ds-chapter-sand{padding:24px;background:var(--sand-pale, #f5e6c6);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:3px}.ds-filters{display:flex;flex-wrap:wrap;gap:0.5rem}.ds-filter{display:inline-flex;align-items:center;gap:0.45rem;min-height:2.75rem;padding:0 1rem;background:var(--balloon, #ffffff);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:8px;font:800 0.9875rem/1 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);cursor:pointer}.ds-filter:hover{box-shadow:0 0 0 1.5px var(--line, #16171b)}.ds-filter[aria-pressed=\"true\"]{background:var(--caption, #ffe07a);color:var(--balloon-ink, #16171b);box-shadow:0 0 0 1.5px var(--line, #16171b)}.ds-filter:focus-visible{outline:3px solid var(--focus, #1b4e91);outline-offset:3px}.ds-count{display:inline-grid;place-items:center;min-width:1.5rem;height:1.5rem;padding:0 0.3rem;border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:5px;font:800 0.8125rem/1 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-variant-numeric:tabular-nums}"
     },
     {
-      "name": "Case Folder",
+      "name": "Strip Panel with Caption Box",
       "kind": "card",
-      "refersTo": "case-folder",
-      "description": "Signature component: trapezoid typed tab, grained kraft body, paper-clipped screenshot print with a pen-blue 開啟網站 tag, pencil note, and the printed field rows with an ink type stamp and a typed pen-blue URL.",
-      "html": "<svg width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\" focusable=\"false\"><filter id=\"ds-ink-case\" x=\"-8%\" y=\"-8%\" width=\"116%\" height=\"116%\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.8\" numOctaves=\"2\" seed=\"7\" result=\"noise\" /><feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"1.1\" result=\"rough\" /><feColorMatrix in=\"noise\" type=\"matrix\" values=\"0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.1 0 0 0 1.45\" result=\"speckle\" /><feComposite in=\"rough\" in2=\"speckle\" operator=\"in\" /></filter></svg><article class=\"ds-case\"><div class=\"ds-case__tab\" aria-hidden=\"true\">No.03</div><div class=\"ds-case__body\"><figure class=\"ds-case__print\"><div class=\"ds-case__photo\"><svg class=\"ds-case__clip\" viewBox=\"0 0 28 72\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9 20V9a5 5 0 0 1 10 0v46a8 8 0 0 1-16 0V17\" /></svg><a class=\"ds-case__shot\" href=\"#\" tabindex=\"-1\" aria-hidden=\"true\"><span class=\"ds-case__open\">開啟網站<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M7 17 17 7\" /><path d=\"M9 7h8v8\" /></svg></span></a></div><figcaption class=\"ds-case__note\">RWD 響應式</figcaption></figure><div><h3 class=\"ds-case__title\">Mook</h3><dl class=\"ds-fields\"><div class=\"ds-fields__row\"><dt>類型</dt><dd><span class=\"ds-case__stamp\">一頁式</span></dd></div><div class=\"ds-fields__row\"><dt>技術</dt><dd class=\"ds-typed\">HTML5 · Pug · SCSS · Tailwind CSS</dd></div><div class=\"ds-fields__row\"><dt>網址</dt><dd><a class=\"ds-demo-link\" href=\"#\">mook.com.tw<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M7 17 17 7\" /><path d=\"M9 7h8v8\" /></svg></a></dd></div></dl></div></div></article>",
-      "css": ".ds-case{position:relative;padding:2.15rem 12px 24px;color:var(--kraft-ink, #1F1A13);background:var(--desk, #1E5A45);font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-size:1.0625rem;line-height:1.8;--focus:var(--pen, #172866)}.ds-case__tab{position:absolute;top:0;left:8%;display:flex;align-items:center;height:2.3rem;padding:0.15rem 1.6rem 0;background-color:var(--kraft, #CFA86C);background-image:var(--grain-kraft, none);border-radius:10px 10px 0 0;clip-path:polygon(7% 0, 93% 0, 100% 100%, 0 100%);font-family:var(--font-typed, \"Courier Prime\", \"Noto Sans TC\", ui-monospace, monospace);font-weight:700;font-size:0.9375rem;letter-spacing:0.06em}.ds-case__body{display:grid;grid-template-columns:minmax(0, 1.4fr) minmax(0, 1fr);gap:2.5rem;align-items:center;padding:3rem 2rem;background-color:var(--kraft, #CFA86C);background-image:var(--grain-fiber, none),var(--grain-kraft, none);border-radius:6px 12px 12px 12px;box-shadow:0 1px 0 rgb(255 255 255 / 0.15) inset,0 24px 48px -30px rgb(var(--shadow-rgb, 6 26 18) / 0.95)}.ds-case__print{margin:0}.ds-case__photo{position:relative;padding:0.6rem;background:#FBFAF6;rotate:-1.1deg;box-shadow:0 16px 28px -18px rgb(var(--shadow-rgb, 6 26 18) / 0.85);transition:rotate 0.5s cubic-bezier(0.16, 1, 0.3, 1),translate 0.5s cubic-bezier(0.16, 1, 0.3, 1)}.ds-case:hover .ds-case__photo{rotate:0deg;translate:0 -6px}.ds-case__clip{position:absolute;z-index:3;top:-1.75rem;left:14%;width:1.375rem;height:3.6rem;fill:none;stroke:var(--metal, #7F878F);stroke-width:3;stroke-linecap:round;filter:drop-shadow(1px 2px 1px rgb(var(--shadow-rgb, 6 26 18) / 0.35))}.ds-case__shot{position:relative;display:block;aspect-ratio:2 / 1;background:linear-gradient(#E9E6DC 0 16%, #D8D4C8 16% 17%, #E9E6DC 17%)}.ds-case__open{position:absolute;right:0.75rem;bottom:0.75rem;display:inline-flex;align-items:center;gap:0.2rem;padding:0.15rem 0.65rem;color:var(--pen, #172866);background:var(--paper, #F7F6F1);border-radius:2px;font-family:var(--font-hand, \"LXGW WenKai TC\", \"Noto Sans TC\", serif);font-size:1rem;font-weight:700;line-height:1.5;rotate:-2deg;box-shadow:0 8px 14px -8px rgb(var(--shadow-rgb, 6 26 18) / 0.75);transition:translate 0.35s cubic-bezier(0.16, 1, 0.3, 1)}.ds-case__shot:hover .ds-case__open{translate:0 -3px}.ds-case__open svg,.ds-demo-link svg{display:inline-block;width:0.95rem;height:0.95rem;margin-left:0.2rem;vertical-align:-0.12em}.ds-case__note{margin-top:0.85rem;color:var(--kraft-ink-soft, #3D3120);font-family:var(--font-hand, \"LXGW WenKai TC\", \"Noto Sans TC\", serif);font-size:1.15rem;font-weight:700;line-height:1.3}.ds-case__title{margin:0;font-size:2.125rem;font-weight:900;line-height:1.25}.ds-fields{margin:1rem 0 0;font-size:0.975rem;border-top:2.5px solid var(--kraft-ink, #1F1A13);border-bottom:2.5px solid var(--kraft-ink, #1F1A13)}.ds-fields__row{display:grid;grid-template-columns:3.6em minmax(0, 1fr);gap:0.85rem;padding-block:0.6rem}.ds-fields__row + .ds-fields__row{border-top:1px solid color-mix(in oklab, var(--kraft-ink, #1F1A13) 45%, transparent)}.ds-fields dt{padding-top:0.15rem;color:var(--kraft-ink-soft, #3D3120);font-size:0.8125rem;font-weight:700;letter-spacing:0.18em}.ds-fields dd{margin:0;line-height:1.7}.ds-typed{font-family:var(--font-typed, \"Courier Prime\", \"Noto Sans TC\", ui-monospace, monospace);font-size:0.9375rem}.ds-case__stamp{display:inline-block;padding:0 0.45rem;color:var(--stamp-on-kraft, #7A180E);border:2px solid currentColor;border-radius:4px;font-size:1.2rem;font-weight:900;line-height:1.45;letter-spacing:0.12em;rotate:-3deg;filter:url(#ds-ink-case);mix-blend-mode:multiply}.ds-demo-link{color:var(--pen, #172866);font-family:var(--font-typed, \"Courier Prime\", \"Noto Sans TC\", ui-monospace, monospace);font-size:0.9375rem;font-weight:700;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:0.25em;overflow-wrap:anywhere}.ds-demo-link:hover{text-decoration-thickness:2.5px}.ds-demo-link:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:4px}"
+      "refersTo": "caption-box",
+      "description": "A panel of the 從設計稿到上線 strip: yellow narration caption sharing the panel's top-left border, flat-fill line drawing below.",
+      "html": "<div class=\"ds-strip\"><p class=\"ds-caption\">你給我設計稿，Figma、Zeplin、Adobe XD 都能協作。</p><div class=\"ds-strip-art\"><svg class=\"ds-art\" viewBox=\"0 0 240 150\" aria-hidden=\"true\" focusable=\"false\"><rect class=\"ds-f-white\" x=\"30\" y=\"14\" width=\"152\" height=\"122\" rx=\"4\"/><path class=\"ds-f-sand\" d=\"M30 18 A4 4 0 0 1 34 14 H178 A4 4 0 0 1 182 18 V30 H30 Z\"/><circle class=\"ds-f-white\" cx=\"41\" cy=\"22\" r=\"3.2\"/><circle class=\"ds-f-white\" cx=\"51\" cy=\"22\" r=\"3.2\"/><circle class=\"ds-f-white\" cx=\"61\" cy=\"22\" r=\"3.2\"/><rect class=\"ds-f-sky-pale\" x=\"40\" y=\"38\" width=\"132\" height=\"44\"/><path class=\"ds-f-hill\" d=\"M40 82 L76 58 L94 70 L120 52 L172 82 Z\"/><circle class=\"ds-f-cap\" cx=\"152\" cy=\"54\" r=\"7\"/><path d=\"M40 96 H138 M40 106 H116\"/><rect class=\"ds-f-sand-pale\" x=\"40\" y=\"114\" width=\"40\" height=\"14\"/><rect class=\"ds-f-sand-pale\" x=\"86\" y=\"114\" width=\"40\" height=\"14\"/><rect class=\"ds-f-sand-pale\" x=\"132\" y=\"114\" width=\"40\" height=\"14\"/><g transform=\"rotate(22 212 84)\"><rect class=\"ds-f-sand\" x=\"205\" y=\"18\" width=\"14\" height=\"10\" rx=\"2\"/><rect class=\"ds-f-cap\" x=\"205\" y=\"28\" width=\"14\" height=\"80\"/><path class=\"ds-f-sand-pale\" d=\"M205 108 L212 126 L219 108 Z\"/><path class=\"ds-f-ink\" d=\"M209.5 120 L212 126 L214.5 120 Z\"/></g></svg></div></div>",
+      "css": ".ds-strip{position:relative;display:flex;flex-direction:column;max-width:420px;min-height:12.5rem;padding:3.25rem 1rem 0.75rem;background:var(--sand-pale, #f5e6c6);color:var(--ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:3px}.ds-caption{position:absolute;top:calc(var(--stroke, 2px) * -1);left:calc(var(--stroke, 2px) * -1);max-width:calc(100% - 1rem);margin:0;padding:0.3em 0.75em 0.35em;background:var(--caption, #ffe07a);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-top-left-radius:3px;font:700 0.9375rem/1.45 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);letter-spacing:0.01em}.ds-strip-art{height:9.5rem}.ds-art{display:block;width:100%;height:100%;overflow:visible;fill:none;stroke:var(--line, #16171b);stroke-width:var(--stroke, 2px);stroke-linecap:round;stroke-linejoin:round}.ds-art *{vector-effect:non-scaling-stroke}.ds-f-white{fill:#ffffff}.ds-f-sky-pale{fill:var(--sky-pale, #dceef8)}.ds-f-sand{fill:var(--sand, #e7c17d)}.ds-f-sand-pale{fill:var(--sand-pale, #f5e6c6)}.ds-f-hill{fill:var(--hill, #b7d6b0)}.ds-f-cap{fill:var(--caption, #ffe07a)}.ds-f-ink{fill:var(--line, #16171b)}"
     },
     {
-      "name": "Ink Stamps",
+      "name": "Speech Balloon",
       "kind": "custom",
-      "refersTo": "stamp-chip",
-      "description": "Ink impressions, never fills: transparent ground, 2px currentColor border, roughened by the ink filter, multiply-blended (normal in dark mode). Oxblood #7A180E on kraft (≥19px/900), vermilion #C2301D on paper.",
-      "html": "<svg width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\" focusable=\"false\"><filter id=\"ds-ink-stamp\" x=\"-8%\" y=\"-8%\" width=\"116%\" height=\"116%\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.8\" numOctaves=\"2\" seed=\"7\" result=\"noise\" /><feDisplacementMap in=\"SourceGraphic\" in2=\"noise\" scale=\"1.1\" result=\"rough\" /><feColorMatrix in=\"noise\" type=\"matrix\" values=\"0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.1 0 0 0 1.45\" result=\"speckle\" /><feComposite in=\"rough\" in2=\"speckle\" operator=\"in\" /></filter></svg><div class=\"ds-stamps\"><div class=\"ds-stamps__kraft\"><span class=\"ds-stamp-chip\">形象網站</span></div><p class=\"ds-stamps__paper\"><span class=\"ds-stamp-label\">報價</span>依專案需求、功能複雜度與時程客製化評估。</p></div>",
-      "css": ".ds-stamps{display:grid;grid-template-columns:repeat(auto-fit, minmax(14rem, 1fr));font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-stamps__kraft{display:grid;place-items:center;padding:28px;background-color:var(--kraft, #CFA86C);background-image:var(--grain-fiber, none),var(--grain-kraft, none)}.ds-stamps__paper{margin:0;padding:28px;color:var(--ink-soft, #55524A);background:var(--paper, #F7F6F1);font-size:1.0625rem;line-height:1.8}.ds-stamp-chip{display:inline-block;padding:0 0.45rem;color:var(--stamp-on-kraft, #7A180E);border:2px solid currentColor;border-radius:4px;font-size:1.2rem;font-weight:900;line-height:1.45;letter-spacing:0.12em;rotate:-3deg;filter:url(#ds-ink-stamp);mix-blend-mode:multiply}.ds-stamp-label{display:inline-block;margin-right:0.5rem;padding:0 0.45rem;color:var(--stamp, #C2301D);border:2px solid currentColor;border-radius:4px;font-weight:900;letter-spacing:0.2em;rotate:-2deg;filter:url(#ds-ink-stamp);mix-blend-mode:multiply}"
+      "refersTo": "speech-balloon",
+      "description": "White rounded balloon with a drawn SVG tail aimed at the speaker; stays white at night and may break its panel's frame.",
+      "html": "<div class=\"ds-balloon-stage\"><p class=\"ds-balloon\">嗨，我是前端工程師阿良，目前接案中。你提供設計稿，我把它做成在手機、平板與電腦上都好用、會互動的網站，一路做到上線。<svg class=\"ds-tail\" viewBox=\"0 0 32 30\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M3 0C8 11 7 20 1 29 14 23 24 13 30 0\"/></svg></p></div>",
+      "css": ".ds-balloon-stage{padding:20px 20px 44px;max-width:460px}.ds-balloon{position:relative;margin:0;padding:1em 1.5em 1.05em;background:var(--balloon, #ffffff);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:1.75em;font:600 1.0625rem/1.6 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-tail{position:absolute;left:56%;bottom:-27px;width:30px;height:30px;overflow:visible}.ds-tail path{fill:var(--balloon, #ffffff);stroke:var(--line, #16171b);stroke-width:var(--stroke, 2px);stroke-linejoin:round;vector-effect:non-scaling-stroke}"
     },
     {
-      "name": "Commission Ticks",
+      "name": "Work Panel",
+      "kind": "card",
+      "refersTo": "work-frame",
+      "description": "One shipped site as a panel: screenshot frame with corner type caption and note balloon, body with title, summary, tech meta and 開啟網站 link. Hover draws the selected ring; the second panel shows the filter's faded state.",
+      "html": "<div class=\"ds-works\"><article class=\"ds-work\"><div class=\"ds-work-frame\"><div class=\"ds-shot\"><svg class=\"ds-art\" viewBox=\"0 0 240 150\" aria-hidden=\"true\" focusable=\"false\"><rect class=\"ds-f-white\" x=\"30\" y=\"14\" width=\"152\" height=\"122\" rx=\"4\"/><path class=\"ds-f-sand\" d=\"M30 18 A4 4 0 0 1 34 14 H178 A4 4 0 0 1 182 18 V30 H30 Z\"/><circle class=\"ds-f-white\" cx=\"41\" cy=\"22\" r=\"3.2\"/><circle class=\"ds-f-white\" cx=\"51\" cy=\"22\" r=\"3.2\"/><circle class=\"ds-f-white\" cx=\"61\" cy=\"22\" r=\"3.2\"/><rect class=\"ds-f-sky-pale\" x=\"40\" y=\"38\" width=\"132\" height=\"44\"/><path class=\"ds-f-hill\" d=\"M40 82 L76 58 L94 70 L120 52 L172 82 Z\"/><circle class=\"ds-f-cap\" cx=\"152\" cy=\"54\" r=\"7\"/><path d=\"M40 96 H138 M40 106 H116\"/><rect class=\"ds-f-sand-pale\" x=\"40\" y=\"114\" width=\"40\" height=\"14\"/><rect class=\"ds-f-sand-pale\" x=\"86\" y=\"114\" width=\"40\" height=\"14\"/><rect class=\"ds-f-sand-pale\" x=\"132\" y=\"114\" width=\"40\" height=\"14\"/><g transform=\"rotate(22 212 84)\"><rect class=\"ds-f-sand\" x=\"205\" y=\"18\" width=\"14\" height=\"10\" rx=\"2\"/><rect class=\"ds-f-cap\" x=\"205\" y=\"28\" width=\"14\" height=\"80\"/><path class=\"ds-f-sand-pale\" d=\"M205 108 L212 126 L219 108 Z\"/><path class=\"ds-f-ink\" d=\"M209.5 120 L212 126 L214.5 120 Z\"/></g></svg></div><p class=\"ds-work-type\">形象網站</p><p class=\"ds-note\">Vue ＋ Nuxt<svg class=\"ds-note-tail\" viewBox=\"0 0 32 30\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M3 0C8 11 7 20 1 29 14 23 24 13 30 0\"/></svg></p></div><div class=\"ds-work-body\"><h3 class=\"ds-work-title\">鏡好聽</h3><p class=\"ds-work-summary\">聲音平台，主要商品有 Podcast 免費節目收聽、有聲書導讀、付費課程教學，打造用聲音與使用者交流為主的網站。</p><p class=\"ds-work-tech\">CSS3 · Tailwind CSS · JavaScript · Vue · Nuxt</p><a class=\"ds-work-link\" href=\"#\"><span class=\"ds-work-link-label\">開啟網站</span><span class=\"ds-work-url\">mirrorvoice.com.tw<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M7 17 17 7\" /><path d=\"M9 7h8v8\" /></svg></span></a></div></article><article class=\"ds-work is-dim\"><div class=\"ds-work-frame\"><div class=\"ds-shot\"><svg class=\"ds-art\" viewBox=\"0 0 240 150\" aria-hidden=\"true\" focusable=\"false\"><rect class=\"ds-f-white\" x=\"30\" y=\"14\" width=\"152\" height=\"122\" rx=\"4\"/><path class=\"ds-f-sand\" d=\"M30 18 A4 4 0 0 1 34 14 H178 A4 4 0 0 1 182 18 V30 H30 Z\"/><circle class=\"ds-f-white\" cx=\"41\" cy=\"22\" r=\"3.2\"/><circle class=\"ds-f-white\" cx=\"51\" cy=\"22\" r=\"3.2\"/><circle class=\"ds-f-white\" cx=\"61\" cy=\"22\" r=\"3.2\"/><rect class=\"ds-f-sky-pale\" x=\"40\" y=\"38\" width=\"132\" height=\"44\"/><path class=\"ds-f-hill\" d=\"M40 82 L76 58 L94 70 L120 52 L172 82 Z\"/><circle class=\"ds-f-cap\" cx=\"152\" cy=\"54\" r=\"7\"/><path d=\"M40 96 H138 M40 106 H116\"/><rect class=\"ds-f-sand-pale\" x=\"40\" y=\"114\" width=\"40\" height=\"14\"/><rect class=\"ds-f-sand-pale\" x=\"86\" y=\"114\" width=\"40\" height=\"14\"/><rect class=\"ds-f-sand-pale\" x=\"132\" y=\"114\" width=\"40\" height=\"14\"/><g transform=\"rotate(22 212 84)\"><rect class=\"ds-f-sand\" x=\"205\" y=\"18\" width=\"14\" height=\"10\" rx=\"2\"/><rect class=\"ds-f-cap\" x=\"205\" y=\"28\" width=\"14\" height=\"80\"/><path class=\"ds-f-sand-pale\" d=\"M205 108 L212 126 L219 108 Z\"/><path class=\"ds-f-ink\" d=\"M209.5 120 L212 126 L214.5 120 Z\"/></g></svg></div><p class=\"ds-work-type\">一頁式</p><p class=\"ds-note\">AOS 捲動動畫<svg class=\"ds-note-tail\" viewBox=\"0 0 32 30\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M3 0C8 11 7 20 1 29 14 23 24 13 30 0\"/></svg></p></div><div class=\"ds-work-body\"><h3 class=\"ds-work-title\">Mook</h3><p class=\"ds-work-tech\">HTML5 · Pug · SCSS · Tailwind CSS · AOS · JavaScript</p></div></article></div>",
+      "css": ".ds-works{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--gutter, 16px);padding:8px}.ds-work{display:flex;flex-direction:column;overflow:hidden;background:var(--panel, #ffffff);color:var(--ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:3px}.ds-work:hover,.ds-work:focus-within{box-shadow:0 0 0 1.5px var(--select, #16171b)}.ds-work-frame{position:relative;aspect-ratio:16/10;background:var(--sky-pale, #dceef8);border-bottom:var(--stroke, 2px) solid var(--line, #16171b)}.ds-shot{position:absolute;inset:12% 10% 16%}.ds-work-type{position:absolute;top:calc(var(--stroke, 2px) * -1);left:calc(var(--stroke, 2px) * -1);margin:0;padding:0.3em 0.75em 0.35em;background:var(--caption, #ffe07a);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-top-left-radius:3px;font:700 0.9375rem/1.45 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-note{position:absolute;right:0.85rem;bottom:0.85rem;margin:0;padding:0.4em 0.9em 0.45em;background:var(--balloon, #ffffff);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:999px;font:700 0.875rem/1.35 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);white-space:nowrap}.ds-note-tail{position:absolute;right:20%;top:-16px;width:18px;height:18px;overflow:visible;transform:scale(-1,-1)}.ds-note-tail path{fill:var(--balloon, #ffffff);stroke:var(--line, #16171b);stroke-width:var(--stroke, 2px);stroke-linejoin:round;vector-effect:non-scaling-stroke}.ds-work-body{display:grid;gap:0.6rem;padding:1.1rem 1.25rem 1.3rem}.ds-work-title{margin:0;font:900 clamp(1.3rem, 1.12rem + 0.6vw, 1.625rem)/1.25 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-work-summary{margin:0;color:var(--ink-soft, #464b56);font:400 1rem/1.75 var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-work-tech{margin:0;color:var(--ink-soft, #464b56);font:600 0.875rem/1.65 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-work-link{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:0.15rem 0.45rem;justify-self:start;color:var(--link, #1b4e91);font:800 1rem/1.4 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);text-decoration:none}.ds-work-link-label{text-decoration:underline;text-decoration-thickness:var(--stroke, 2px);text-underline-offset:0.25em}.ds-work-link:hover .ds-work-link-label{text-decoration-thickness:var(--stroke-bold, 3.5px)}.ds-work-link:focus-visible{outline:3px solid var(--focus, #1b4e91);outline-offset:3px}.ds-work-url{font-weight:600;font-size:0.875rem}.ds-work-url svg{display:inline-block;width:1rem;height:1rem;margin-left:0.3rem;vertical-align:-0.15em}.ds-work-url svg *{vector-effect:non-scaling-stroke}.ds-work.is-dim,.ds-work.is-dim .ds-work-frame{border-color:var(--dim, #a0a7b1)}.ds-work.is-dim .ds-shot{filter:grayscale(1) contrast(0.8);opacity:0.4}.ds-work.is-dim .ds-work-type,.ds-work.is-dim .ds-note{background:var(--panel, #ffffff);color:var(--ink-soft, #464b56);border-color:var(--dim, #a0a7b1)}.ds-work.is-dim .ds-note-tail path{fill:var(--panel, #ffffff);stroke:var(--dim, #a0a7b1)}.ds-work.is-dim .ds-work-title{color:var(--ink-soft, #464b56)}.ds-art{display:block;width:100%;height:100%;overflow:visible;fill:none;stroke:var(--line, #16171b);stroke-width:var(--stroke, 2px);stroke-linecap:round;stroke-linejoin:round}.ds-art *{vector-effect:non-scaling-stroke}.ds-f-white{fill:#ffffff}.ds-f-sky-pale{fill:var(--sky-pale, #dceef8)}.ds-f-sand{fill:var(--sand, #e7c17d)}.ds-f-sand-pale{fill:var(--sand-pale, #f5e6c6)}.ds-f-hill{fill:var(--hill, #b7d6b0)}.ds-f-cap{fill:var(--caption, #ffe07a)}.ds-f-ink{fill:var(--line, #16171b)}"
+    },
+    {
+      "name": "Service Ticks",
       "kind": "input",
       "refersTo": "tick-box",
-      "description": "Service checkboxes on the paper commission form: whole-row label, ink-bordered box, a vermilion check stamped in on select, pen-blue focus ring around the box.",
-      "html": "<div class=\"ds-order\"><label class=\"ds-tick\"><input type=\"checkbox\" name=\"service\" value=\"一頁式活動頁\" checked><span class=\"ds-tick__box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m5 12.5 4.5 4.5L19 7.5\" /></svg></span><span class=\"ds-tick__text\">一頁式活動頁</span></label><label class=\"ds-tick\"><input type=\"checkbox\" name=\"service\" value=\"響應式設計 (RWD)\"><span class=\"ds-tick__box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m5 12.5 4.5 4.5L19 7.5\" /></svg></span><span class=\"ds-tick__text\">響應式設計 (RWD)</span></label></div>",
-      "css": ".ds-order{display:grid;gap:0.25rem;padding:24px;color:var(--ink, #1C1B19);background:var(--paper, #F7F6F1);font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-size:1.0625rem;line-height:1.8;--focus:var(--pen, #172866)}.ds-tick{position:relative;display:flex;align-items:flex-start;gap:0.75rem;padding:0.55rem 0.5rem;border-radius:6px;cursor:pointer;transition:background-color 0.2s ease-out}.ds-tick:hover{background:color-mix(in oklab, var(--paper-line, #D8D4C8) 35%, transparent)}.ds-tick input{position:absolute;inset:0;margin:0;opacity:0;cursor:pointer}.ds-tick__box{display:grid;place-items:center;flex:none;width:1.6rem;height:1.6rem;margin-top:0.1rem;color:var(--stamp, #C2301D);border:2px solid var(--ink, #1C1B19);border-radius:3px}.ds-tick__box svg{width:1.5rem;height:1.5rem;stroke-width:3;opacity:0;scale:1.6;transition:opacity 0.15s ease-out,scale 0.35s cubic-bezier(0.16, 1, 0.3, 1)}.ds-tick input:checked + .ds-tick__box svg{opacity:1;scale:1}.ds-tick input:focus-visible + .ds-tick__box{outline:3px solid var(--focus);outline-offset:3px}.ds-tick input:checked ~ .ds-tick__text{font-weight:700}"
+      "description": "Full-row checkbox labels in a service panel; the box fills Narration Yellow with a drawn check when chosen and the item text goes to 700.",
+      "html": "<fieldset class=\"ds-service\"><legend class=\"ds-service-title\">切版開發</legend><ul class=\"ds-ticks\"><li><label class=\"ds-tick\"><input type=\"checkbox\" checked><span class=\"ds-box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m5 12.5 4.5 4.5L19 7.5\" /></svg></span><span class=\"ds-tick-text\">一頁式活動頁</span></label></li><li><label class=\"ds-tick\"><input type=\"checkbox\"><span class=\"ds-box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m5 12.5 4.5 4.5L19 7.5\" /></svg></span><span class=\"ds-tick-text\">多頁式網站</span></label></li><li><label class=\"ds-tick\"><input type=\"checkbox\"><span class=\"ds-box\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"m5 12.5 4.5 4.5L19 7.5\" /></svg></span><span class=\"ds-tick-text\">響應式設計 (RWD)</span></label></li></ul></fieldset>",
+      "css": ".ds-service{max-width:360px;margin:0;padding:0 0 0.5rem;background:var(--panel, #ffffff);color:var(--ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:3px}.ds-service-title{float:left;width:100%;margin:1.1rem 1.25rem 0.35rem;padding:0;font:900 1.5rem/1.3 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-ticks{clear:both;margin:0;padding:0 0.75rem 0.5rem;list-style:none}.ds-tick{position:relative;display:flex;align-items:flex-start;gap:0.75rem;padding:0.55rem 0.5rem;border-radius:8px;cursor:pointer;font:400 1.0625rem/1.65 var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-tick input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer}.ds-box{display:grid;place-items:center;flex:none;width:1.5rem;height:1.5rem;margin-top:0.1rem;background:var(--balloon, #ffffff);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:4px}.ds-box svg{width:1.05rem;height:1.05rem;opacity:0}.ds-box svg *{vector-effect:non-scaling-stroke}.ds-tick:hover .ds-box{box-shadow:0 0 0 1.5px var(--line, #16171b)}.ds-tick input:checked + .ds-box{background:var(--caption, #ffe07a);box-shadow:0 0 0 1.5px var(--line, #16171b)}.ds-tick input:checked + .ds-box svg{opacity:1}.ds-tick input:checked ~ .ds-tick-text{font-weight:700}.ds-tick input:focus-visible + .ds-box{outline:3px solid var(--focus, #1b4e91);outline-offset:3px}"
     },
     {
-      "name": "Attachment Sheet",
+      "name": "Copy Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "White pill balloon with three speed lines trailing left; hard-cuts in for 2.6s after a copy (shown statically here). Speed lines turn white in the night edition.",
+      "html": "<div class=\"ds-toast-stage\"><div class=\"ds-toast\" role=\"status\">已複製 Email</div></div>",
+      "css": ".ds-toast-stage{display:flex;justify-content:center;padding:24px 24px 24px 72px}.ds-toast{position:relative;padding:0.7em 1.3em 0.75em;background:var(--balloon, #ffffff);color:var(--balloon-ink, #16171b);border:var(--stroke, 2px) solid var(--line, #16171b);border-radius:999px;font:800 1rem/1.4 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-toast::before{content:\"\";position:absolute;top:50%;left:-2.4rem;width:2rem;height:1.25rem;transform:translateY(-50%);background:linear-gradient(var(--line, #16171b),var(--line, #16171b)) 0.5rem 0/calc(100% - 0.5rem) var(--stroke, 2px) no-repeat,linear-gradient(var(--line, #16171b),var(--line, #16171b)) 0 50%/100% var(--stroke, 2px) no-repeat,linear-gradient(var(--line, #16171b),var(--line, #16171b)) 0.5rem 100%/calc(100% - 0.5rem) var(--stroke, 2px) no-repeat}"
+    },
+    {
+      "name": "Night Edition Panel",
       "kind": "card",
-      "refersTo": "paper-sheet",
-      "description": "Cool file-paper sheet tilted 1.2° and paper-clipped, carrying typed skill tags under printed field labels.",
-      "html": "<div class=\"ds-desk-s\"><aside class=\"ds-sheet\"><svg class=\"ds-sheet__clip\" viewBox=\"0 0 28 72\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M9 20V9a5 5 0 0 1 10 0v46a8 8 0 0 1-16 0V17\" /></svg><h3 class=\"ds-sheet__title\">附件：技能與工具</h3><dl class=\"ds-skills\"><dt>技能</dt><dd><ul class=\"ds-skills__list\"><li>HTML5</li><li>Pug</li><li>SCSS</li><li>TypeScript</li><li>Vue</li><li>Nuxt</li><li>Tailwind CSS</li><li>a11y</li></ul></dd><dt>工具</dt><dd><ul class=\"ds-skills__list\"><li>Git</li><li>GitHub</li><li>GitLab</li></ul></dd></dl></aside></div>",
-      "css": ".ds-desk-s{display:flow-root;padding:2.5rem 1.5rem 2rem;background-color:var(--desk, #1E5A45);background-image:var(--grain-desk, none)}.ds-sheet{position:relative;max-width:26rem;padding:2rem;color:var(--ink, #1C1B19);background:var(--paper, #F7F6F1);border-radius:3px;rotate:1.2deg;box-shadow:0 26px 52px -32px rgb(var(--shadow-rgb, 6 26 18) / 0.95);font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);font-size:1.0625rem;line-height:1.8}.ds-sheet__clip{position:absolute;z-index:3;top:-1.7rem;right:18%;width:1.375rem;height:3.6rem;fill:none;stroke:var(--metal, #7F878F);stroke-width:3;stroke-linecap:round;filter:drop-shadow(1px 2px 1px rgb(var(--shadow-rgb, 6 26 18) / 0.35))}.ds-sheet__title{margin:0;font-size:1.375rem;font-weight:900;line-height:1.3}.ds-skills{margin:1.25rem 0 0}.ds-skills dt{margin:1.1rem 0 0.5rem;color:var(--ink-soft, #55524A);font-size:0.8125rem;font-weight:700;letter-spacing:0.2em}.ds-skills dt:first-child{margin-top:0}.ds-skills dd{margin:0}.ds-skills__list{display:flex;flex-wrap:wrap;gap:0.45rem;margin:0;padding:0;list-style:none}.ds-skills__list li{padding:0.1rem 0.55rem;font-family:var(--font-typed, \"Courier Prime\", \"Noto Sans TC\", ui-monospace, monospace);font-size:0.9375rem;line-height:1.6;background:var(--paper, #F7F6F1);border:1.5px solid color-mix(in oklab, var(--ink, #1C1B19) 55%, transparent);border-radius:3px}"
-    },
-    {
-      "name": "Binding Spine",
-      "kind": "nav",
-      "refersTo": "binding-spine",
-      "description": "Desktop (≥75rem) sticky case index: kraft-deep spine with a metal fastener and punched holes; the current case is a paper slip sticking 1rem out. Below 75rem it becomes a sticky desk-deep strip of typed No.0x chips. Known gaps: detached from the folders; holes read as bullets.",
-      "html": "<div class=\"ds-desk-bd\"><nav class=\"ds-binding\" aria-label=\"作品卷宗索引\"><svg class=\"ds-binding__fastener\" viewBox=\"0 0 120 40\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"4\" y=\"5\" width=\"112\" height=\"13\" rx=\"6.5\" fill=\"currentColor\" /><path d=\"M24 18v17M96 18v17\" stroke=\"currentColor\" stroke-width=\"4.5\" stroke-linecap=\"round\" /><circle cx=\"24\" cy=\"11.5\" r=\"2.6\" class=\"ds-binding__rivet\" /><circle cx=\"96\" cy=\"11.5\" r=\"2.6\" class=\"ds-binding__rivet\" /></svg><ol><li><a href=\"#\"><span class=\"ds-binding__no\">No.01</span><span>香奈兒腕錶形象頁</span></a></li><li><a href=\"#\"><span class=\"ds-binding__no\">No.02</span><span>食農知味</span></a></li><li><a href=\"#\" aria-current=\"true\"><span class=\"ds-binding__no\">No.03</span><span>Mook</span></a></li><li><a href=\"#\"><span class=\"ds-binding__no\">No.04</span><span>景點+</span></a></li></ol></nav></div>",
-      "css": ".ds-desk-bd{padding:28px 44px 28px 28px;background-color:var(--desk, #1E5A45);background-image:var(--grain-desk, none)}.ds-binding{position:relative;width:11.5rem;padding:3.6rem 0 1.25rem 2rem;color:var(--kraft-ink, #1F1A13);background-color:var(--kraft-deep, #B48A50);background-image:var(--grain-fiber, none),var(--grain-kraft, none);border-radius:4px 2px 2px 4px;box-shadow:inset -8px 0 12px -10px rgb(var(--shadow-rgb, 6 26 18) / 0.7),0 18px 34px -22px rgb(var(--shadow-rgb, 6 26 18) / 0.9);font-family:var(--font-sans, \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif);--focus:var(--pen, #172866)}.ds-binding::before{content:\"\";position:absolute;top:3.6rem;bottom:1.25rem;left:0.6rem;width:0.75rem;background:radial-gradient(circle, var(--desk-deep, #174836) 0 0.28rem, transparent calc(0.28rem + 0.5px)) center top / 0.75rem 1.7rem repeat-y}.ds-binding__fastener{position:absolute;top:0.85rem;left:0.75rem;width:calc(100% - 1.5rem);height:auto;color:var(--metal, #7F878F);filter:drop-shadow(1px 2px 1px rgb(var(--shadow-rgb, 6 26 18) / 0.4))}.ds-binding__rivet{fill:var(--kraft-deep, #B48A50)}.ds-binding ol{display:grid;gap:0.1rem;margin:0;padding:0;list-style:none}.ds-binding a{display:grid;padding:0.4rem 0.75rem 0.4rem 0.6rem;color:var(--kraft-ink, #1F1A13);font-size:0.9375rem;font-weight:700;line-height:1.35;text-decoration:none;border-radius:4px 0 0 4px;transition:transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),background-color 0.2s ease-out}.ds-binding a:hover{transform:translateX(3px)}.ds-binding a[aria-current=\"true\"]{margin-right:-1rem;padding-right:1.75rem;color:var(--ink, #1C1B19);background:var(--paper, #F7F6F1);box-shadow:0 8px 14px -10px rgb(var(--shadow-rgb, 6 26 18) / 0.8)}.ds-binding a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.ds-binding__no{font-family:var(--font-typed, \"Courier Prime\", \"Noto Sans TC\", ui-monospace, monospace);font-size:0.875rem}"
+      "refersTo": "establishing-panel-night",
+      "description": "The same drawing printed at night: night page around a midnight panel, black line kept, moon and stars on, lit windows, balloon still white.",
+      "html": "<div class=\"ds-night\"><div class=\"ds-night-panel\"><p class=\"ds-night-balloon\">從設計對接到開發交付，我都能一個人完成。</p><svg class=\"ds-night-art\" viewBox=\"0 0 300 140\" aria-hidden=\"true\" focusable=\"false\"><path class=\"ds-n-cap\" d=\"M262 20 A16 16 0 0 0 262 52 A19 19 0 0 1 262 20 Z\"/><path class=\"ds-n-cap\" d=\"M40 30 L41.5 33.5 L45 35 L41.5 36.5 L40 40 L38.5 36.5 L35 35 L38.5 33.5 Z\"/><path class=\"ds-n-cap\" d=\"M200 18 L201 21 L204 22 L201 23 L200 26 L199 23 L196 22 L199 21 Z\"/><path class=\"ds-n-hill\" d=\"M-2 80 Q60 50 130 72 Q200 40 302 66 V142 H-2 Z\"/><rect class=\"ds-n-sand\" x=\"20\" y=\"74\" width=\"60\" height=\"62\"/><rect class=\"ds-n-facade\" x=\"80\" y=\"58\" width=\"50\" height=\"78\"/><rect class=\"ds-n-skypale\" x=\"130\" y=\"80\" width=\"70\" height=\"56\"/><rect class=\"ds-n-facade\" x=\"200\" y=\"66\" width=\"80\" height=\"70\"/><rect class=\"ds-n-lit\" x=\"30\" y=\"86\" width=\"10\" height=\"11\"/><rect class=\"ds-n-win\" x=\"50\" y=\"86\" width=\"10\" height=\"11\"/><rect class=\"ds-n-win\" x=\"92\" y=\"70\" width=\"10\" height=\"11\"/><rect class=\"ds-n-lit\" x=\"110\" y=\"90\" width=\"10\" height=\"11\"/><rect class=\"ds-n-lit\" x=\"146\" y=\"92\" width=\"10\" height=\"11\"/><rect class=\"ds-n-win\" x=\"170\" y=\"92\" width=\"10\" height=\"11\"/><rect class=\"ds-n-win\" x=\"214\" y=\"78\" width=\"10\" height=\"11\"/><rect class=\"ds-n-lit\" x=\"250\" y=\"98\" width=\"10\" height=\"11\"/><rect class=\"ds-n-sand\" x=\"-2\" y=\"130\" width=\"304\" height=\"12\"/></svg></div></div>",
+      "css": ".ds-night{padding:20px;background:#3a5584}.ds-night-panel{position:relative;display:grid;gap:12px;padding:20px 20px 0;overflow:hidden;background:#213b68;color:#eef2f8;border:2px solid #07090f;border-radius:3px}.ds-night-balloon{justify-self:start;margin:0;padding:1em 1.5em 1.05em;background:#ffffff;color:#16171b;border:2px solid #07090f;border-radius:1.75em;font:600 1.0625rem/1.6 var(--font-letter, \"Chiron GoRound TC\", \"Noto Sans TC\", \"PingFang TC\", \"Microsoft JhengHei\", sans-serif)}.ds-night-art{display:block;width:100%;height:auto;overflow:visible;fill:none;stroke:#07090f;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round}.ds-night-art *{vector-effect:non-scaling-stroke}.ds-n-cap{fill:#f6d670}.ds-n-hill{fill:#2b4a46}.ds-n-sand{fill:#6a5434}.ds-n-facade{fill:#3b4f73}.ds-n-skypale{fill:#1c3152}.ds-n-win{fill:#2a3a58}.ds-n-lit{fill:#ffd96b}"
     }
   ],
   "narrative": {
-    "northStar": "The Case-File Desk (卷宗桌)",
-    "overview": "The page is a desk in a Taiwanese office. A pressboard-green desk owns the ground. Kraft case folders (卷宗) with index tabs hold the work. Cool file paper holds anything meant for reading. Vermilion rubber stamps mark status and type, ballpoint-pen blue marks only what opens something, and pencil graphite carries the handwritten notes. Every component is an object you would find on that desk. The page takes its grid language from the form printed on the folder cover: field rows, a fixed label column and heavy rules.\n\nDensity is calm and readable. CJK body text runs large and loose (1.0625rem, line-height 1.8 to 1.95), and hierarchy comes only from size contrast between Noto Sans TC Black display type and regular body type. Objects sit a little askew (−0.8° to 3°) and cast soft, green-tinted contact shadows. When they move, they move like paper: folders settle onto the desk, prints slide out of the folder mouth, stamps press down, and pencil leaders draw themselves in. Light mode is the default. Dark mode is a night version of the same desk that the visitor turns on with the toggle tab.\n\nConfirmed rejections: the industry-default portfolio (copy on the left, avatar on the right, then a row of equal work cards); cream or warm paper (the file paper is cool on purpose, so it reads against the kraft); and yellow fills on kraft, which fail WCAG 1.4.11 boundary contrast.",
+    "northStar": "The Ligne Claire Album",
+    "overview": "The portfolio is a ligne claire (清線派) comic album. 阿良 is the protagonist, every shipped website is a panel, and the services, the self-introduction and the contact are further panels of the same story. The ground is a white album page. One uniform ink line outlines every panel, speech balloon, caption box, button, field and illustration: 2px on phones and tablets, 2.5px from 64rem. Every SVG stroke is non-scaling, so a drawing placed small or large keeps exactly the same pen. Fills are flat. Daylight blue and sand ochre carry the midtones, hill green and crane steel fill the props, yellow caption boxes narrate, white balloons speak, and red appears only on objects the story needs: the mail and send actions, the 聯絡 tab, the 接案中 sign hanging from the crane, and the red postbox.\n\nDensity is comic-page density, not landing-page air. Panels sit in tiers separated by a narrow white gutter, and each `section` is an album page with a larger gap before the next. Lettering does the voice: Chiron GoRound TC, a rounded gothic, letters titles, balloons, captions, buttons and navigation the way a letterer would. Noto Sans TC sets everything that is read rather than heard. State is drawn, not lit. Hover, current and selection draw the same line heavier. A filter fades the panels that don't match and never moves them. Motion is the comic's own grammar: panels hard-cut in reading order, and one stop-motion crane lowers a web page into the opening scene. The night edition is the same album printed at night. The page turns deep blue, panels go one step deeper, the black line stays, the sun becomes a moon, stars come out, skyline windows light up, and balloons stay white.\n\nThe opening panel departs from the direction contract on purpose. The contract planned a line drawing of a desk monitor. The build instead draws a tower crane hoisting a browser window over a rooftop skyline of water tanks, antennas and tin-roof add-ons, with the red 接案中 sign hanging from the jib, so that \"making the website\" reads as construction in progress. The crane is now the system's signature illustration. Two directions were rejected when the world was chosen: the industry default of headline-left/avatar-right above a row of equal work cards, and the previous case-file stationery world, with its prop realism, textures and shadows.",
     "keyCharacteristics": [
-      "Three materials with three ink sets: desk green, kraft folder, cool file paper.",
-      "Every case uses the same printed field rows: 類型 / 技術 / 簡述 / 網址.",
-      "Stamps are ink impressions: a transparent ground, a currentColor border, roughened edges, multiply blending.",
-      "Each typeface has one job: Noto Sans TC for the voice, Courier Prime for typed data, LXGW WenKai TC for handwriting.",
-      "Paper-physics motion (expo.out), all of it gated behind prefers-reduced-motion.",
-      "Index tabs hang from the header. The binding spine marks your place in the stack."
+      "One pen: a single ink line (`--stroke` 2px, 2.5px at ≥64rem; `--stroke-bold` 3.5px / 4px) on every edge and every SVG stroke, always `vector-effect: non-scaling-stroke` with round caps and joins.",
+      "Flat colour only. There are no tonal gradients, no drop shadows, no blur and no texture.",
+      "A white album page of near-square panels (3px corners) in tiers, separated by a white gutter.",
+      "Yellow caption boxes for narration and labels, white rounded balloons with drawn tails for speech, and red only on story objects.",
+      "Selection is the same line drawn heavier. Filtering fades panels without reflowing them.",
+      "Motion is hard cuts in reading order plus one stop-motion crane. Nothing eases, and everything is visible without motion.",
+      "The night edition swaps the palette, not the drawing."
     ],
     "rules": [
       {
-        "name": "The Sun Is for Doing Rule",
-        "body": "Sun yellow appears only where the visitor acts on the green desk: primary buttons, the focus ring and the 聯絡 tab. It never fills anything on kraft or paper, where it measures 1.22:1 against kraft.",
+        "name": "The One Pen Rule",
+        "body": "Every edge in the album is drawn with the line colour at `--stroke`. There are no grey hairlines, no coloured borders and no second pen. The one sanctioned lighter line is Faded Line, on panels a filter has faded.",
         "section": "colors"
       },
       {
-        "name": "The Pen Opens Things Rule",
-        "body": "Ballpoint blue means \"this opens something\": links and the 開啟網站 tags. Headings, notes and decoration never use it.",
+        "name": "The Red Object Rule",
+        "body": "Red is a prop in the story, not an accent. It goes only on mail and send actions, the 聯絡 tab, the 接案中 sign and the red postbox. It never goes on headings, links, emphasis, badges or decoration.",
         "section": "colors"
       },
       {
-        "name": "The Two Reds Rule",
-        "body": "Stamp ink depends on what it lands on: #C2301D on paper and #7A180E on kraft. The paper red on kraft measures 2.54:1, so never cross them.",
+        "name": "The White Balloon Rule",
+        "body": "Balloons, plain buttons, filters, tick boxes, skill chips and the toast keep a white ground and Lettering Ink in both editions. Captions keep yellow. The night edition darkens the page around them, never the balloons themselves.",
         "section": "colors"
       },
       {
-        "name": "The Focus Follows the Ground Rule",
-        "body": "--focus is set by the surface the 3px ring lands on: sun on the desk, pen blue on kraft or paper.",
+        "name": "The Night Edition Rule",
+        "body": "Dark mode is the same album printed at night. It swaps palette tokens and toggles `.sun`, `.moon` and `.star`. It does not redraw or restyle any illustration.",
         "section": "colors"
       },
       {
-        "name": "The Typed Is Data Rule",
-        "body": "Courier Prime sets only data a clerk would type into the form: case numbers, URLs, tech lists, index numbers, counts, the email address. It is not a costume for \"technical\", so never use it for headings, labels or prose.",
+        "name": "The Letterer and Typesetter Rule",
+        "body": "Chiron GoRound TC letters anything a comic letterer would letter: titles, balloons, captions, controls, navigation and labels. Noto Sans TC sets anything that is read as running text: ledes, summaries, prose, form items and the footer. Never swap them.",
         "section": "typography"
       },
       {
-        "name": "The Size Is Hierarchy Rule",
-        "body": "Rank comes from size contrast between 900 and 400, never from color or a third weight. The same Noto Sans TC Black carries every level of title.",
+        "name": "The Caption Does the Narrating Rule",
+        "body": "No small label or eyebrow sits above a title. Narration and category names live in a yellow caption box tucked into a panel's top-left corner.",
         "section": "typography"
       },
       {
-        "name": "The Pencil Rule",
-        "body": "Handwritten notes are pencil graphite (#3D3120 on kraft). The only pen-blue handwriting is the 開啟網站 tag, because it opens something.",
-        "section": "typography"
+        "name": "The Gutter Rule",
+        "body": "Panels never touch and never overlap. A white gutter always separates them. Only balloons may cross a frame.",
+        "section": "layout"
       },
       {
-        "name": "The CJK Leading Rule",
-        "body": "Running CJK text stays at 1.0625rem with line-height 1.8 to 1.95. Tighter leading (1.12–1.3) is only for 900-weight titles of 1.375rem and up, and for one-line UI labels.",
-        "section": "typography"
+        "name": "The Fixed Page Rule",
+        "body": "Filtering never reflows, hides or reorders panels, just as a printed comic page cannot re-panel itself. Non-matching panels fade in place.",
+        "section": "layout"
       },
       {
-        "name": "The Thickness Rule",
-        "body": "Shadow length follows how thick the object is: folders and sheets > flap and spine > print > tab and tag. A new object takes the shadow of the real object it imitates.",
+        "name": "The Flat Page Rule",
+        "body": "Nothing lifts off the page. A state change may thicken a line, fill a box yellow or fade a panel, but it never adds a shadow, an offset or a glow.",
         "section": "elevation"
       },
       {
-        "name": "The Contact Shadow Rule",
-        "body": "Every shadow uses negative spread and the desk-green tint. A shadow that rings an element, or a flat black offset shadow, does not belong on this desk.",
+        "name": "The Heavier Line Rule",
+        "body": "Hover, current, pressed and selected are all the same line drawn heavier. That means a 1.5px spread ring (totalling `--stroke-bold`), or a `--stroke-bold` underline under the current nav link and the email address.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do put every new surface on one of the three materials (desk #1E5A45, kraft #CFA86C, file paper #F7F6F1), and take its text color from that material's ink tokens.",
-      "Do use the desk-green button for primary actions on kraft or paper, and the sun button only on the green desk.",
-      "Do set --focus by the surface the ring lands on: sun on the desk, pen blue on kraft or paper (3px solid, 3px offset).",
-      "Do stamp, don't fill: a transparent ground, a 2px currentColor border, filter: url(#ink), multiply in light mode, rotated −2° to −14°.",
-      "Do keep stamp text on kraft at 1.2rem/900 or larger in #7A180E, and use #C2301D only on paper.",
-      "Do set Courier Prime only on typed data: case numbers, URLs, tech lists, counts, the email address.",
-      "Do write annotations in LXGW WenKai TC 700 in pencil graphite (#3D3120).",
-      "Do keep running text at 1.0625rem with line-height 1.8 (1.95 for prose), with measures of 34–40em.",
-      "Do tint every shadow with --shadow-rgb and give it negative spread, sized to the object's thickness.",
-      "Do keep content visible in the HTML and animate with GSAP .from() (expo.out) inside gsap.matchMedia('(prefers-reduced-motion: no-preference)').",
-      "Do default to light and switch to dark only through the toggle, stored in localStorage['liang-theme'] and applied before first paint."
+      "**Do** draw every new edge with the line colour at `--stroke` (2px, 2.5px at ≥64rem), and give every SVG child `vector-effect: non-scaling-stroke` with round caps and joins.",
+      "**Do** show hover, current, pressed and selected states by drawing the line heavier: a `0 0 0 1.5px` spread ring in the line colour, or a `--stroke-bold` underline.",
+      "**Do** fill illustrations only through the flat fill classes, so the night edition recolours them without a second drawing.",
+      "**Do** keep balloons, plain buttons, filters, tick boxes, skill chips and the toast white with Lettering Ink, and captions yellow, in both editions.",
+      "**Do** tuck narration and category labels into a yellow caption box that shares the panel's top-left border, and give every speech balloon a drawn tail aimed at its speaker.",
+      "**Do** vary panel sizes by the comic tier rotation (wide + std, three std, std + wide, a closing full tier) instead of equal cards.",
+      "**Do** reveal panels with zero-duration cuts in reading order, and keep every panel visible when motion is reduced or scripts don't run.",
+      "**Do** reserve Story Red (#c42f1b) for the mail and send actions, the 聯絡 tab, the 接案中 sign and the red postbox."
     ],
     "donts": [
-      "Don't fill controls with sun yellow on kraft or paper (1.22:1 against kraft fails WCAG 1.4.11).",
-      "Don't use pen blue for headings, notes, rules or decoration. It means \"this opens something\".",
-      "Don't warm the file paper toward cream. Its coolness is what separates it from kraft.",
-      "Don't put the paper red #C2301D on kraft (2.54:1).",
-      "Don't use Courier Prime as a \"technical\" costume for headings, labels or prose.",
-      "Don't follow prefers-color-scheme. Dark mode is the visitor's choice only.",
-      "Don't give a status or type stamp a solid fill. The 良 brand mark is the only solid seal.",
-      "Don't build hierarchy with color or extra weights. Size contrast between 900 and 400 carries it.",
-      "Don't use hard offset shadows, or untinted black shadows in light mode.",
-      "Don't lay the work out as a row of equal cards beside a copy-left, avatar-right hero."
+      "**Don't** add drop shadows, blur, glow, texture or soft tonal gradients. Gradient syntax appears only as hard-stop line drawing (the sidewalk joints and the toast's speed lines).",
+      "**Don't** add CSS transitions, eased entrances or hover lifts. State changes are instant, and the 1px press on buttons is the only displacement.",
+      "**Don't** use red for headings, links, emphasis, badges, errors-as-decoration or ornament.",
+      "**Don't** introduce a second line colour or grey hairline borders. The only lighter line is Faded Line on panels a filter has faded.",
+      "**Don't** reflow, hide or reorder panels when filtering. Fade the non-matching ones in place.",
+      "**Don't** put a small label or eyebrow above a title. Narration belongs in a caption box.",
+      "**Don't** redraw or restyle an illustration for the night edition. Swap tokens and toggle the sun, moon and stars.",
+      "**Don't** set running paragraphs in Chiron GoRound TC or titles and balloons in Noto Sans TC.",
+      "**Don't** fall back to the headline-left/avatar-right hero over a row of equal work cards, or to stationery props (folders, stamps, paper textures), both rejected when this world was chosen."
     ],
-    "knownGaps": [
-      "The desktop binding spine is a separate sticky column about 40px from the folders, not attached to their edge.",
-      "The punched holes repeat every 1.7rem down the spine and read like list bullets.",
-      "The mobile index strip gives no cue that No.06–08 are off-screen to the right.",
-      "The hero's No.01 peek sliver fades into the desk through a mask gradient instead of ending on a hard paper edge, and the real No.01 tab appears just below it, so No.01 shows twice."
+    "knownLimits": [
+      "The avatar exists only as a 480px raster (derived from a 599px original, background removed). In the 關於阿良 close-up it is cropped to cover a tall panel and scaled 1.1×, so it is upscaled about 2× on Retina displays and can look soft. This is a known gap in the source asset, not a target. Replace it with a larger source when one exists.",
+      "Six of the eight work summaries (all except 鏡好聽 and 鏡文學) are drafts awaiting the owner's confirmation (`draft: true` in the content data). Don't treat their wording as voice reference."
     ],
     "drift": [
-      "Pen blue also colors the commission form's handwritten status line, which is outside its reservation for links and 開啟網站.",
-      "Courier Prime is applied to two pieces that are not data: the 委託案件 flap label (it actually renders in the Noto Sans TC fallback) and the hero seal's ring legend.",
-      "Sun yellow also appears in ::selection on every surface, and in the contact email's underline and hover color.",
-      "The favicon is an outlined (朱文) seal in #9C2416, a red that is not a token, while the header uses the solid 白文 seal in stamp red.",
-      "Print White and the screenshot placeholders (#ECE8DD, #E9E6DC) are literal values, not custom properties.",
-      "The cover-form rows (承辦人 / 服務 / 經手 / 聯絡) are set in Noto Sans TC. The brief specified typed rows of 承辦人 / 服務 / 狀態."
+      "Icons carry stroke-width=\"2\" and stay 2px at ≥64rem while the uniform line goes to 2.5px.",
+      "Filter buttons are lettered at 0.9875rem, off the 0.875/0.9375/1rem steps used everywhere else.",
+      "Code-bar strokes on the drawn monitor hard-code #7fb8e3, #e7c17d, #f6d670, #e8eef6 (#7fb8e3 is not a palette token).",
+      "Small-radius cluster: 3px, 4px, 5px and 6px sit side by side.",
+      "Adjacent breakpoints at 46rem (layout) and 48rem (toggle label).",
+      "Dead code: .caption--corner is never used in markup; Tailwind @theme colour tokens and the dark custom variant have no utility usage; the arrowDown icon is unused."
     ]
   }
 }

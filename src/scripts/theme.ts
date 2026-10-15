@@ -23,7 +23,7 @@ function syncToggle(button: HTMLButtonElement, theme: Theme): void {
   button.setAttribute('aria-label', isDark ? '切換成日間（淺色）模式' : '切換成夜間（深色）模式')
   document
     .querySelector('meta[name="theme-color"]:not([media])')
-    ?.setAttribute('content', isDark ? '#0D2219' : '#1E5A45')
+    ?.setAttribute('content', isDark ? '#152036' : '#FFFFFF')
 }
 
 export function initTheme(): void {

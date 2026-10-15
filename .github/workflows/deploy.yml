@@ -33,10 +33,15 @@ jobs:
         run: npm ci
 
       - name: 型別檢查並建置
-        run: npm run build
+        run: |
+          # repo 有設定 Actions 變數 CONTACT_EMAIL 時用它當聯絡信箱，沒設定就用 .env 的預設值
+          if [ -n "$CONTACT_EMAIL" ]; then export VITE_CONTACT_EMAIL="$CONTACT_EMAIL"; fi
+          npm run build
         env:
           # og:url、分享圖與結構化資料使用這個 repo 的 Pages 網址
           VITE_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          # 在 Settings → Secrets and variables → Actions → Variables 設定
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
 
       - name: 設定 Pages
         uses: actions/configure-pages@v5

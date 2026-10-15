@@ -1,4 +1,4 @@
 {
-  "prompt": "origin: pre-existing asset. 阿良本人的手繪自畫像，來源 Notion「Liang」頁面圖檔 Liang.png（599x599），以 ffmpeg 縮放並轉為 WebP（480px）。",
-  "createdAt": "2026-10-15T07:41:53.906Z"
+  "prompt": "origin: pre-existing asset, derived. 阿良本人的手繪自畫像，來源 Notion「Liang」頁面圖檔 Liang.png（599x599），先以 ffmpeg 縮放為 480px WebP；2026-10-15 改版時再做去背：只從圖片外緣對近白色（RGB 最小值 ≥ 236）做 flood fill 當背景設為透明，背景外 2px 邊緣帶以白色轉透明（color-to-alpha）處理反鋸齒，臉部、鏡片與書頁等內部白色保留。PIL 輸出 RGBA WebP（quality 92）。",
+  "createdAt": "2026-10-15T12:02:59.000Z"
 }
