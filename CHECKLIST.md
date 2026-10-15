@@ -92,7 +92,8 @@
 
 ## 八、同步到 sololiang923/liang
 
-- [ ] **待你處理**：讓 one-liang 能推送到 sololiang923/liang（`gh auth login` 加入 sololiang923 帳號，或把 one-liang 加為 collaborator）
-- [ ] 推送 master、develop 與 tag 到 sololiang923/liang，並確認預設分支為 `master`（2026-10-15 嘗試推送：權限不足 403，等你授權）
-- [ ] **待你處理**（若用 collaborator 方式）：在 sololiang923/liang 的 Settings → Pages → Source 選 GitHub Actions
-- [ ] 確認 https://sololiang923.github.io/liang/ 上線正常
+- [x] one-liang 已是 sololiang923/liang 的協作者（write 權限）
+- [x] 推送 master、develop 與 tag `v2.0.0` 到 sololiang923/liang，預設分支為 `master`
+- [x] sololiang923/liang 的 Pages 來源設為 GitHub Actions
+- [x] github-pages 環境的部署規則加入 `master`（原本只允許 `main`）
+- [x] 確認 https://sololiang923.github.io/liang/ 上線正常（頁面、圖片、分享圖皆回應 200，og:url 指向同步站、canonical 指向主站）

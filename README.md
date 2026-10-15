@@ -93,6 +93,7 @@ CHECKLIST.md             進度確認清單
 
 - 網址由 workflow 依 repo 擁有者設定 `VITE_SITE_URL`（og:url、分享圖、結構化資料）；`canonical` 固定指向主站，避免兩站被當成重複內容。本機預設值在 `.env`。
 - 每個 repo 第一次使用前，到 **Settings → Pages → Source** 選 **GitHub Actions**；預設分支要是 `master`。
+- 如果部署出現「Branch "master" is not allowed to deploy to github-pages」，到 **Settings → Environments → github-pages → Deployment branches and tags** 加入 `master` 規則（需要擁有者權限），再重跑失敗的 workflow。
 
 ### 同步推送到兩個 repo
 
