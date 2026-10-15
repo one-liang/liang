@@ -3,3 +3,12 @@ node_modules
 dist
 dist-ssr
 *.local
+
+# Impeccable 的本機檢視產物（截圖、比對圖），不進版控
+.impeccable/review
+.impeccable/questions
+.impeccable/live
+.impeccable/config.local.json
+
+# 本機瀏覽器測試產物
+.playwright-mcp
