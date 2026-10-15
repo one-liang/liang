@@ -91,5 +91,5 @@
 
 ## 八、作品 Demo 搬移
 
-- [ ] 香奈兒腕錶形象頁 Demo 上線在 https://sololiang923.github.io/iWatcHome/
-- [ ] 食農知味 Demo 上線在 https://sololiang923.github.io/farmerstation/
+- [x] 香奈兒腕錶形象頁 Demo 上線在 https://sololiang923.github.io/iWatcHome/
+- [x] 食農知味 Demo 上線在 https://sololiang923.github.io/farmerstation/
