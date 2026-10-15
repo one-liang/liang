@@ -1,4 +1,4 @@
-# 阿良 One Liang｜接案作品集
+# Liang｜接案作品集
 
 **👉 線上 Demo：[本 repo 的 GitHub Pages](../../deployments/github-pages)**（網址是 `https://<GitHub 帳號>.github.io/liang/`）
 
